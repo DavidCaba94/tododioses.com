@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "nombre": "Poseidón",
+        "panteon": "grecia",
+        "url": "/panteon-griego/poseidon"
+    },
+    {
+        "id": "2",
+        "nombre": "Zeus",
+        "panteon": "grecia",
+        "url": "/panteon-griego/zeus"
+    }
+]
