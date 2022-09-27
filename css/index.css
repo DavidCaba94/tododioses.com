@@ -47,7 +47,7 @@ a:hover {
 }
 
 .header-icon {
-	width: 50px;
+	width: 30px;
 }
 
 .cursor-pointer {
@@ -74,15 +74,43 @@ a:hover {
 	border-radius: 2px;
 }
 
+.dioses-mas-buscados {
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+.listado-dioses {
+	display: none;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	padding: 10px;
+}
+
+.listado-dioses-movil {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	padding: 10px;
+}
+
+.icon-listado {
+	width: 40px;
+}
+
 .body-container {
-	padding: 20px 20px 70px 20px;
+	padding: 20px 20px 40px 20px;
 	text-align: center;
 }
 
 .titulo-body {
 	width: auto;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 10px;
 	text-align: center;
 	font-size: 30px;
 	font-weight: 700;
@@ -172,12 +200,33 @@ a:hover {
 	padding-left: 10px;
 }
 
+footer {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
 @media (min-width: 768px) {
 	.titulo {
 		font-size: 30px;
 	}
 
+	.header-icon {
+		width: 50px;
+	}
+
 	.contenido-desplegable {
 		margin-left: calc(50% - 250px);
+	}
+
+	.listado-dioses {
+		display: flex;
+	}
+
+	.listado-dioses-movil {
+		display: none;
+	}
+
+	.titulo-body {
+		margin-top: 30px;
 	}
 }

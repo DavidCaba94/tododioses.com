@@ -33,7 +33,7 @@ function cargarDioses() {
             $("#contenido-desplegable").append(
 				'<a href="' + arrayDioses[i].url + '">'+
 					'<div class="item-busqueda">'+
-						'<img src="img/' + arrayDioses[i].panteon + '.png" alt="' + altPanteon + '">'+
+						'<img src="img/' + arrayDioses[i].panteon + '.png" alt="' + getPanteon(arrayDioses[i].panteon) + '">'+
 						'<p class="nombre-dios">' + arrayDioses[i].nombre + '</p>'+
 					'</div>'+
 				'</a>'
