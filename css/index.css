@@ -57,7 +57,7 @@ a:hover {
 .buscador-desplegable {
 	display: none;
 	width: auto;
-	height: 40px;
+	height: auto;
 	padding: 10px;
 	padding-bottom: 20px;
 	background-color: #ffffff;
@@ -74,6 +74,37 @@ a:hover {
 	border-radius: 2px;
 }
 
+.panteones-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 1000px;
+    margin: 0 auto;
+	margin-top: 20px;
+}
+
+.panteon-pill {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 150px;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.panteon-pill:hover {
+	background-color: #f1f1f1;
+	border-radius: 5px;
+}
+
+.panteon-pill img {
+	width: 30px;
+	margin-right: 10px;
+}
+
 .dioses-mas-buscados {
 	width: 90%;
 	max-width: 900px;
@@ -87,7 +118,7 @@ a:hover {
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: nowrap;
-	padding: 10px;
+	padding: 20px 10px 10px 10px;
 }
 
 .listado-dioses-movil {
@@ -95,11 +126,53 @@ a:hover {
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: nowrap;
-	padding: 10px;
+	padding: 20px 10px 10px 10px;
 }
 
 .icon-listado {
-	width: 40px;
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50px;
+}
+
+.nombre-listado {
+	text-align: center;
+    margin-top: 10px;
+}
+
+.zeus {
+	background-image: url('../img/icon-zeus.webp');
+}
+
+.poseidon {
+	background-image: url('../img/poseidon.jpg');
+}
+
+.thor {
+	background-image: url('../img/thor.jpg');
+}
+
+.anubis {
+	background-image: url('../img/anubis.jpg');
+}
+
+.ra {
+	background-image: url('../img/ra.jpg');
+}
+
+.odin {
+	background-image: url('../img/odin.jpg');
+}
+
+.afrodita {
+	background-image: url('../img/afrodita.jpg');
+}
+
+.apolo {
+	background-image: url('../img/apolo.jpg');
 }
 
 .body-container {
@@ -228,5 +301,15 @@ footer {
 
 	.titulo-body {
 		margin-top: 30px;
+	}
+
+	.panteon-pill {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: nowrap;
+		width: 175px;
+		padding: 5px;
+		margin: 5px;
 	}
 }
