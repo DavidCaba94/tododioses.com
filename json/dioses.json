@@ -1,14 +1,50 @@
 [
     {
         "id": "1",
-        "nombre": "Poseidón",
+        "nombre": "Zeus",
         "panteon": "grecia",
-        "url": "/panteon-griego/poseidon"
+        "url": "/dioses-griegos/zeus"
     },
     {
         "id": "2",
-        "nombre": "Zeus",
+        "nombre": "Poseidón",
         "panteon": "grecia",
-        "url": "/panteon-griego/zeus"
+        "url": "/dioses-griegos/poseidon"
+    },
+    {
+        "id": "3",
+        "nombre": "Thor",
+        "panteon": "nordico",
+        "url": "/dioses-nordicos/thor"
+    },
+    {
+        "id": "4",
+        "nombre": "Anubis",
+        "panteon": "egipto",
+        "url": "/dioses-egipcios/anubis"
+    },
+    {
+        "id": "5",
+        "nombre": "Ra",
+        "panteon": "egipto",
+        "url": "/dioses-egipcios/ra"
+    },
+    {
+        "id": "6",
+        "nombre": "Odín",
+        "panteon": "nordico",
+        "url": "/dioses-nordicos/odin"
+    },
+    {
+        "id": "7",
+        "nombre": "Afrodita",
+        "panteon": "grecia",
+        "url": "/dioses-griegos/afrodita"
+    },
+    {
+        "id": "8",
+        "nombre": "Apolo",
+        "panteon": "roma",
+        "url": "/dioses-romanos/apolo"
     }
 ]

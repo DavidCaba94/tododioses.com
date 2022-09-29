@@ -20,21 +20,33 @@ $(document).ready(function(){
 	});
 
 	$('#input-buscar').on('click', function() {
-		cargarDioses();
+		$('#input-buscar').val('');
+		cargarDioses(arrayDioses);
+		$('#cerrar-desplegable').slideToggle();
+	    $('#contenido-desplegable').slideToggle();
+	});
+
+	$("#input-buscar").keyup(function() {
+		filtrarDioses($( "#input-buscar" ).val());
+	});
+
+	$('#cerrar-desplegable').on('click', function() {
+		$('#input-buscar').val('');
+		$('#cerrar-desplegable').slideToggle();
 	    $('#contenido-desplegable').slideToggle();
 	});
 });
 
-function cargarDioses() {
+function cargarDioses(diosesFiltrados) {
 	$("#contenido-desplegable").html('');
-	for(var i = 0; i < arrayDioses.length; i++){
-        if(arrayDioses[i] !== undefined){
-			getPanteon(arrayDioses[i].panteon);
+	for(var i = 0; i < diosesFiltrados.length; i++){
+        if(diosesFiltrados[i] !== undefined){
+			getPanteon(diosesFiltrados[i].panteon);
             $("#contenido-desplegable").append(
-				'<a href="' + arrayDioses[i].url + '">'+
+				'<a href="' + diosesFiltrados[i].url + '">'+
 					'<div class="item-busqueda">'+
-						'<img src="img/' + arrayDioses[i].panteon + '.png" alt="' + getPanteon(arrayDioses[i].panteon) + '">'+
-						'<p class="nombre-dios">' + arrayDioses[i].nombre + '</p>'+
+						'<img src="img/' + diosesFiltrados[i].panteon + '.png" alt="' + getPanteon(diosesFiltrados[i].panteon) + '">'+
+						'<p class="nombre-dios">' + diosesFiltrados[i].nombre + '</p>'+
 					'</div>'+
 				'</a>'
             );
@@ -49,4 +61,14 @@ function getPanteon(panteon) {
 	}
 	
 	return altPanteon;
+}
+
+function filtrarDioses(text) {
+	let arrayFiltrado = [];
+	arrayDioses.forEach(dios => {
+		if(dios.nombre.toLowerCase().includes(text.toLowerCase())) {
+			arrayFiltrado.push(dios);
+		}
+	});
+	cargarDioses(arrayFiltrado);
 }

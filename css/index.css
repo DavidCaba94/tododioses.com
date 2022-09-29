@@ -72,6 +72,7 @@ a:hover {
 	background-color: #f7f7f7;
 	padding: 10px;
 	border-radius: 2px;
+	outline: none;
 }
 
 .panteones-container {
@@ -189,17 +190,30 @@ a:hover {
 	font-weight: 700;
 }
 
+.cerrar-desplegable {
+	display: none;
+	width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
 .contenido-desplegable {
 	display: none;
-	position: absolute;
+	position: relative;
 	width: 90%;
-    max-width: 500px;
-    max-height: 400px;
-    margin-top: 10px;
-    margin-left: 5%;
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 5px;
+	max-width: 900px;
+	max-height: 200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 .item-busqueda {
@@ -285,10 +299,6 @@ footer {
 
 	.header-icon {
 		width: 50px;
-	}
-
-	.contenido-desplegable {
-		margin-left: calc(50% - 250px);
 	}
 
 	.listado-dioses {
