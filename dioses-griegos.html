@@ -30,142 +30,149 @@
 		</script>
 		-->
 	</head>
-  <body>
-	<div class="header-container">
-		<div class="header-content">
-			<a href="/"><img class="header-icon" src="img/icon.png" alt="Wiki Dioses"></a>
-			<p class="titulo">WIKI DIOSES</p>
-			<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="img/search.png" alt="Buscar" title="Buscar"></div>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
 		</div>
-	</div>
-	<div id="buscador-desplegable" class="buscador-desplegable">
-		<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
-		<div class="panteones-container">
-			<a href="/dioses-griegos">
-				<div class="panteon-pill">
-					<img src="img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
-					<p>Dioses Griegos</p>
-				</div>
-			</a>
-			<a href="/dioses-romanos">
-				<div class="panteon-pill">
-					<img src="img/roma.png" alt="Dioses romanos" title="Dioses romanos">
-					<p>Dioses Romanos</p>
-				</div>
-			</a>
-			<a href="/dioses-egipcios">
-				<div class="panteon-pill">
-					<img src="img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
-					<p>Dioses Egipcios</p>
-				</div>
-			</a>
-			<a href="/dioses-nordicos">
-				<div class="panteon-pill">
-					<img src="img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
-					<p>Dioses Nórdicos</p>
-				</div>
-			</a>
-			<a href="/dioses-mayas">
-				<div class="panteon-pill">
-					<img src="img/maya.png" alt="Dioses mayas" title="Dioses mayas">
-					<p>Dioses Mayas</p>
-				</div>
-			</a>
-			<a href="/dioses-chinos">
-				<div class="panteon-pill">
-					<img src="img/china.png" alt="Dioses chinos" title="Dioses chinos">
-					<p>Dioses Chinos</p>
-				</div>
-			</a>
-			<a href="/dioses-japoneses">
-				<div class="panteon-pill">
-					<img src="img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
-					<p>Dioses Japoneses</p>
-				</div>
-			</a>
-			<a href="/dioses-hindues">
-				<div class="panteon-pill">
-					<img src="img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
-					<p>Dioses Hindúes</p>
-				</div>
-			</a>
-			<a href="/dioses-celtas">
-				<div class="panteon-pill">
-					<img src="img/celta.png" alt="Dioses celtas" title="Dioses celtas">
-					<p>Dioses Celtas</p>
-				</div>
-			</a>
-			<a href="/otros-dioses">
-				<div class="panteon-pill">
-					<img src="img/otros.png" alt="Otros dioses" title="Otros dioses">
-					<p>Otros Dioses</p>
-				</div>
-			</a>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/dioses-griegos">
+					<div class="panteon-pill">
+						<img src="img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/dioses-romanos">
+					<div class="panteon-pill">
+						<img src="img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/dioses-egipcios">
+					<div class="panteon-pill">
+						<img src="img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/dioses-nordicos">
+					<div class="panteon-pill">
+						<img src="img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/dioses-mayas">
+					<div class="panteon-pill">
+						<img src="img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/dioses-chinos">
+					<div class="panteon-pill">
+						<img src="img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/dioses-japoneses">
+					<div class="panteon-pill">
+						<img src="img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/dioses-hindues">
+					<div class="panteon-pill">
+						<img src="img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/dioses-celtas">
+					<div class="panteon-pill">
+						<img src="img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
 		</div>
-	</div>
-	<div id="contenido-desplegable" class="contenido-desplegable">
-		<!-- Dioses del json -->
-	</div>
-	<div class="dioses-mas-buscados">
-		<p>Dioses más buscados:</p>
-		<div class="listado-dioses">
-			<a href="/dioses-griegos/zeus">
-				<div class="icon-listado zeus"></div>
-				<p class="nombre-listado">Zeus</p>
-			</a>
-			<a href="/dioses-griegos/poseidon">
-				<div class="icon-listado poseidon"></div>
-				<p class="nombre-listado">Poseidón</p>
-			</a>
-			<a href="/dioses-nordicos/thor">
-				<div class="icon-listado thor"></div>
-				<p class="nombre-listado">Thor</p>
-			</a>
-			<a href="/dioses-egipcios/anubis">
-				<div class="icon-listado anubis"></div>
-				<p class="nombre-listado">Anubis</p>
-			</a>
-			<a href="/dioses-egipcios/ra">
-				<div class="icon-listado ra"></div>
-				<p class="nombre-listado">Ra</p>
-			</a>
-			<a href="/dioses-nordicos/odin">
-				<div class="icon-listado odin"></div>
-				<p class="nombre-listado">Odín</p>
-			</a>
-			<a href="/dioses-griegos/afrodita">
-				<div class="icon-listado afrodita"></div>
-				<p class="nombre-listado">Afrodita</p>
-			</a>
-			<a href="/dioses-romanos/apolo">
-				<div class="icon-listado apolo"></div>
-				<p class="nombre-listado">Apolo</p>
-			</a>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/apolo">
+					<div class="icon-listado apolo"></div>
+					<p class="nombre-listado">Apolo</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
 		</div>
-		<div class="listado-dioses-movil">
-			<a href="/dioses-griegos/zeus">
-				<div class="icon-listado zeus"></div>
-				<p class="nombre-listado">Zeus</p>
-			</a>
-			<a href="/dioses-griegos/poseidon">
-				<div class="icon-listado poseidon"></div>
-				<p class="nombre-listado">Poseidón</p>
-			</a>
-			<a href="/dioses-nordicos/thor">
-				<div class="icon-listado thor"></div>
-				<p class="nombre-listado">Thor</p>
-			</a>
-			<a href="/dioses-egipcios/anubis">
-				<div class="icon-listado anubis"></div>
-				<p class="nombre-listado">Anubis</p>
-			</a>
+		<div class="body-container">
+			<h1 class="titulo-body">DIOSES GRIEGOS</h1>
+			<div class="imagen">
+				<img src="img/dioses-griegos.jpg" alt="Dioses olímpicos" title="Dioses olímpicos">
+			</div>
+			<p class="parrafo">
+				La mitología de la antigua Grecia es un vasto y fascinante conjunto de leyendas sobre dioses y diosas, héroes y monstruos, guerreros y locos, que formaban una parte importante de la vida cotidiana del mundo antiguo. Los mitos griegos lo explicaban todo, desde los rituales religiosos hasta el clima, y daban sentido al mundo que la gente veía a su alrededor. Mientras que muchos de estos mitos son cuentos de fantasía, como las leyendas del codicioso rey Midas o del heroico Hércules, otras historias, como la epopeya de la guerra de Troya, tienen una base histórica.
+			</p>
+			<p class="parrafo">
+				Estos son todos los dioses griegos:
+			</p>
 		</div>
-	</div>
-	<div class="body-container">
-		<h1 class="titulo-body">DIOSES GRIEGOS</h1>
-		<div class="imagen">
-			<img src="img/olimpian-gods.webp" alt="Dioses olímpicos" title="Dioses olímpicos">
-		</div>
-	</div>
-  </body>
+  	</body>
 </html>
