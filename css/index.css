@@ -137,6 +137,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 50px;
+	margin: 0 auto;
 }
 
 .nombre-listado {
@@ -174,6 +175,10 @@ a:hover {
 
 .apolo {
 	background-image: url('../img/apolo.jpg');
+}
+
+.cupido {
+	background-image: url('../img/cupido.jpg');
 }
 
 .body-container {

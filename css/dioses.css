@@ -1,0 +1,35 @@
+.dios-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.dios-container:hover {
+	background-color: #e0e0e0;
+	border-radius: 5px;
+}
+
+.img-dios-panteon {
+	min-width: 50px;
+	min-height: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50px;
+	margin-right: 20px;
+}
+
+.nombre-dios-panteon {
+	font-weight: 700;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.descripcion-dios-panteon {
+	text-align: justify;
+}
