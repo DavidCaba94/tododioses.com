@@ -1,62 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://wikidioses.com/</loc>
-    <lastmod>2022-09-30T10:46:10+00:00</lastmod>
+    <lastmod>2022-09-30T19:11:21+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/dioses-griegos</loc>
-    <lastmod>2022-09-30T10:46:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://wikidioses.com/dioses-romanos</loc>
-    <lastmod>2022-09-30T10:46:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://wikidioses.com/dioses-egipcios</loc>
-    <lastmod>2022-09-30T10:46:10+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://wikidioses.com/dioses-nordicos</loc>
-    <lastmod>2022-09-30T10:46:10+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://wikidioses.com/dioses-mayas</loc>
-    <lastmod>2022-09-30T10:46:10+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://wikidioses.com/dioses-chinos</loc>
-    <lastmod>2022-09-30T10:46:10+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://wikidioses.com/dioses-japoneses</loc>
-    <lastmod>2022-09-30T10:46:10+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://wikidioses.com/dioses-hindues</loc>
-    <lastmod>2022-09-30T10:46:10+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://wikidioses.com/dioses-celtas</loc>
-    <lastmod>2022-09-30T10:46:10+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://wikidioses.com/otros-dioses</loc>
-    <lastmod>2022-09-30T10:46:10+00:00</lastmod>
+    <lastmod>2022-10-01T15:24:02+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>
