@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Zeus, dios del cielo y del trueno - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Zeus, dios del cielo y del trueno - Wiki Dioses">
+		<meta name="description" content="Zeus era el rey de los antiguos dioses griegos, una poderosa deidad que presidía los destinos de hombres y dioses por igual y que impartía justicia desde lo alto del monte Olimpo. Conocido como 'recolector de nubes', 'portador de la égida' y simplemente 'padre', Zeus lanzaba rayos a sus enemigos, controlaba el clima e imponía el orden entre los dioses.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/dioses-griegos">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/dioses-romanos">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/dioses-egipcios">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/dioses-nordicos">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/dioses-mayas">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/dioses-chinos">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/dioses-japoneses">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/dioses-hindues">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/dioses-celtas">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">ZEUS, DIOS DEL CIELO Y DEL TRUENO</h1>
+			<div class="imagen">
+				<img src="../img/icon-zeus.webp" alt="Zeus" title="Zeus">
+			</div>
+			<p class="parrafo">
+				Zeus era el rey de los antiguos dioses griegos, una poderosa deidad que presidía los destinos de hombres y dioses por igual y que impartía justicia desde lo alto del monte Olimpo. Conocido como "recolector de nubes", "portador de la égida" y simplemente "padre", Zeus lanzaba rayos a sus enemigos, controlaba el clima e imponía el orden entre los dioses.
+			</p>
+			<p class="parrafo">
+				A pesar de su fuerza, el poder de Zeus no era ilimitado. Aunque Zeus era el principal de los dioses, su autoridad sobre el panteón era frecuentemente cuestionada. También tenía sus defectos, como su incapacidad para superar las pasiones violentas y las pequeñas disputas que preocupaban a los demás dioses, así como su tendencia a inmiscuirse en los asuntos de los mortales. Por ello, su gobierno, siempre tenaz y difícil, se caracterizó por las mismas amargas divisiones y venganzas que asolaron a los pueblos griegos que lo crearon.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				Se cree que el nombre "Zeus" deriva de la raíz protoindoeuropea dyeu-, que significa "brillante", y de la palabra dewos, que significa "dios". Esta última es la misma palabra que forma la base del griego theόs, el latín deus, el persa antiguo daiva y el sánscrito deva, todos los cuales significan "dios". En el griego original, el nombre Zeus podría haber significado "dios brillante" o "dios del cielo".
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Zeus tenía muchos títulos y epítetos, que a menudo variaban según la región. Entre sus epítetos más importantes estaban el de "padre de los dioses y de los hombres" o simplemente "padre". También se le llamaba frecuentemente "el más alto" (hypatos o hypsistos) en la literatura y el culto. El papel de Zeus como dios del tiempo se refleja en muchos de sus epítetos, como Hyetios ("Zeus de la lluvia"), Ombrios ("hacedor de lluvia"), Kataibates ("el que baja en forma de rayo") y Keraunios ("tronador")".
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				En la literatura, el arte y el culto antiguos, Zeus era representado normalmente como un dios del cielo o del tiempo. Se le distingue por sus característicos rayos, que los griegos creían que los cíclopes habían creado para él. A veces, Zeus también aparecía sosteniendo la égida, un escudo invencible.
+			</p>
+			<p class="parrafo">
+				Aunque era principalmente un dios del tiempo, se invocaba a Zeus en muchas funciones naturales, domésticas e institucionales. Por ejemplo, Zeus era percibido como el protector de la ciudad o polis, del hogar y de la familia.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				El lujurioso Zeus concibió muchos hijos con mujeres tanto humanas como divinas. Aunque se casó varias veces, los lazos matrimoniales no fueron una barrera para sus voraces apetitos sexuales. Zeus se casó por primera vez con Metis, una titán, a la que se tragó cuando se profetizó que el hijo de ella le derrocaría. Aunque él no lo sabía entonces, Metis ya estaba embarazada de su primera hija, Atenea, que un día saldría de la cabeza de Zeus.
+			</p>
+			<p class="parrafo">
+				Con su segunda esposa, la titán Temis, Zeus engendró las tres Horae: Eunomia (Orden), Dike (Justicia) y Eirene (Paz). Con ella también engendró las tres Moiras (también llamadas las Parcas): Clotho, Lachesis y Atropos.
+			</p>
+			<p class="parrafo">
+				Finalmente, Zeus se estableció con Hera, una de sus hermanas y la diosa que normalmente se representa como su compañera. Hera fue la tercera y última esposa de Zeus, según la mayoría de las fuentes. Con Hera, Zeus tuvo a Hebe (copera de los dioses), a Ares y a Enyo (dios y diosa de la guerra, respectivamente), a Hefesto y a Eileithyia (diosa del parto y la partería).
+			</p>
+			<p class="parrafo">
+				Zeus también tuvo muchas otras amantes, y cada una de sus relaciones produjo hijos. Con la oceánide Eurínome, Zeus tuvo a las diosas conocidas como las Gracias: éstas eran Aglaea (Belleza), Eufrosina (Risa) y Talía (Festividad). Con su hermana Deméter, Zeus tuvo a Perséfone. Con la Titán Mnemosyne, Zeus engendró las nueve Musas: Clío (musa de la historia), Euterpe (música), Talía (comedia), Melpómene (tragedia), Terpsícore (danza), Erato (poesía lírica), Polifimnia (poesía coral), Urania (astronomía) y Calíope (poesía heroica). 
+			</p>
+			<p class="parrafo">
+				Zeus fue también el padre de varios de los dioses olímpicos más importantes. Con la titán Leto, Zeus engendró a Apolo (dios de la música y la poesía) y a Artemisa (diosa de la caza). Con Maia, hija de Atlas, tuvo a Hermes. De su cabeza nació Atenea, la hija de Zeus con su primera esposa, Metis. Dionisio, hijo de Zeus con la mortal Sémele, nació de su muslo. Según algunas fuentes, Zeus también fue el padre de Afrodita con Dione.
+			</p>
+			<p class="parrafo">
+				Zeus también se reprodujo con mujeres mortales, como Alcmena, con la que engendró a Heracles.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Según el mito, Zeus fue el último de los seis hijos de los titanes Cronos y Rea. Nació en un momento caótico e incierto: Cronos acababa de arrebatar el control de los cielos a su padre, Urano, una de las deidades primordiales y el señor del cielo. 
+			</p>
+			<p class="parrafo">
+				Temiendo que sus propios hijos le usurparan como a su padre, Cronos se comió a sus cinco primeros hijos: Hestia, Deméter, Hera, Hades y Poseidón. Decidida a salvar a su siguiente hijo, Rea se escabulló mientras estaba embarazada de Zeus y lo dio a luz en secreto. Confió el niño al cuidado de su madre, Gea, la diosa primordial de la tierra, que lo escondió en una cueva. Para completar el engaño, Rea regresó con una piedra envuelta en pañales que entregó a Cronos, quien la devoró como a las demás. La treta de Rea fue un éxito. 
+			</p>
+			<p class="parrafo">
+				En la versión más conocida del mito, Zeus nació en la isla de Creta, pero las fuentes antiguas a menudo discrepaban sobre la ubicación de la cueva en la que fue escondido: algunos decían que estaba en el monte Dicte, mientras que otros decían que en el monte Ida.
+			</p>
+			<p class="parrafo">
+				Existen diferentes versiones sobre la infancia de Zeus. Según una de ellas, fue amamantado por la cabra Amaltea mientras una tropa de guerreros armados, llamados los Couretes, bailaban y chocaban sus armas para ocultar los gritos del bebé a Cronos. En otra historia, Amaltea era el nombre de la ninfa que amamantaba a Zeus. Como Cronos gobernaba la tierra, los cielos y el mar, Amaltea ocultó al joven Zeus colgando su cuna de un árbol: suspendido entre los tres reinos, Zeus era invisible para Cronos.
+			</p>
+			<h2 class="subtitulo">TITANOMAQUIA</h2>
+			<p class="parrafo">
+				Cuando llegó a la madurez, Zeus abandonó Creta para enfrentarse a Cronos. En primer lugar, engañó a Cronos para que bebiera una poción que le hizo vomitar a los niños que se había tragado. Luego, junto con sus hermanos, Zeus se dispuso a derrocar a Cronos y a los Titanes. 
+			</p>
+			<p class="parrafo">
+				Esto desencadenó el conflicto conocido como la Titanomaquia. Durante diez años, los Titanes lucharon contra Zeus y sus hermanos (así como contra Prometeo y Epimeteo, los únicos Titanes que se pusieron del lado de los dioses). Zeus, que estaba al límite, acabó ganando el conflicto no por su fuerza, sino por su estrategia. 
+			</p>
+			<p class="parrafo">
+				En lugar de aplastar a los Titanes, Zeus recurrió a una medida desesperada y extrema. Liberó a los cíclopes, una raza de poderosos gigantes tuertos, y a los hecatónquiros, bestias primordiales con cien manos cada una. Concebidos como los Titanes por Urano y Gea, los Cíclopes y los Hecatónquiros eran tan monstruosos que, cuando nacieron, Urano intentó meterlos de nuevo en el vientre de Gea.
+			</p>
+			<p class="parrafo">
+				A cambio de su libertad, los cíclopes y los hecatónquiros ayudaron a Zeus y a sus hermanos en su guerra contra los titanes. Los cíclopes incluso dieron a Zeus "el trueno y el relámpago", según Hesíodo, el poeta griego cuya Teogonía es la fuente más densa de la mitología de los griegos.
+			</p>
+			<p class="parrafo">
+				En su victoria, Zeus desterró a los Titanes al Tártaro y ordenó a los Hecatónquiros que los vigilaran eternamente.
+			</p>
+			<p class="parrafo">
+				A continuación, Zeus repartió el control del cosmos entre sus hermanos. A Deméter le ofreció el control de la agricultura; a Poseidón le concedió los mares; a Hades le otorgó el Inframundo; y a Hestia el dominio del hogar y la casa. Zeus acabó tomando a Hera como esposa. Juntos, los dioses y diosas del Olimpo -así llamados porque vivían en la cima del Monte Olimpo- inauguraron una nueva era.
+			</p>
+			<h2 class="subtitulo">LA GIGANTOMAQUIA</h2>
+			<p class="parrafo">
+				En otra tradición muy conocida, se decía que la diosa de la tierra había enviado a los Gigantes contra Zeus y los olímpicos. Los Gigantes eran los hijos de Gea. Según Hesíodo, nacieron de la sangre que se derramó cuando Urano fue castrado por Cronos, junto con las Erinyes (las Furias) y las Meliae (ninfas del fresno). En cambio, según Hyginus, los Gigantes eran los hijos de Gea y Tártaro.
+			</p>
+			<p class="parrafo">
+				Los Gigantes eran fantásticamente fuertes y arrogantes, aunque no necesariamente extraordinariamente altos (la cualidad más comúnmente asociada al término "gigante" hoy en día). En las representaciones literarias y artísticas posteriores, tenían rasgos serpentiformes, como pies escamosos, serpientes por piernas o pelo de serpiente.
+			</p>
+			<p class="parrafo">
+				La guerra entre los olímpicos y los gigantes, llamada Gigantomaquia, no aparece en los primeros textos griegos. Ni Homero ni Hesíodo describen esta guerra, aunque pueden aludir a ella. Según el poeta del siglo V a.C. Píndaro, la Gigantomaquia se libró en la llanura de Flegra, en el norte de Grecia. Tanto Píndaro como otros autores asignaron un papel importante en el conflicto a Heracles, hijo de Zeus con la mortal Alcmena: al parecer, había habido una profecía según la cual sólo Heracles podría derrotar a los Gigantes.
+			</p>
+			<p class="parrafo">
+				Los dos gigantes más poderosos se llamaban Porfirio y Alcione. Porfirio fue asesinado por Apolo o por Heracles; Alcioneo fue asesinado por Heracles. Los demás olímpicos, entre ellos Atenea, Dionisio y el propio Zeus, también participaron en la feroz batalla. Al final, los Gigantes fueron derrotados y muertos.
+			</p>
+			<h2 class="subtitulo">ZEUS Y LOS RELATOS DE LA CREACIÓN</h2>
+			<p class="parrafo">
+				Como dios supremo, Zeus tuvo un papel en la creación de la humanidad, aunque las fuentes no se ponen de acuerdo en cómo surgieron exactamente los humanos. Hay dos relatos de la creación muy conocidos, y no está del todo claro cómo se relacionan entre sí. La primera habla de muchas creaciones distintas, cada una de las cuales inaugura una edad distinta de la humanidad. Según Ovidio, hubo cuatro edades: la Edad de Oro, la Edad de Plata, la Edad de Bronce y la Edad de Hierro. A estas cuatro, Hesíodo añadió una quinta: la Edad Heroica, que se sitúa entre la Edad de Bronce y la de Hierro.
+			</p>
+			<p class="parrafo">
+				En cada edad, Zeus tuvo un papel decisivo. Zeus nació durante la Edad de Oro, y también le puso fin al desencadenar el conflicto cataclísmico conocido como la Titanomaquia. Aunque no inició la Edad de Plata, la terminó destruyendo a los necios mortales que la poblaban cuando se negaron a honrar a los dioses. 
+			</p>
+			<p class="parrafo">
+				El propio Zeus creó la tercera raza: los humanos fuertes y guerreros de la Edad de Bronce, que eran tan poderosos y agresivos que se destruyeron a sí mismos. También creó a los héroes de la cuarta edad, pero la mayoría de ellos murieron durante la Guerra de Troya y la guerra conocida como de los Siete contra Tebas, un conflicto mítico protagonizado por Edipo y hecho famoso por el dramaturgo del siglo V a.C. Esquilo. 
+			</p>
+			<p class="parrafo">
+				Zeus también creó a los habitantes de la última edad, la Edad de Hierro, la época de las ciudades-estado clásicas y en la que vivió el propio Hesíodo. Fue una época marcada por las luchas perpetuas, la locura y la pérdida de la moral común. 
+			</p>
+			<p class="parrafo">
+				El segundo mito de la creación, el más conocido de los dos, tiene como protagonista al antiguo aliado de Zeus, el titán Prometeo. Un día, Zeus ordenó a Prometeo que creara a los primeros humanos. Prometeo cumplió y los moldeó con arcilla.
+			</p>
+			<p class="parrafo">
+				Todo iba bien hasta que Prometeo engañó a Zeus en un asunto relacionado con el sacrificio de animales: se aseguró de que los dioses recibieran para siempre sólo las porciones menos deseables del animal (los huesos y la grasa), mientras que los humanos consumirían ellos mismos la carne. Zeus habría perdonado esta ofensa, pero Prometeo empeoró las cosas al desafiar los deseos de Zeus y robar el fuego de los dioses para dárselo a los humanos.
+			</p>
+			<p class="parrafo">
+				Al robar el fuego, Prometeo había ido demasiado lejos. Zeus quiso vengarse e ideó un castigo especialmente macabro para su antiguo aliado: ató a Prometeo a una roca e hizo que un águila se comiera su hígado inmortal cada día. El hígado de Prometeo volvía a crecer cada noche, asegurando que este castigo continuara por toda la eternidad.
+			</p>
+			<p class="parrafo">
+				Para vengarse de los humanos, Zeus hizo que sus hijos Hefesto y Atenea crearan una mujer llamada Pandora. Antes de ser enviada a la Tierra, Pandora fue festejada por los dioses y recibió regalos de valor incalculable, incluido un frasco sellado que se le dijo que no abriera nunca. 
+			</p>
+			<p class="parrafo">
+				Con el tiempo, la curiosidad se apoderó de ella -como Zeus sabía que sucedería- y Pandora abrió el frasco, liberando una serie de males sobre los humanos, incluyendo la muerte (hasta ese momento, los humanos habían sido inmortales), la guerra, el hambre, la enfermedad y un sinnúmero de otros. Cuando Pandora tapó la jarra, sólo quedaba la esperanza, dejando a los humanos vagando por un mundo caído y sin esperanza.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A ZEUS</h2>
+			<p class="parrafo">
+				Zeus se llama <a href="/dioses-romanos/jupiter">Júpiter</a> en la mitología romana. Además, sus poderes, su simbolismo y algunas de las historias que se tejen en torno a él, son similares a los de algunas otras deidades, como los <a href="/dioses-nordicos">dioses nórdicos</a> <a href="/dioses-nordicos/thor">Thor</a> y <a href="/dioses-nordicos/odin">Odín</a>, la deidad hinduista <a href="/dioses-hindues/indra">Indra</a> y el dios del trueno eslavo Perun.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
