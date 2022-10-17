@@ -2,7 +2,7 @@ let arrayDioses = [];
 
 $(document).ready(function(){
 	const xhttp = new XMLHttpRequest();
-    xhttp.open('GET', './json/dioses.json', true);
+    xhttp.open('GET', 'https://wikidioses.com/json/dioses.json', true);
     xhttp.send();
 
     xhttp.onreadystatechange = function() {
@@ -43,9 +43,9 @@ function cargarDioses(diosesFiltrados) {
         if(diosesFiltrados[i] !== undefined){
 			getPanteon(diosesFiltrados[i].panteon);
             $("#contenido-desplegable").append(
-				'<a href="' + diosesFiltrados[i].url + '">'+
+				'<a href="https://wikidioses.com' + diosesFiltrados[i].url + '">'+
 					'<div class="item-busqueda">'+
-						'<img src="img/' + diosesFiltrados[i].panteon + '.png" alt="' + getPanteon(diosesFiltrados[i].panteon) + '">'+
+						'<img src="https://wikidioses.com/img/' + diosesFiltrados[i].panteon + '.png" alt="' + getPanteon(diosesFiltrados[i].panteon) + '">'+
 						'<p class="nombre-dios">' + diosesFiltrados[i].nombre + '</p>'+
 					'</div>'+
 				'</a>'
