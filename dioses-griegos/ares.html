@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Ares, dios de la guerra - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Ares, dios de la guerra - Wiki Dioses">
+		<meta name="description" content="Hijo de Zeus y Hera y una de las doce deidades olímpicas, Ares era el dios de la ira, el terror y la violencia. Aunque a menudo se le representaba como el dios de la guerra que todo lo abarca, Ares representaba tradicionalmente sólo los aspectos más brutales, impulsivos y desenfrenados del combate. Su homóloga Atenea, por su parte, representaba los aspectos estratégicos y tácticos del conflicto marcial.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/dioses-egipcios">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/dioses-nordicos">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/dioses-mayas">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/dioses-chinos">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/dioses-japoneses">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/dioses-hindues">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/dioses-celtas">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">ARES, DIOS DE LA GUERRA</h1>
+			<div class="imagen">
+				<img src="../img/ares-header.jpg" alt="Ares" title="Ares">
+			</div>
+			<p class="parrafo">
+				Hijo de Zeus y Hera y una de las doce deidades olímpicas, Ares era el dios de la ira, el terror y la violencia. Aunque a menudo se le representaba como el dios de la guerra que todo lo abarca, Ares representaba tradicionalmente sólo los aspectos más brutales, impulsivos y desenfrenados del combate. Su homóloga Atenea, por su parte, representaba los aspectos estratégicos y tácticos del conflicto marcial.
+			</p>
+			<p class="parrafo">
+				La impulsividad de Ares, su temperamento y su afán por causar destrucción gratuita lo convirtieron en el menos popular de los olímpicos, ampliamente reconocido pero raramente admirado. Aunque Ares era un dios, los griegos lo llamaban a veces tracio, en un intento de desvincularlo de la sociedad y los valores griegos (Tracia era una región al norte de Grecia, hogar de un pueblo notoriamente belicoso). La impopularidad de Ares sugiere que los griegos estaban demasiado acostumbrados al conflicto y eran reacios a celebrar sus tendencias destructivas.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				La primera referencia al nombre "Ares" se remonta al periodo micénico (ca. 1500-1200 a.C.), donde aparece en la escritura lineal B silábica como a-re. Los orígenes del nombre son controvertidos. La etimología más sencilla deriva de la palabra arē o ara, que en griego antiguo significa "perdición", "ruina" o "imprecación". Pero el nombre de Ares también puede provenir de otra palabra griega, aros, que significa "beneficio" o "ayuda".
+			</p>
+			<p class="parrafo">
+				Los estudiosos modernos han buscado cada vez más el origen del nombre de Ares más allá del griego. Algunos, por ejemplo, han relacionado el nombre con raíces indoeuropeas, como yōris o yāris (una palabra que connota violencia), así como con la palabra sánscrita irasyā (que significa "malevolencia").
+			</p>
+			<p class="parrafo">
+				El lingüista Robert S. P. Beekes, por su parte, cuestionó todas las etimologías anteriores y propuso un origen pregriego, no indoeuropeo.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Los epítetos de Ares generalmente enfatizaban su naturaleza guerrera y brutal. Además de Enyalios, que funcionaba más bien como un nombre alternativo del dios, los principales epítetos de Ares incluían Andreiphontēs ("matador de hombres"), Chalceos ("descarado"), Ochys ("penetrante"), Thoos ("veloz"), Thouros ("furioso") y Thēritas ("parecido a una bestia").
+			</p>
+			<p class="parrafo">
+				En el griego antiguo, "Ares" se utilizaba muy a menudo para significar simplemente "guerra". La forma adjetiva del nombre de Ares -areios (masculino) o areia (femenino)- se utilizaba a veces como epíteto de otros dioses asociados a la guerra (como Atenea) o al propio Ares (como Afrodita).
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Ares era el dios de la guerra y la violencia. Más concretamente, se le asoció desde el principio con "los aspectos más objetables de la guerra", es decir, con la violencia y el conflicto por sí mismos. A diferencia de su homóloga, la diosa de la guerra Atenea, Ares no representaba la estrategia ni la ética heroica, sino que era el dios del lado destructivo y cruel de la guerra.
+			</p>
+			<p class="parrafo">
+				Por el contrario, el homólogo romano de Ares, Marte, era visto de forma mucho más positiva, como el ancestro de Roma y uno de los principales dioses del panteón romano. 
+			</p>
+			<p class="parrafo">
+				Los atributos característicos de Ares eran su alto casco con plumas, sus armas y, a veces, una coraza y un escudo. Su representación en el arte y la literatura ha evolucionado a lo largo de la historia de Grecia. En el arte arcaico primitivo (ca. 800-490 a.C.), Ares solía llevar barba y estar completamente armado. En el periodo clásico (ca. 490-323 a.C.), se le mostraba cada vez más afeitado y, a veces, desnudo, tal vez llevando su casco o sosteniendo sólo una lanza.
+			</p>
+			<p class="parrafo">
+				En la literatura, Ares se mantuvo algo más consistente. Los griegos siempre temieron a Ares como el dios cruel y antipático del lado caótico de la guerra, amante de la muerte por sí misma. En Homero, Ares va a la guerra acompañado de sus hijos Deimos y Fobos (la personificación del terror y el miedo, respectivamente), así como de su hermana Eris (llamada Enyo por Hesíodo), diosa de la discordia, el odio y la violencia.
+			</p>
+			<p class="parrafo">
+				En fuentes posteriores, Enyalios pasó de ser un nombre más de Ares a ser el nombre de su hijo (de Enyo). Ares también se asoció con otros seres terribles, como Cydoemus (la personificación del "estruendo de la batalla"), los Machae ("batallas"), Polemos ("guerra") y Alala ("grito de guerra").
+			</p>
+			<p class="parrafo">
+				Ares estaba asociado a varios animales, como el jabalí, el perro y ciertas aves. Estaba especialmente vinculado al buitre y a algunas especies de búho, cuyos vuelos se interpretaban como presagios de guerra, discordia y mala fortuna.
+			</p>
+			<p class="parrafo">
+				En la mitología, las criaturas más famosas de Ares eran el Dragón de Cólquida, que custodiaba el Vellocino de Oro, y el Dragón de Ismenia, que guardaba un manantial sagrado en Tebas hasta que lo mató Cadmo.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Ares era el hijo de Zeus y Hera, el rey y la reina de las deidades olímpicas. Su hermano era Hefesto, el dios del fuego y la forja. También tenía dos hermanas: Hebe, la copera de los dioses y diosas, y Eileithyia, la diosa de la maternidad, el parto y la partería. Según Homero, Eris (la personificación de la discordia y el odio) es otra de las hermanas de Ares, que le acompaña a la guerra en su carro. Otras fuentes menos conocidas también hacen de Ares el hermano de Angelos, Eleutheria (la personificación de la libertad) y las Gracias (normalmente las hijas de Zeus por Temis).
+			</p>
+			<p class="parrafo">
+				Ares tenía innumerables hermanastros (principalmente producto de las relaciones de Zeus con diversas mujeres mortales e inmortales). Entre ellos estaban los dioses Atenea, Apolo, Artemisa, Hermes y Dionisio, así como los héroes mortales Heracles, Minos y Perseo.
+			</p>
+			<p class="parrafo">
+				Como la mayoría de las deidades masculinas griegas, se dice que Ares tuvo muchas amantes, así como muchos hijos de ellas. Es famoso su largo y agitado romance con la casada Afrodita. Según Hesíodo, tuvieron tres hijos importantes juntos: Deimos, el dios del terror y el espanto; Fobos, el dios del miedo; y la encantadora Harmonia. Deimos y Fobos sirvieron como ayudantes de Ares y cabalgaron con él en su carro de guerra, mientras que Harmonía se casó con el rey tebano Cadmo y se convirtió en la abuela de Dionisio. 
+			</p>
+			<p class="parrafo">
+				Según otras fuentes, Ares y Afrodita fueron también los padres de Eros y Anteros, dos de los Erotes (deidades aladas asociadas al amor y al erotismo).
+			</p>
+			<p class="parrafo">
+				Otros hijos de Ares fueron las Amazonas, las legendarias mujeres guerreras del Mar Negro, y en particular las reinas amazonas Antíope, Hipólita y Pentesilea; Diomedes, un sanguinario rey tracio asesinado por Heracles; Oenomaus, un rey de Pisa que asesinó a todos los pretendientes de su hija antes de ser asesinado él mismo; y Tereo, un salvaje rey tracio transformado finalmente en pájaro. A veces también se llama a Ares el padre de Meleagro y Partenopaeus.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Aunque era hijo de Zeus y Hera, el rey y la reina de los dioses, Ares era tan impopular entre los olímpicos como entre los griegos. En una famosa escena de la Ilíada, Ares regresa de la batalla gimiendo y quejándose de sus heridas. Pero este vacío intento de compasión no funciona en Zeus, que pierde la paciencia y le dice a Ares, para que todos lo oigan: <i>El más odioso para mí eres tú, de todos los dioses que ocupan el Olimpo, porque siempre te han gustado las luchas, las guerras y los combates. Tienes el espíritu insoportable e inflexible de tu madre, incluso de Hera; a ella apenas puedo controlarla con mis palabras.</i>
+			</p>
+			<p class="parrafo">
+				Ares solía ser egoísta y cruel, pero se alzaba para defender a su madre, Hera, de Zeus y los demás dioses. En una tradición, por ejemplo, fue Ares quien obligó a Hefesto a liberar a Hera después de haberla atado en una silla mágica. En otra historia, Hera estaba celosa de Leto cuando Zeus la embarazó con Apolo y Artemisa, así que envió a Ares para que se asegurara de que Leto fuera expulsada de todas las tierras en su búsqueda de un lugar para dar a luz.
+			</p>
+			<h2 class="subtitulo">ARES Y AFRODITA</h2>
+			<p class="parrafo">
+				Aunque odiado por la mayoría de los dioses, Ares contaba con el amor y el favor de Afrodita, diosa de la belleza y el amor erótico. Afrodita estaba casada con Hefesto, pero prefería al apuesto y fuerte Ares al dios herrero lisiado y desfigurado. 
+			</p>
+			<p class="parrafo">
+				Posiblemente el mito más famoso que involucra a Ares, narrado con gran colorido en la Odisea, se refiere a su aventura con Afrodita. Un día, el dios del sol Helios observó por casualidad a Ares y Afrodita teniendo sexo en la cama de Hefesto. Helios se apresuró a decírselo a Hefesto, y el astuto marido no tardó en urdir un plan para atrapar a los dos. Haciendo uso de su gran habilidad, Hefesto confeccionó una red tan fina que era prácticamente invisible y la colocó en su cama. La siguiente vez que Ares y Afrodita estaban disfrutando de la compañía del otro, Hefesto lanzó su trampa, atrapando a los dos en el acto.
+			</p>
+			<p class="parrafo">
+				Para colmo de males, Hefesto invitó a todo el panteón a presenciar lo que había encontrado. Mientras que las diosas se negaron a venir, alegando pudor, los dioses masculinos asistieron con entusiasmo y se rieron con ganas cuando vieron lo que Hefesto tenía que mostrarles. Sólo Poseidón se compadeció del humillado Ares y rogó a Hefesto que lo liberara.
+			</p>
+			<p class="parrafo">
+				Ares y Afrodita eran famosos por sus celos y a veces castigaban injustamente a sus amantes rivales. Por ejemplo, después de que Ares se acostara con Eos, la diosa del amanecer, Afrodita maldijo a Eos para que estuviera siempre enamorada de otra persona. Y cuando Afrodita se enamoró de Adonis, Ares se convirtió en un jabalí y corneó al joven hasta la muerte.
+			</p>
+			<h2 class="subtitulo">ARES Y LA FUNDACIÓN DE TEBAS</h2>
+			<p class="parrafo">
+				Ares desempeñó un papel en la fundación de la ciudad de Tebas, una ciudad-estado guerrera que disfrutó de un breve período de dominio en el siglo IV a.C., antes del ascenso de Macedonia. Se dice que Ares creó un dragón de agua para aterrorizar a las personas que vivían cerca del futuro emplazamiento de Tebas. Este dragón, que vivía junto al río Ismenus y que por ello se llamaba el Dragón de Ismenia, se decía a veces que era el propio vástago de Ares.
+			</p>
+			<p class="parrafo">
+				Un día, un gran héroe de la mitología griega, Cadmo, mató al dragón y sembró sus dientes en la tierra, haciendo surgir a los hombres conocidos como los espartoi ("hombres sembrados"). Estos hombres comenzaron inmediatamente a matarse entre sí en una cruenta batalla, pero los cinco supervivientes ayudaron a Cadmo a fundar Tebas y se convirtieron en los ancestros de las familias más importantes de la ciudad.
+			</p>
+			<p class="parrafo">
+				Ares, sin embargo, estaba enfadado porque Cadmo había matado a su dragón. Para arrepentirse, Cadmo sirvió a Ares durante ocho años. A cambio de este servicio, Ares le dio a Cadmo la mano de su hija Harmonia en matrimonio.
+			</p>
+			<h2 class="subtitulo">ARES EN LA GUERRA DE TROYA</h2>
+			<p class="parrafo">
+				Durante la Guerra de Troya, el impetuoso, caprichoso y beligerante Ares fue el único de los dioses que no se puso siempre del lado de los griegos ni de los troyanos. En cambio, luchó alternativamente en ambos bandos. En las epopeyas homéricas, donde generalmente favorecía a los troyanos, Ares era descrito como "odioso", "glotón de guerra", "asesino de hombres" y "maldición de los hombres". De manera reveladora, también se le representaba como un guerrero bastante incapaz.
+			</p>
+			<p class="parrafo">
+				Durante una batalla, mientras Ares defendía a los troyanos, Atenea imbuyó al héroe griego Diomedes con una fuerza y un valor preternaturales. Diomedes utilizó estos dones para atravesar a Ares con una lanza. La descripción poco halagüeña que hace Homero del herido Ares dice mucho sobre la posición del dios: Se dice que Ares se escabulló al Olimpo, sólo para ser reprendido sin piedad por su padre, Zeus.
+			</p>
+			<p class="parrafo">
+				Poco después, Zeus prohibió a los dioses entrar en la batalla de Troya. Pero cuando Ares se enteró de que su hijo Ascalafo había sido asesinado por los troyanos, se dispuso a desobedecer a Zeus y luchar en el bando griego. Sólo Atenea pudo detenerlo.
+			</p>
+			<p class="parrafo">
+				Más tarde, cuando Zeus permitió que los dioses volvieran a participar en la lucha en Troya, Ares quiso vengarse de Atenea por haber ayudado a Diomedes a herirle. Durante la batalla, Atenea consiguió vencer a Ares lanzándole una roca.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A ARES</h2>
+			<p class="parrafo">
+				El equivalente romano de Ares, <a href="/dioses-romanos/marte">Marte</a>, era recordado con cariño como el padre de Rómulo y Remo, los fundadores de Roma.
+			</p>
+		</div>
+	</body>
+	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>

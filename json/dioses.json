@@ -10,6 +10,11 @@
         "url": "/dioses-egipcios/anubis"
     },
     {
+        "nombre": "Ares",
+        "panteon": "grecia",
+        "url": "/dioses-griegos/ares"
+    },
+    {
         "nombre": "Cupido",
         "panteon": "roma",
         "url": "/dioses-romanos/cupido"
