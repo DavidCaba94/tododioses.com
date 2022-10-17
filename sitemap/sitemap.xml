@@ -1,22 +1,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://wikidioses.com/</loc>
-    <lastmod>2022-09-30T19:11:21+00:00</lastmod>
+    <lastmod>2022-10-17T18:34:38+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/panteon-griego</loc>
-    <lastmod>2022-10-13T20:36:53+00:00</lastmod>
+    <lastmod>2022-10-17T18:34:40+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://wikidioses.com/dioses-romanos</loc>
-    <lastmod>2022-10-05T01:43:32+00:00</lastmod>
+    <loc>https://wikidioses.com/panteon-romano</loc>
+    <lastmod>2022-10-17T18:34:43+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/dioses-griegos/zeus</loc>
-    <lastmod>2022-10-13T09:37:54+00:00</lastmod>
+    <lastmod>2022-10-17T18:34:47+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://wikidioses.com/dioses-griegos/poseidon</loc>
+    <lastmod>2022-10-17T18:34:47+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>

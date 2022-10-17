@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>Poseidón, Dios de los mares - Wiki Dioses</title>
-		<link rel="icon" type="image/png" href="img/icon.png">
+		<title>Poseidón, dios del mar - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
 		<meta charset="UTF-8">
-		<meta name="title" content="Poseidón, Dios de los mares - Wiki Dioses">
-		<meta name="description" content="">
+		<meta name="title" content="Poseidón, dios del mar - Wiki Dioses">
+		<meta name="description" content="Poseidón, una de las principales deidades olímpicas, era un dios desafiante cuyo poder sólo era superado por el de Zeus. Aunque era conocido sobre todo como dios del mar y de los marineros, su poder se extendía a otros ámbitos, como los terremotos y los caballos. Poseidón era venerado en todo el mundo griego, pero tenía un seguimiento especialmente fuerte en las ciudades-estado marítimas como Atenas y Corinto.">
 
-		<script src="libs/jquery-3.2.1/jquery-latest.js"></script>
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
 
 		<meta name="viewport" content= "width=device-width, user-scalable=no">
 
-		<link href="css/index.css" rel="stylesheet" type="text/css"/>
-		<script src="js/index.js"></script>
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
 
 		<!--
 		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -28,7 +29,267 @@
 		gtag('config', 'G-ETBCSGFYTB');
 		</script>
 	</head>
-  <body>
-
-  </body>
+	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/dioses-egipcios">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/dioses-nordicos">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/dioses-mayas">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/dioses-chinos">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/dioses-japoneses">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/dioses-hindues">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/dioses-celtas">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">POSEIDÓN, DIOS DEL MAR</h1>
+			<div class="imagen">
+				<img src="../img/poseidon-header.jpg" alt="Poseidón" title="Poseidón">
+			</div>
+			<p class="parrafo">
+				Poseidón, una de las principales deidades olímpicas, era un dios desafiante cuyo poder sólo era superado por el de Zeus. Aunque era conocido sobre todo como dios del mar y de los marineros, su poder se extendía a otros ámbitos, como los terremotos y los caballos. Poseidón era venerado en todo el mundo griego, pero tenía un seguimiento especialmente fuerte en las ciudades-estado marítimas como Atenas y Corinto.
+			</p>
+			<p class="parrafo">
+				Poseidón era tan revoltoso como los mares que se creía que controlaba. Instigador, incendiario y rebelde, Poseidón ocupó un lugar destacado en la mitología griega gracias a su resistencia al control de Zeus sobre el panteón. También era conocido por su influencia perturbadora sobre los asuntos humanos en la Ilíada y la Odisea de Homero. Las historias de Poseidón proporcionaron a los griegos una ilusión de control sobre el único dominio que nunca pudieron dominar del todo: el mar.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				Poseidón estuvo presente en la religión griega desde los primeros tiempos: ya estaba bien atestiguado en el periodo micénico (ca. 1600-1100 a.C.). Escrito originalmente en una escritura llamada Lineal B, anterior al alfabeto griego, el nombre aparece en los textos micénicos como Po-se-da-o o Po-se-da-wo-ne. 
+			</p>
+			<p class="parrafo">
+				El nombre "Poseidón" tiene probablemente sus raíces en dos palabras distintas. La primera es la palabra griega posis, derivada a su vez de la raíz protoindoeuropea *pótis. Ambas palabras significan "marido", "señor" o "amo".
+			</p>
+			<p class="parrafo">
+				El segundo elemento lingüístico del nombre de Poseidón es incierto. Una interpretación sostiene que proviene de la raíz da-, que significa "tierra" o "terreno", lo que haría que "Poseidón" se tradujera como "señor de la tierra", o quizás incluso "marido de la tierra". Esta última traducción indicaba una asociación con la diosa de la tierra Deméter. De hecho, las referencias griegas micénicas más antiguas a Poseidón apuntaban a una relación íntima -aunque imprecisa- con Deméter, y posiblemente con Perséfone.
+			</p>
+			<p class="parrafo">
+				La segunda interpretación sugiere un vínculo con la palabra dâwon, o "agua", lo que haría que "Poseidón" se tradujera como "señor de las aguas". Esta era una traducción atractiva, ya que vinculaba el nombre de Poseidón con el mar. Sin embargo, esta asociación puede ser engañosa, ya que ninguna de las primeras referencias micénicas a Poseidón indicaba que el dios tuviera alguna asociación con el océano, el agua o el mar. De hecho, el principal título de culto de Poseidón en la Edad del Bronce era E-ne-si-da-o-ne, o "Agitador de la Tierra". 
+			</p>
+			<p class="parrafo">
+				En la actualidad, muchos estudiosos consideran que los orígenes del nombre Poseidón son anteriores a la época griega, y posiblemente ni siquiera indoeuropeos.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Los epítetos más importantes de Poseidón estaban relacionados con su capacidad no como dios del mar, sino como dios de los terremotos, de ahí sus títulos Enosichthōn o Ennosigaios ("agitador de la tierra"). También se le llamaba Gaiēochos ("el que sostiene la tierra"). 
+			</p>
+			<p class="parrafo">
+				Otros epítetos atestiguan el papel de Poseidón como dios del mar. Entre ellos, Kyanochaitēs ("de pelo oscuro"), Pelagios ("perteneciente al mar") e incluso Phykios ("lleno de algas").
+			</p>
+			<p class="parrafo">
+				Por último, Poseidón también se llamaba Hippios ("jinete") por su estrecha relación con los caballos.
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Poseidón solía ser representado como un dios maduro, de constitución poderosa y con barba. Su arma principal era el tridente, una lanza de tres puntas con la que luchaba, dominaba el mar y provocaba terremotos.
+			</p>
+			<p class="parrafo">
+				Poseidón era un dios de los caballos y a menudo se le representaba montando un carro tirado por hipocampos, en parte caballos y en parte serpientes, que se deslizaban sobre las olas. Poseidón también se asociaba con otros animales, tanto terrestres como marinos, como delfines, caballitos de mar, atunes y toros.
+			</p>
+			<p class="parrafo">
+				Además de su residencia en el Monte Olimpo con los demás dioses, se decía que Poseidón poseía hermosos palacios submarinos adornados con coral, perlas y gemas. Poseía una cuadra de magníficos caballos, así como numerosas manadas de caballos por toda Grecia. 
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Poseidón se casó con Anfítrite, una de las ninfas conocidas como las Nereidas y una figura asociada durante mucho tiempo con el mar (y el agua salada en particular). Juntos tuvieron tres hijos: el tritón, Benthesicyme y Rhodos, la diosa patrona de Rodas y futura esposa de Helios.
+			</p>
+			<p class="parrafo">
+				Al igual que otras deidades masculinas, Poseidón fue célebre por sus numerosas infidelidades y violentas conquistas sexuales. Entre sus numerosos hijos ilegítimos se encuentran algunas de las figuras más legendarias de la mitología griega. Con su abuela Gea, engendró al gigante Anteo, que luchó con Hércules durante los Doce Trabajos, y a Caribdis, un monstruo marino que acechaba en el estrecho de Mesina y formaba enormes e implacables remolinos para succionar a los viajeros que no lo esperaban. También se reprodujo con Afrodita y su hermana Deméter. Según algunas tradiciones, engendró dos hijos con esta última, entre ellos un pequeño caballo parlante llamado Arión.
+			</p>
+			<p class="parrafo">
+				Poseidón también violó a Medusa en el templo de Atenea. Esta unión fue la responsable del nacimiento del caballo alado Pegaso y del gigante Crisaor; estas dos criaturas brotaron del cuello de Medusa después de que Perseo le cortara la cabeza. 
+			</p>
+			<p class="parrafo">
+				Además de las diosas, Poseidón cortejó a ninfas como Thoosa, que dio a luz al temible cíclope Polifemo. Polifemo aterrorizaría al astuto Odiseo en su camino a casa desde Troya, con consecuencias nefastas. 
+			</p>
+			<p class="parrafo">
+				Poseidón también buscó los placeres de las mujeres mortales, con las que engendró a varios héroes y otras personalidades míticas importantes. Entre los hijos más famosos de Poseidón están Teseo, Belerofonte, el cazador Orión, Otus y Efialtes (que intentaron asaltar el Olimpo), los gemelos Pelias y Neleo, y el metamorfo Proteo.
+			</p>
+			<p class="parrafo">
+				Poseidón era considerado el antepasado de varios grupos étnicos y ciudades importantes del mundo antiguo. Sus hijos Minyas y Boeotus, por ejemplo, fueron figuras fundadoras de la región central griega de Beocia; su hijo Eolo fue el fundador de Eolia; otro hijo, Eumolpo, fue un primitivo rey tracio que murió en una guerra con los atenienses.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Junto con sus hermanos -Hestia, Deméter, Hades, Hera y Zeus- Poseidón nació de la unión entre Rea y Cronos, titanes que gobernaban el universo antes del surgimiento del panteón olímpico. Cuando Cronos descubrió que uno de sus hijos estaba destinado a derrocarlo, se tragó a Poseidón y a sus otros hijos. Finalmente, el poderoso Zeus venció al Titán y le obligó a regurgitar a los niños, incluido Poseidón.
+			</p>
+			<p class="parrafo">
+				Según una variante, Rea salvó a Poseidón de ser tragado por Cronos al igual que había salvado a Zeus. Cuando Poseidón nació, Rea fingió que había dado a luz a un potro, que le dio a Cronos para que se lo tragara. Este mito refleja la asociación de Poseidón con los caballos.
+			</p>
+			<p class="parrafo">
+				Poseidón luchó ferozmente junto a Zeus y sus otros hermanos en el conflicto cataclísmico conocido como la Titanomaquia. Cuando vencieron a los Titanes, Zeus, Hades y Poseidón (al ser varón y, por tanto, privilegiado para gobernar en la sociedad griega) asumieron el control del cosmos y lo dividieron en varios dominios. Los hermanos lo echaron a suertes y Poseidón obtuvo el control de los mares, así como de todas las demás aguas.
+			</p>
+			<h2 class="subtitulo">POSEIDÓN Y ZEUS</h2>
+			<p class="parrafo">
+				Un elemento clave del mito de Poseidón eran los complots del dios para socavar los órdenes establecidos, tanto humanos como divinos. Una de las historias más antiguas, relatada con lamentable detalle en la Ilíada, incluía la participación de Poseidón en un complot para derrocar a Zeus. En esta historia, Poseidón, Atenea y Hera conspiraron para engañar a Zeus en su trono y sujetarlo allí. 
+			</p>
+			<p class="parrafo">
+				Zeus sólo se salvó gracias a la vigilancia de Tetis, la ninfa del mar, que convocó a Briaraeus, una de las monstruosas criaturas de cien manos conocidas como los Hecatónquiros. Estas criaturas eran los mismos seres responsables de la victoria de los olímpicos sobre los titanes y los gigantes en la Titanomaquia; por tanto, podían manejar fácilmente cualquier cosa que los dioses rebeldes les lanzaran.
+			</p>
+			<h2 class="subtitulo">LA ILÍADA</h2>
+			<p class="parrafo">
+				Poseidón participó en la Guerra de Troya, el conflicto de diez años entre los ejércitos combinados de Grecia y la ciudad de Troya. Esta guerra comenzó después de que el príncipe troyano Paris se llevara a Helena, la esposa de un rey griego llamado Menelao. Poseidón, junto con otros olímpicos, apoyó a los griegos con su considerable poderío.
+			</p>
+			<p class="parrafo">
+				En la Ilíada de Homero, que describe unas semanas fatídicas durante el último año de la guerra, Poseidón intervino varias veces para ayudar a los griegos. Al igual que los demás dioses que se inmiscuyeron en el conflicto troyano, la ayuda de Poseidón se produjo sobre todo en forma de apoyo moral. 
+			</p>
+			<p class="parrafo">
+				En un momento crítico de la batalla, cuando los aqueos parecían estar a punto de ser derrotados a manos de los troyanos, Poseidón corrió al campo de batalla y asumió la forma del profeta Calcas. Lo hizo para evitar ser descubierto por Zeus, que había ordenado a los dioses mantenerse al margen del asunto. La resonante entrada de Poseidón en la batalla fue representada maravillosamente en la Ilíada.
+			</p>
+			<p class="parrafo">
+				A pesar de la ayuda de Poseidón, los griegos seguían sufriendo tremendas pérdidas que amenazaban su determinación colectiva. Incluso Agamenón, el comandante del ejército griego, se sintió sacudido y propuso una retirada para que los aqueos pudieran recuperar sus fuerzas. 
+			</p>
+			<p class="parrafo">
+				Una vez más, Poseidón intervino, esta vez con la ayuda de Hera, que distrajo a Zeus con sus encantos femeninos y le hizo caer en un profundo sueño. Aprovechando el momento, Poseidón se reveló y dirigió a sus tropas en un terrible asalto que dejó a Héctor herido y a los griegos ascendiendo.
+			</p>
+			<p class="parrafo">
+				Cuando Zeus finalmente despertó al oír a Poseidón bramando con furia desde el campo de batalla, ordenó al desobediente dios del mar que se retirara inmediatamente de la batalla. Poseidón cedió, no por miedo, aseguró a los demás dioses, sino por su enorme respeto al Padre del Olimpo.
+			</p>
+			<h2 class="subtitulo">LA ODISEA</h2>
+			<p class="parrafo">
+				Tras la ruina de Troya, Poseidón centró su aparentemente inagotable ira en Odiseo, el gran héroe cuyo largo viaje de vuelta a casa fue inmortalizado en la Odisea de Homero. Aunque Odiseo había luchado del lado de los aqueos, él y su tripulación desembarcaron por casualidad en una isla habitada por Polifemo, un cíclope y uno de los hijos de Poseidón. Cuando Polifemo empezó a comerse a los miembros de la tripulación, Odiseo y los pocos hombres que le quedaban idearon un plan para cegar a la criatura. Con gran astucia, lo engañaron para que bebiera hasta caer en el estupor y lo cegaron cuando estaba ebrio.
+			</p>
+			<p class="parrafo">
+				Si bien este acto permitió a Odiseo y a los demás escapar de las garras del cíclope, también les valió la ira de Poseidón, un dios más que capaz de hacer fracasar a Odiseo en su viaje de vuelta a casa. Realmente, no habría Odisea sin Poseidón. En un momento dado, Poseidón envió una tormenta para hacer naufragar a Odiseo cuando salía de la isla de Calipso; el dios del mar atraería más tarde a Odiseo cerca de otro de sus hijos, el monstruo marino Caribdis, productor de vórtices.
+			</p>
+			<h2 class="subtitulo">ADORACIÓN</h2>
+			<p class="parrafo">
+				Como dios del mar, Poseidón era tratado con gran respeto y temor: los griegos, que se dedicaban a la navegación desde la más remota antigüedad, comprendían los peligros del dominio de Poseidón. Por ello, Poseidón no era un dios que se pudiera descuidar.
+			</p>
+			<p class="parrafo">
+				Aunque se le consideraba ante todo un dios de las profundidades temperamentales, el dominio de Poseidón también incluía la tierra y los terremotos. Poseidón también era considerado un dios de las relaciones sociales y la educación.
+			</p>
+			<p class="parrafo">
+				Además de ser adorado con el culto en los templos, la oración y los sacrificios, Poseidón era honrado de forma única en los numerosos asentamientos costeros que llevaban su nombre. Un ejemplo importante es la ciudad de Poseidonia (la actual Salerno) en el sur de Italia.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A POSEIDÓN</h2>
+			<p class="parrafo">
+				Hubo algunas variaciones dialécticas del nombre de Poseidón en la antigua Grecia. En griego homérico se le llamaba Ποσειδάων (Poseidaōn); en eólico era Ποτειδάων (Poteidaōn); y en dórico era Ποτειδάν (Poteidan), Ποτειδάων (Poteidaōn) y Ποτειδᾶς (Poteidas).
+			</p>
+			<p class="parrafo">
+				El equivalente romano de Poseidón se llamaba <a href="/dioses-romanos/neptuno">Neptuno</a>.
+			</p>
+		</div>
+	</body>
+	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
 </html>
