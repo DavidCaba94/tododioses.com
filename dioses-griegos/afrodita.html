@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Afrodita,  - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Afrodita, diosa del amor - Wiki Dioses">
+		<meta name="description" content="La diosa del amor, la pasión y la procreación, la sensual Afrodita era la fuente del deseo erótico tanto heterosexual como homosexual. Una figura a la vez generosa y destructiva, que encarnaba todas las posibilidades que ofrecían el amor y el deseo.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/dioses-egipcios">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/dioses-nordicos">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/dioses-mayas">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/dioses-chinos">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/dioses-japoneses">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/dioses-hindues">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/dioses-celtas">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">AFRODITA, DIOSA DEL AMOR</h1>
+			<div class="imagen">
+				<img src="../img/afrodita-header.jpg" alt="Afrodita" title="Afrodita">
+			</div>
+			<p class="parrafo">
+				La diosa del amor, la pasión y la procreación, la sensual Afrodita era la fuente del deseo erótico tanto heterosexual como homosexual. Una figura a la vez generosa y destructiva, que encarnaba todas las posibilidades que ofrecían el amor y el deseo.
+			</p>
+			<p class="parrafo">
+				Afrodita era una personalidad poderosa y una fuerza a tener en cuenta. Aunque estaba casada con Hefesto, el dios del fuego y la forja, muchos amantes revolotearon por su mitología (sobre todo, el dios de la guerra Ares). Símbolo de todos los deseos y anhelos, Afrodita ejercía una inmensa influencia en los asuntos de los mortales y desempeñó un importante papel en la provocación de la guerra de Troya.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				En la antigüedad, los griegos creían que el nombre "Afrodita" derivaba de la palabra griega aphros, que significa "espuma de mar". En la Teogonía, el poeta Hesíodo describió cómo Afrodita nació de la espuma que surgió después de que Cronos cortara los genitales de su padre Urano y los arrojara al mar. Así, interpretó que el nombre de Afrodita significaba "nacida de la espuma del mar".
+			</p>
+			<p class="parrafo">
+				En la actualidad, la mayoría de los estudiosos consideran esta derivación como una etimología popular. Algunos han buscado varios orígenes indoeuropeos para el nombre, remontándose a palabras como *abʰor- ("muy"), *dʰei- ("brillar") o *abrhá- ("nube"). Otros, como Martin West, han buscado una fuente semítica. Y otros han recurrido al etrusco para buscar el origen del nombre, comparándolo con (e)prϑni, un honorífico etrusco que significa "señor" (en este caso, el nombre de Afrodita significaría "la señora").
+			</p>
+			<p class="parrafo">
+				En resumen, la etimología del nombre "Afrodita" es muy incierta y probablemente se originó en una lengua no griega. De hecho, no hay pruebas de la existencia de la diosa durante los primeros periodos de la historia griega (la Edad de Bronce o el periodo micénico, ca. 1600-1100 a.C.); es posible que fuera originalmente una diosa oriental adoptada posteriormente por los griegos.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Afrodita era descrita comúnmente como ourania ("celestial") y pandēmos ("de todas las personas"). Muchos epítetos, como chryseē ("dorada"), dia ("brillante") o eustephanos ("bien coronada"), estaban relacionados con sus atributos o su aspecto. En otros casos, los epítetos de Afrodita reflejaban su dualidad como diosa de la felicidad y de la destrucción: se la conocía tanto como philommeidēs ("amante de la sonrisa") como skotia ("oscura").
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Afrodita era adorada principalmente como diosa del amor erótico y de las mujeres. En este sentido, se la honraba en relación con el sexo, el matrimonio y el parto. Pero sus funciones también se extendían a otras áreas: por ejemplo, Afrodita era una diosa no sólo de la fertilidad de las mujeres y el parto, sino también de la fertilidad de la tierra, de la vegetación y la agricultura. Afrodita también era vista, naturalmente, como la patrona de las prostitutas. Otra de sus funciones, quizá menos natural, era la protección de los marineros en el mar.
+			</p>
+			<p class="parrafo">
+				En el arte y la literatura, el principal atributo de Afrodita fue siempre su impresionante belleza física. Por si fuera poco, se decía que poseía una faja mágica que hacía irresistible a la persona que la llevaba. En la Ilíada de Homero hay una famosa escena en la que Hera toma prestada la faja de Afrodita para seducir a Zeus.
+			</p>
+			<p class="parrafo">
+				A diferencia de las demás diosas griegas, que solían representarse modestamente vestidas, Afrodita se representaba casi siempre en varios estados de desnudez. Esta tendencia se inició a finales del siglo V a.C. y se impuso rápidamente, personificada en la estatua de Afrodita de Cnidos de Praxíteles (345/340 a.C.) y en la pintura de Afrodita saliendo del mar de Apeles de Cos (Afrodita Anadyomenē, o la "Afrodita de Cos"). Estas obras fueron copiadas sin cesar a lo largo de la antigüedad.
+			</p>
+			<p class="parrafo">
+				A menudo se representaba a Afrodita en compañía de otros dioses, especialmente Eros o los otros Erotes (dioses del amor de los que se suele decir que son hijos de Afrodita). En otras ocasiones, su séquito incluía a las Gracias, las Nereidas o el salvaje Pan.
+			</p>
+			<p class="parrafo">
+				Por último, a veces se representaba a Afrodita victoriosa y armada para la guerra, con casco, escudo y armas. Así se la mostraba, por ejemplo, en Corinto, Citera y Esparta.
+			</p>
+			<p class="parrafo">
+				Afrodita tenía varios símbolos animales y vegetales que ayudaban a distinguirla en la antigüedad. Se la asociaba especialmente con los machos cabríos, pero también con las palomas, los gorriones, las golondrinas y los cisnes, que a menudo se imaginaban tirando de su carro o sirviendo de mensajeros. Otro de los animales sagrados de Afrodita era la tortuga.
+			</p>
+			<p class="parrafo">
+				Las plantas sagradas de Afrodita eran la manzana, la rosa, el mirto y la amapola.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Los orígenes de Afrodita son oscuros: o bien era la hija huérfana de madre del dios primordial Urano, o bien la hija del amor de Zeus y Dione. De este modo, Afrodita sería una deidad primordial, nacida mucho antes que los demás olímpicos, o una hermanastra de los innumerables hijos de Zeus, como los dioses Apolo, Artemisa, Ares y Hermes y los mortales Heracles, Perseo y Helena de Troya. También hay tradiciones posteriores que le atribuyen otros padres -por ejemplo, Urano y Hemera (la diosa del día)-, pero éstas no eran tan conocidas ni aceptadas en la antigüedad. 
+			</p>
+			<p class="parrafo">
+				Aunque normalmente se la presentaba como casada con Hefesto, el dios de la artesanía y la metalurgia (y, en algunas tradiciones, su hermanastro), los lazos matrimoniales no eran una barrera para Afrodita, que deseaba -y era deseada por- muchos. 
+			</p>
+			<p class="parrafo">
+				El continuo romance de Afrodita con Ares produjo una serie de hijos cuyas naturalezas representaban los extremos de su propia personalidad. Según Hesíodo, estos hijos eran Deimos (el dios del terror y el miedo), Fobos (el dios del temor) y Harmonia (la diosa de la armonía y el bienestar). Según otras fuentes, Ares y Afrodita fueron también los padres de Eros y Anteros, dos de los Erotes (deidades aladas asociadas al amor y al erotismo).
+			</p>
+			<p class="parrafo">
+				Afrodita tuvo otros amantes entre los dioses y también tuvo hijos con ellos. Con Dionisio, el dios del vino, Afrodita tuvo a veces a Himeneo (el dios de las ceremonias matrimoniales), a Iacco y Sabazio (dioses menores de los rituales), a Príapo (un dios del ganado) y a las Gracias (deidades asociadas con el encanto, la belleza y la fertilidad). Con Hermes, el dios mensajero, Afrodita tenía a Hermafrodito (nombre formado por "Hermes" y "Afrodita"), que poseía tanto genitales masculinos como femeninos.
+			</p>
+			<p class="parrafo">
+				Afrodita también tuvo varios amantes mortales. Los más famosos fueron el hermoso Adonis, el más encantador de los hombres mortales, y Anquises, un príncipe troyano con el que Afrodita engendró al héroe Eneas (más tarde venerado como antepasado de los romanos).
+			</p>
+			<p class="parrafo">
+				Por último, Afrodita era llamada comúnmente la madre de los Erotes ("Amores"), Pothos ("Deseo") y Peitho ("Persuasión").
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Existen al menos dos versiones conocidas del nacimiento (o creación) de Afrodita. La primera, relatada por Hesíodo en la Teogonía, situaba la creación de Afrodita al principio del tiempo mítico, cuando el titán Cronos, hijo de Urano, se levantó contra su padre. 
+			</p>
+			<p class="parrafo">
+				Urano era una deidad primordial y el gobernante del universo cuya unión con Gea, la tierra, dio inicio a todas las cosas. Según Hesíodo, cuando Cronos derrocó a su padre, cortó los genitales de Urano y los arrojó al mar cerca de la isla de Citera. De la sangre de Urano surgieron las Erinyes, los Gigantes y las ninfas, y de la espuma que se arremolinaba alrededor de sus genitales cortados surgió Afrodita. Nacida cerca de Citera, Afrodita desembarcó primero en Chipre (de ahí que la historia del nacimiento de la diosa mencione sus dos lugares más sagrados).
+			</p>
+			<p class="parrafo">
+				La otra versión de los orígenes de Afrodita, contada por Homero, presentaba a Afrodita como hija de Zeus y Dione, una figura misteriosa que podría haber sido un Titán o una Oceánida. Sin embargo, Homero no narró su concepción o nacimiento, sino que se limitó a describir a Afrodita como hija de Dione.
+			</p>
+			<p class="parrafo">
+				Las historias contrastadas en torno a los orígenes de Afrodita crearon cierta confusión entre los antiguos griegos, una situación que Platón intentó resolver en su diálogo el Simposio. Hablando a través del personaje de Pausanias, Platón sugirió que Afrodita Urania ("Afrodita celestial") y Afrodita Pandemos ("Afrodita común" o "Afrodita del pueblo"), los epítetos más populares para la diosa, eran en realidad deidades separadas fusionadas en la conciencia colectiva de los griegos.
+			</p>
+			<p class="parrafo">
+				Según Platón, Afrodita Pandemos representaba el tipo de amor sexual "inferior" o "común" entre un hombre y una mujer. Afrodita Urania, en cambio, representaba el amor "superior", más enrarecido, que sólo podía existir entre dos varones; más concretamente, entre un erastes, un hombre mayor y curtido, y un eromenos, un joven o un niño en plena madurez.
+			</p>
+			<h2 class="subtitulo">AFRODITA Y LA GUERRA DE TROYA</h2>
+			<p class="parrafo">
+				A los griegos les gustaba culpar a las mujeres de sus problemas; tal fue el caso de la Guerra de Troya, el más importante e impactante de todos los conflictos mortales de la mitología griega. Según la leyenda, Hera, Atenea y Afrodita tuvieron la culpa de incitar la guerra; sin embargo, fue Afrodita quien cargó con el mayor peso de la responsabilidad.
+			</p>
+			<p class="parrafo">
+				Los acontecimientos que condujeron a la guerra de Troya comenzaron con un pequeño desacuerdo entre Hera, Atenea y Afrodita sobre quién era la más bella. Para resolver la cuestión de una vez por todas, decidieron celebrar un concurso: la ganadora recibiría una manzana de oro con la inscripción "a la más bella". Zeus encargó a Paris, príncipe de Troya, que tomara la decisión final.
+			</p>
+			<p class="parrafo">
+				Deseosas de zanjar el asunto, las diosas se presentaron ante Paris (en algunas versiones, sin ropa), pero éste se mostró reacio a elegir. Las diosas recurrieron entonces a los sobornos: Hera prometió poder político, mientras que Atenea prometió sabiduría y gloria militar. Sin embargo, fue Afrodita la que ofreció a Paris la mujer mortal más bella. Paris eligió este último regalo, que resultó ser Helena, esposa del rey Menelao de Esparta. En cumplimiento de su promesa, Afrodita ayudó a Paris a secuestrar a Helena y llevarla a Troya; este acto fue el que finalmente desencadenó el conflicto.
+			</p>
+			<p class="parrafo">
+				Durante la guerra, Afrodita defendió constantemente a los troyanos y veló personalmente por la suerte de Paris y Helena. En la Ilíada de Homero, por ejemplo, intervino para rescatar a Paris después de que éste desafiara al poderoso rey Menelao a un combate cuerpo a cuerpo. Más tarde, volvió para salvar a su hijo, el héroe troyano Eneas, del guerrero griego Diomedes. Pero Diómedes se volvió inmediatamente contra Afrodita y la hirió en el brazo. Según algunas tradiciones, Afrodita acabó castigando a Diomedes poniendo a su mujer en su contra y provocando su destierro.
+			</p>
+			<p class="parrafo">
+				El hijo de Afrodita, Eneas, consiguió escapar de Troya después de que ésta fuera finalmente conquistada por los griegos. Ella le ayudó a encontrar el camino a Italia, donde fundó la ciudad de Lavinio y se convirtió en el ancestro de los romanos. Naturalmente, este mito estaba mucho más presente en la literatura romana que en la mitología griega.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A AFRODITA</h2>
+			<p class="parrafo">
+				Afrodita tenía dos nombres alternativos comunes en la literatura antigua: Cypris y Cytherea, en referencia a su estrecha relación con las islas de Chipre y Citera, respectivamente.
+			</p>
+			<p class="parrafo">
+				El equivalente romano de Afrodita se llamaba <a href="/dioses-romanos/venus">Venus</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
