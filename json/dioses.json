@@ -15,6 +15,11 @@
         "url": "/dioses-griegos/ares"
     },
     {
+        "nombre": "Deméter",
+        "panteon": "grecia",
+        "url": "/dioses-griegos/demeter"
+    },
+    {
         "nombre": "Cupido",
         "panteon": "roma",
         "url": "/dioses-romanos/cupido"

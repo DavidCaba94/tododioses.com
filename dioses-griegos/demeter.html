@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Deméter, diosa de los cultivos y la familia - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Deméter, diosa de los cultivos y la familia - Wiki Dioses">
+		<meta name="description" content="Deméter era la diosa griega que reinaba sobre los cultivos, las cosechas, la familia y la fertilidad. Es una de las diosas olímpicas más célebres y a menudo se la adora junto a su hija Perséfone.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/dioses-egipcios">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/dioses-nordicos">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/dioses-mayas">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/dioses-chinos">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/dioses-japoneses">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/dioses-hindues">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/dioses-celtas">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">DEMÉTER, DIOSA DE LOS CULTIVOS Y LA FAMILIA</h1>
+			<div class="imagen">
+				<img src="../img/demeter.jpg" alt="Deméter" title="Deméter">
+			</div>
+			<p class="parrafo">
+				La generosa Deméter era una de las principales deidades olímpicas y la diosa de la fertilidad, especialmente en lo que respecta a la agricultura. Deméter tenía en sus manos el destino de los cultivos y las cosechas. Rara vez se metía en los asuntos de los demás, y era una de las deidades griegas más queridas y menos controvertidas.
+			</p>
+			<p class="parrafo">
+				Mientras que muchas de las deidades del panteón griego evolucionaron o se reinventaron a lo largo de la historia de Grecia, Deméter parece haber sido adorada de alguna forma desde la Edad de Bronce hasta el periodo helenístico. Su longevidad pone de manifiesto la importancia de la agricultura para la riqueza y el poder de Grecia en el mundo mediterráneo.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				La diosa Deméter está documentada desde los primeros períodos de la historia griega. Puede aparecer en textos de la época minoica (ca. 1800-1450 a.C.), donde su nombre aparece en la escritura silábica lineal A como da-ma-te.
+			</p>
+			<p class="parrafo">
+				En el griego primitivo utilizado por los micénicos y escrito en la escritura lineal B (ca. 1600-1100 a.C.), da-ma-te parece tener un significado diferente y probablemente no se refería a la diosa Deméter. Sin embargo, esto no significa que los griegos micénicos no adorasen a Deméter: la si-to-po-ti-ni-ja ("señora del grano") micénica es probablemente una referencia a Deméter en su forma de la Edad del Bronce.
+			</p>
+			<p class="parrafo">
+				Aunque la etimología del nombre "Deméter" sigue siendo discutida, el nombre es más comprensible que los de la mayoría de los demás dioses griegos. La segunda parte del nombre tiene un claro origen en la palabra griega (e indoeuropea) matēr (protoindoeuropeo *méh₂tēr), que significa "madre".
+			</p>
+			<p class="parrafo">
+				La primera parte del nombre de la diosa es más difícil. Una sugerencia -aparentemente ya hecha en el periodo clásico- es que Dē es una forma diferente de la palabra griega gē, que significa "tierra". El nombre "Deméter" significaría en este caso "madre tierra".
+			</p>
+			<p class="parrafo">
+				Otra sugerencia, atestiguada sólo en la antigüedad tardía, es que la primera parte del nombre de la diosa está relacionada con la palabra cretense dēai, que significa "cebada". Sin embargo, ninguna de estas interpretaciones es generalmente aceptada por los estudiosos modernos. Según Robert S. P. Beekes, el nombre no es de origen griego, sino que puede ser indoeuropeo.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Deméter era invocada con muchos títulos y epítetos, como potnia ("señora"), despoina ("señora de la casa"), thesmophoros ("portadora de la ley"), sito ("la del grano") y chthonia ("la de la tierra"). Otros epítetos de la diosa eran chloē ("la verde"), kallistephanos y eustephanos ("bien coronados"), semnē y hagnē ("santificados"), y eukompos ("rubios"). 
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Deméter era sobre todo la diosa de la agricultura, pero también era la diosa de las mujeres y de los misterios. Deméter era la responsable del cultivo y la cosecha del grano. Los antiguos creían que los que no honraban a Deméter corrían el riesgo de morir de hambre.
+			</p>
+			<p class="parrafo">
+				Como diosa de las mujeres -especialmente de las casadas- Deméter también era invocada como protectora de las mujeres y del hogar. Deméter, al igual que Artemisa, presidía el paso de las mujeres de la infancia a la edad adulta. A veces se la consideraba incluso como sanadora.
+			</p>
+			<p class="parrafo">
+				Por último, Deméter era la diosa central de muchos cultos de misterio -especialmente los Misterios de Eleusis- que predicaban la importancia de la iniciación y el ritual para alcanzar una vida posterior privilegiada.
+			</p>
+			<p class="parrafo">
+				A veces, Deméter también se asociaba con la muerte y los poderes infernales, como cuando se la adoraba bajo el título de Erinys ("Furia").
+			</p>
+			<p class="parrafo">
+				Por lo general, Deméter era descrita y representada como una diosa hermosa pero modesta. Se la podía distinguir por las gavillas de grano, la antorcha, el kalathos (cesto para guardar lana), la hoz, el oinochoe (jarra de vino) o el phiale (cuenco de libación), que sostenía en sus manos. 
+			</p>
+			<p class="parrafo">
+				Sobre su cabello (que era del color del grano) llevaba un polos (tocado), un velo o una diadema; generalmente iba vestida con un chitón (túnica), un peplos (vestido) o una himation (túnica). Deméter solía aparecer sentada.
+			</p>
+			<p class="parrafo">
+				En el arte, se solía representar a Deméter sola, sin ningún consorte. Sin embargo, a veces también se la veía en compañía de su hija Perséfone o de Iasion, un joven mítico de Creta que era uno de sus consortes.
+			</p>
+			<p class="parrafo">
+				En Arcadia, existía un importante culto a Deméter Melaina ("Deméter Negra"), en el que se representaba a Deméter con la cabeza de un caballo.
+			</p>
+			<p class="parrafo">
+				Deméter también se distinguía por una serie de símbolos y parafernalia sagrada. Por ejemplo, a veces se sentaba en un carro tirado por un dragón. Sus animales sagrados eran serpientes y reptiles, cerdos y tórtolas; sus plantas sagradas eran el trigo, la cebada, la menta y la amapola.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Deméter, uno de los dioses del Olimpo, era hija de los titanes Cronos y Rea; entre sus hermanos estaban Zeus, Poseidón, Hades, Hera y Hestia. Liderados por Zeus, los hijos de Cronos y Rea consiguieron destronar a los Titanes tras una guerra de una década y convertirse en los gobernantes del cosmos.
+			</p>
+			<p class="parrafo">
+				Aunque Deméter nunca se casó, tuvo varios hijos. El más famoso de ellos fue Perséfone, hija de su hermano Zeus. Deméter también fue preñada por su hermano Poseidón, dando a luz a un caballo parlante llamado Arión (según algunas tradiciones) y/o a una diosa de la fertilidad llamada Despoine (según otras).
+			</p>
+			<p class="parrafo">
+				Deméter también tuvo un amante mortal llamado Iasion. Según esta historia, conocida por un puñado de fuentes antiguas, Deméter se acostó con Iasion en un campo tres veces arado durante la magnífica boda del héroe Cadmo y la hija de Ares, Harmonia. El celoso Zeus abatió rápidamente a Iasion con un rayo, pero Deméter ya estaba embarazada del mortal. Diferentes tradiciones nombran a sus hijos como Plutus, Philomelus y/o Corybas.
+			</p>
+			<p class="parrafo">
+				Deméter también estaba estrechamente relacionada con el dios Dionisio. Aunque en la mitología convencional Dioniso era hijo de la princesa tebana Sémele, algunos grupos religiosos lo consideraban hijo, nieto o consorte de Deméter. Esta versión de Dioniso se llamaba a veces Iacchus.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Aunque Hera era la reina de las deidades olímpicas y una figura estrechamente asociada a la maternidad y el matrimonio, Deméter era una encarnación más precisa de las cualidades amorosas, de cuidado y de crianza de la maternidad. Por ello, las historias de su progenie constituyeron la base de su mitología.
+			</p>
+			<p class="parrafo">
+				Deméter era uno de los seis hijos de los titanes Cronos y Rea. Junto con sus hermanos Hades, Hestia, Hera y Poseidón, Deméter fue engullida por Cronos, que temía una insurrección entre sus hijos (Cronos había derrocado a su propio padre y temía ser usurpado). Residió en el vientre del Titán hasta que Zeus obligó a Cronos a regurgitar a los niños. Una vez liberada, Deméter se unió a Zeus y sus aliados en la Titanomaquia, o guerra de los Titanes, y reinó junto a los demás olímpicos tras su victoria.
+			</p>
+			<p class="parrafo">
+				La mitología de Deméter se centró en gran medida en el secuestro y la liberación de su hija Perséfone. Todo comenzó cuando Hades, el dios del inframundo, vio por primera vez a la bella Perséfone y se enamoró de ella. Descendió sobre ella en su carro y se la llevó a sus dominios.
+			</p>
+			<p class="parrafo">
+				Devastada por la pérdida de su hija, y sin conocer el papel de Hades en su desaparición, Deméter partió en busca de la joven desaparecida. El segundo himno homérico, dedicado a Deméter, describe vívidamente la angustia de la madre en la búsqueda de su hija:
+			</p>
+			<p class="parrafo">
+				<i>"Un dolor amargo se apoderó de su corazón, y con sus queridas manos desgarró la cubierta de su divina cabellera: su oscuro manto se desprendió de sus dos hombros y corrió, como un pájaro salvaje, por la tierra firme y el mar que cedía, en busca de su hija. Pero nadie quiso decirle la verdad, ni los dioses ni los hombres mortales; y de los pájaros de mal agüero ninguno vino con noticias verdaderas para ella."</i>
+			</p>
+			<p class="parrafo">
+				Mientras Deméter buscaba por todas partes, visitó Eleusis bajo la apariencia de una anciana. Allí, la reina Metaneira y el rey Céleos la acogieron calurosamente y le dieron cobijo. A cambio, cuidó a su hijo enfermo, conocido como Demofonte en la mayoría de las versiones del mito.
+			</p>
+			<p class="parrafo">
+				Deméter se encariñó con el joven Demofonte y trató de quemar su mortalidad en la chimenea familiar. Pero este plan fracasó cuando Metaneira la descubrió y reaccionó con horror (una respuesta comprensible, aunque finalmente desastrosa). Deméter reprendió a Metaneira por su falta de comprensión; en la mayoría de las tradiciones, Demofonte estaba ahora condenado a morir como cualquier mortal ordinario, mientras que en otras tradiciones realmente murió como resultado del ritual fallido.
+			</p>
+			<p class="parrafo">
+				No obstante, Deméter se aseguró de que Eleusis se convirtiera en un importante centro de su culto. En el segundo himno homérico, la diosa da instrucciones detalladas para la construcción de un gran templo en su honor después de revelarse a Metaneira y Céleo. También enseñó los secretos de la agricultura al príncipe eleusino Triptólemo.
+			</p>
+			<p class="parrafo">
+				Mientras tanto, Deméter también descubrió lo que le había ocurrido a Perséfone. En la tradición más conocida, fue el Sol (Helios) quien finalmente le dijo a Deméter dónde encontrar a su hija. En otras tradiciones, sin embargo, fue la ninfa Aretusa o el pueblo de Hermione quienes dieron a Deméter la información que buscaba.
+			</p>
+			<p class="parrafo">
+				Cuando se enteró de que su hija había sido secuestrada por el sombrío dios de los muertos, Deméter se amargó y se retrajo. Su enorme desesperación hizo que las lluvias se detuvieran y las cosechas murieran en los campos.
+			</p>
+			<p class="parrafo">
+				Los demás olímpicos pronto se dieron cuenta de que debían aliviar el dolor de Deméter antes de que la sequía pusiera en peligro la vida humana. Para hacer frente a esta situación, Zeus envió a Hermes al Inframundo para ordenar el regreso de Perséfone. Aunque al principio Hades protestó, finalmente cedió y aceptó liberar a Perséfone siempre que no hubiera comido nada en el Inframundo. Desgraciadamente, Perséfone había comido unos cuantos granos de granada, por lo que se vio obligada a regresar al Inframundo anualmente durante un tercio o la mitad del año, según la versión de la historia que se cuente.
+			</p>
+			<p class="parrafo">
+				El mito de Perséfone es un mito etiológico, es decir, un mito que explica por qué el mundo es como es. Los antiguos creían que la época de la ausencia de Perséfone de Deméter coincidía con las estaciones más difíciles y peligrosas para la vida, ya sea el caluroso y seco verano mediterráneo, en el que la vida de las plantas estaba en peligro, o el otoño/invierno, en el que las temperaturas frías y las heladas detenían temporalmente el crecimiento agrícola.
+			</p>
+			<p class="parrafo">
+				En cualquier caso, la estacionalidad de la ausencia y el regreso de Perséfone a Deméter se convirtió en un elemento central de los Misterios de Eleusis, ya que simbolizaba los ciclos de la vida y la muerte que formaban parte no sólo de la agricultura, sino de toda la vida.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A DEMÉTER</h2>
+			<p class="parrafo">
+				El nombre de Deméter variaba según los dialectos regionales. El nombre por el que se la conoce hoy, Deméter, representa la forma ática Dēmētēr; la diosa era Damatēr en dórico y beocio y Dōmatēr en eólico. Una alternativa más corta a Deméter (en ático) era Deo.
+			</p>
+			<p class="parrafo">
+				El equivalente romano de Deméter se llamaba <a href="/dioses-romanos/juno">Ceres</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
