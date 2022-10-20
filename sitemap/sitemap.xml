@@ -25,13 +25,18 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://wikidioses.com/dioses-griegos/ares</loc>
-    <lastmod>2022-10-17T22:33:55+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
     <loc>https://wikidioses.com/dioses-griegos/afrodita</loc>
     <lastmod>2022-10-18T22:34:38+00:00</lastmod>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://wikidioses.com/dioses-griegos/ares</loc>
+    <lastmod>2022-10-17T22:33:55+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://wikidioses.com/dioses-griegos/hera</loc>
+    <lastmod>2022-10-20T18:13:34+00:00</lastmod>
+    <priority>0.64</priority>
   </url>
 </urlset>

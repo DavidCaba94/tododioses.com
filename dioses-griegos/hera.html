@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Hera, diosa de las mujeres - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Hera, diosa de las mujeres - Wiki Dioses">
+		<meta name="description" content="Hera era la reina de los olímpicos y la diosa griega de las mujeres, la maternidad y el matrimonio. Constantemente enfurecida por las infidelidades de su marido, era conocida por sus actos de venganza contra las numerosas amantes de Zeus.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/dioses-egipcios">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/dioses-nordicos">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/dioses-mayas">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/dioses-chinos">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/dioses-japoneses">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/dioses-hindues">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/dioses-celtas">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">HERA, DIOSA DE LAS MUJERES</h1>
+			<div class="imagen">
+				<img src="../img/hera.jpg" alt="Hera" title="Hera">
+			</div>
+			<p class="parrafo">
+				La fiel Hera era la diosa de las mujeres, la familia y el matrimonio. Esposa del poderoso Zeus, era la reina de las deidades olímpicas. Conocida como "de ojos de buey", "de arena dorada" y "de brazos blancos", Hera era también la patrona de la ciudad de Argos, en el Peloponeso; era aquí donde su culto en el mundo antiguo era más vibrante.
+			</p>
+			<p class="parrafo">
+				Hera era audaz, inteligente y poderosa, aunque era más conocida por sus características menos halagüeñas. Por encima de todo, Hera era una diosa celosa y vengativa que luchaba contra las infidelidades de su marido y se ensañaba (a menudo sin éxito) con sus numerosas amantes, tanto mortales como divinas. Al final, su constante cólera y su incapacidad para vengarse hablan con fuerza del lugar y la percepción de las mujeres en la antigua Grecia.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				El nombre "Hera" está directamente relacionado con la palabra griega contemporánea Hēra, que significa "protectora". La derivación más remota -obtenida a partir del análisis de la línea B, la escritura utilizada para escribir el griego micénico (la forma más antigua conocida de la lengua griega)- sugiere que "Hera" procede de palabras que significan "del año" o "de la estación" (similar a la antigua palabra griega hôrê, o "estación").
+			</p>
+			<p class="parrafo">
+				Los estudiosos han especulado además con que esta raíz micénica evolucionó a partir de la aún más antigua raíz protoindoeuropea de la palabra "señora" o "ama". Este cambio de "señora de las estaciones" a "protectora" significa la evolución de la deidad desde la época micénica (hacia el 1500 a.C.) hasta el periodo clásico de las ciudades-estado (hacia el 500 a.C.).
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Como diosa de todos los aspectos y etapas de la vida femenina en la antigua Grecia, Hera podía ser invocada bajo una variedad de epítetos, muchos de ellos contradictorios. Así, Hera era simultáneamente "doncella" (Pais), "novia" (Nympheuomenē), "esposa" (Teleia) y "viuda" (Chēra).
+			</p>
+			<p class="parrafo">
+				En su calidad de reina de los dioses, Hera era llamada a menudo Basileia ("reina").
+			</p>
+			<p class="parrafo">
+				Hera también poseía epítetos que hacían referencia a su belleza, como Leukōlenos ("brazos blancos") y Boōpis ("ojos de vaca" o "cara de vaca").
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Hera era venerada como diosa de las mujeres, el matrimonio y la maternidad, pero también como protectora de las ciudades y los jóvenes. Como esposa de Zeus, era la reina de los dioses olímpicos.
+			</p>
+			<p class="parrafo">
+				En su iconografía, Hera era representada generalmente con un peplos (un vestido o túnica sin mangas) y una himación (un manto). Su himatión solía cubrirle la cabeza como un velo. También se la representaba con una corona (pōlos o stephanē) y portando un cetro, un cuenco de libación (phialē) o una granada. Hera era representada a menudo en escenas de hierogamia ("matrimonio sagrado") junto a su marido/hermano Zeus.
+			</p>
+			<p class="parrafo">
+				En la Grecia primitiva, Hera era representada ocasionalmente de forma anicónica (es decir, sin imagen). En Argos, por ejemplo, se la representaba como una columna, y en la isla de Samos como una tabla.
+			</p>
+			<p class="parrafo">
+				Desde los primeros tiempos de la historia griega, Hera fue asociada con el ganado, de ahí su epíteto homérico de "ojos de vaca". En este sentido, Hera es comparable a la egipcia Hathor, diosa de la maternidad con cara de vaca. Hera también se asoció desde el principio con el pájaro cuco. En el mito se decía que Zeus había seducido a Hera en forma de cuco. En muchas de sus imágenes de culto, un cuco se sentaba encima del cetro de Hera.
+			</p>
+			<p class="parrafo">
+				A partir de la época helenística, era habitual representar a Hera montada en un carro tirado por pavos reales (aunque esta imagen sólo apareció después de las conquistas orientales de Alejandro Magno, ya que los pavos reales eran desconocidos en Grecia antes).
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Hera era hija de Cronos y Rea, titanes que derrocaron a las deidades primordiales Urano y Gea y se erigieron en gobernantes del universo. En total, Hera tenía cinco hermanos divinos entre los olímpicos: sus hermanas eran Hestia y Deméter, y sus hermanos eran Hades, Poseidón y Zeus. 
+			</p>
+			<p class="parrafo">
+				Una de las primeras experiencias de Hera fue ser engullida por su padre, Cronos, que estaba aterrorizado por una profecía que proclamaba que sus hijos le derrocarían (como había hecho con su propio padre). Finalmente, Zeus, el último de los hijos de Cronos y Rea, rescató a Hera y a los demás. Juntos, formaron el panteón olímpico para gobernar los reinos de los dioses y los hombres.
+			</p>
+			<p class="parrafo">
+				Tiempo después, Hera se casó con Zeus; estos matrimonios entre hermanos eran comunes entre las clases dirigentes de las sociedades antiguas (por ejemplo, en el antiguo Egipto), y esta realidad se reflejó también en sus mitologías. Aunque el matrimonio de los hermanos no siempre fue feliz, los esfuerzos de Hera hicieron que perdurara incluso en los momentos más difíciles. 
+			</p>
+			<p class="parrafo">
+				Juntos tuvieron varios hijos: Eileithyia, diosa de la maternidad y el parto; Hebe, diosa de la juventud; Hefesto, dios del fuego; y Ares, dios de la guerra (aunque en algunas tradiciones, Hefesto y Ares no tenían padre). En algunas fuentes, Hera también era llamada la madre de Angelos, Eleuteria (la personificación de la libertad), Eris (la personificación de la discordia), las Gracias (normalmente las hijas de Zeus por Temis), e incluso el monstruo Tifeo (no concebido con Zeus).
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Hera era una de las hijas menores de los titanes Cronos y Rea. En el momento de su nacimiento, Cronos gobernaba el cosmos. Pero al escuchar una profecía de que uno de sus hijos lo derrocaría, Cronos decidió tragarse a cada uno de ellos nada más nacer, incluida Hera. Sólo Zeus pudo escapar.
+			</p>
+			<p class="parrafo">
+				Cuando Zeus creció, engañó a su padre para que regurgitara a sus hermanos: Hestia, Deméter, Poseidón, Hades y Hera. Juntos, los hermanos se rebelaron contra Cronos y los Titanes. Tras una guerra de diez años, finalmente salieron victoriosos. Con Zeus como rey, se convirtieron en los dioses olímpicos (llamados así porque vivían en la cima del monte Olimpo).
+			</p>
+			<p class="parrafo">
+				Tras el fin de sus anteriores matrimonios con Metis y Temis, Zeus puso sus ojos en su bella hermana Hera. Pero Hera no cedió inmediatamente. Finalmente, Zeus consiguió seducirla transformándose en un cuco y acercándose a su ventana en una noche de lluvia. Al ver al pájaro tembloroso, Hera se apiadó de él y lo acogió en su seno. Cuando Zeus se reveló, Hera aceptó finalmente casarse con él.
+			</p>
+			<p class="parrafo">
+				Junto a Zeus, Hera tuvo varios hijos, entre ellos Ares, Eileithyia y Hebe. Curiosamente, estos nunca fueron considerados como los más importantes o logrados de los hijos de Zeus. Sus hijos de otras diosas o mujeres, como Apolo y Artemisa (sus hijos de Leto), Dionisio (su hijo de Sémele), o incluso Heracles (su hijo de Alcmena) fueron mucho más destacados entre los dioses.
+			</p>
+			<p class="parrafo">
+				A pesar de ser el parangón de la maternidad, Hera a veces tenía relaciones difíciles con sus hijos. Tal fue el caso de Hefesto, dios de la metalurgia y la artesanía. A menudo se dice que Hera concibió a Hefesto de forma independiente, sin pareja masculina ("inmaculadamente", como se conoce en el cristianismo). Lo hizo en un arrebato de celos, ya que estaba enfadada con Zeus por el nacimiento igualmente inusual y fantástico de Atenea.
+			</p>
+			<p class="parrafo">
+				Atenea fue concebida mediante la unión de Zeus con la titán Metis. Sin embargo, mientras Metis estaba embarazada, Zeus recibió una profecía que anunciaba su caída. Para evitar que esta profecía se hiciera realidad, Zeus decidió tragarse a Metis, de la misma manera que Cronos se había tragado a los hermanos de Zeus. Sin embargo, esto no impidió el nacimiento del hijo de Metis, ya que Atenea acabó saliendo de la frente de Zeus. A pesar de esta inusual circunstancia, Hera se sintió ofendida por el nacimiento de un hijo de su marido con otra mujer. Así, Hera decidió tener un hijo propio sin la participación de Zeus ni de ninguna otra deidad.
+			</p>
+			<p class="parrafo">
+				Desgraciadamente, Hefesto no era un dios especialmente guapo, y su aspecto chillón se relacionó a veces con su caída (literal) del Olimpo. Aunque Hefesto acabó por reunirse con los olímpicos, quedó gravemente herido por su caída. A partir de entonces, Hefesto fue conocido como el dios "cojo" o "con pies de palo", y a menudo fue representado como tal en las obras de arte.
+			</p>
+			<p class="parrafo">
+				Según algunas tradiciones, Hefesto quiso vengarse de su madre, responsable de su caída del cielo. Así, construyó una ingeniosa trampa para Hera, que consistía en un trono con cadenas invisibles atadas a él; cuando Hera se sentaba en este trono, quedaba repentinamente atada a él. Finalmente, fue liberada gracias a la intervención del nuevo dios Dionisio, que agasajó a Hefesto con vino y lo llevó de vuelta al Olimpo. Tras liberar a Hera, Hefesto se convirtió en el dios del fuego y de la forja.
+			</p>
+			<h2 class="subtitulo">HERA Y LA GUERRA DE TROYA</h2>
+			<p class="parrafo">
+				Hera desempeñó un papel fundamental en los orígenes de la Guerra de Troya. Las historias que rodean este famoso conflicto griego difieren ligeramente, pero la mayoría comienzan con un accidentado concurso de belleza. Para resolver una disputa entre Hera, Atenea y Afrodita sobre quién era la más bella, Zeus encargó a Paris, príncipe de Troya, que juzgara su aspecto de una vez por todas. 
+			</p>
+			<p class="parrafo">
+				Deseoso de zanjar la cuestión, las diosas se presentaron ante él sin ropa. A pesar de ello, Paris se negó a elegir una ganadora. Las diosas recurrieron entonces a los sobornos: Hera prometió poder político, mientras que Atenea prometió sabiduría y gloria. Sin embargo, fue Afrodita la que ofreció a Paris la mujer mortal más bella.
+			</p>
+			<p class="parrafo">
+				Paris eligió este último regalo, que resultó ser Helena, esposa del rey Menelao de Esparta. En cumplimiento de su promesa, Afrodita hizo que Helena fuera secuestrada y llevada a Troya, dando lugar a la chispa del famoso conflicto que se avecinaba.
+			</p>
+			<p class="parrafo">
+				Hera, que no perdona fácilmente, guardó un amargo resentimiento hacia Paris y los troyanos debido a los resultados desfavorables de la contienda. En el transcurso del largo conflicto, Hera prestó su considerable poder a los aqueos, la amplia coalición de griegos que incluía al agraviado rey Menelao, en su lucha contra los troyanos.
+			</p>
+			<p class="parrafo">
+				Hera, que no se caracteriza por la sutileza, también reclutó a Atenea, conspiró contra Ares (que defendía a los troyanos), inspiró a Aquiles y a los demás griegos con sus encantos e incluso luchó en combate abierto. Al describir la entrada de la diosa en la batalla, Homero escribió que "Hera tocó rápidamente a los caballos con el látigo, y se impuso a sí misma gimiendo sobre sus goznes las puertas del cielo".
+			</p>
+			<p class="parrafo">
+				En su jugada más astuta, Hera intentó engañar a Zeus, que prohibió a los dioses interferir en el conflicto. Primero lo sedujo y lo llevó a la cama, y luego convenció a Hipnos, la encarnación del sueño, de que mantuviera a Zeus dormido para que ella pudiera inmiscuirse en la guerra. Tras diez años de lucha, Troya fue saqueada por los griegos.
+			</p>
+			<p class="parrafo">
+				Pero aunque el bando de Hera había ganado, no podía atribuirse el mérito de la victoria. Sus intentos de cambiar el rumbo de la guerra de Troya fueron finalmente infructuosos.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A AFRODITA</h2>
+			<p class="parrafo">
+				En la antigua Grecia, Hera se llamaba Ἥρη (Hērē) o Ἥρα (Hēra). El equivalente romano de Hera era <a href="/dioses-romanos/juno">Juno</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
