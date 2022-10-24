@@ -1,2 +1,2 @@
-# tododioses.com
-tododioses.com
+# wikidioses.com
+wikidioses.com
