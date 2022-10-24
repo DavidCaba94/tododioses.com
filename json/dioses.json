@@ -15,6 +15,11 @@
         "url": "/dioses-griegos/ares"
     },
     {
+        "nombre": "Atenea",
+        "panteon": "grecia",
+        "url": "/dioses-griegos/atenea"
+    },
+    {
         "nombre": "Deméter",
         "panteon": "grecia",
         "url": "/dioses-griegos/demeter"

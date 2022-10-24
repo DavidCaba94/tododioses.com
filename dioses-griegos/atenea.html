@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Atenea, diosa de la guerra y la sabiduría - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Atenea, diosa de la guerra y la sabiduría - Wiki Dioses">
+		<meta name="description" content="Atenea era la diosa griega de la sabiduría, la artesanía y el tejido, y las artes de la guerra. La diosa patrona de Atenas, era una de las doce olímpicas y dio su favor y guía a muchos famosos héroes griegos.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">ATENEA, DIOSA DE LA GUERRA Y LA SABIDURÍA</h1>
+			<div class="imagen">
+				<img src="../img/atenea-header.webp" alt="Atenea" title="Atenea">
+			</div>
+			<p class="parrafo">
+				La sagaz Atenea era una de las doce principales deidades olímpicas y la diosa asociada a la sabiduría, la artesanía y la guerra. En la guerra -donde se la representaba con más frecuencia-, Atenea encarnaba la racionalidad, la táctica y la estrategia. La fría lógica de Atenea contrastaba directamente con la rabia, la violencia y la impulsividad de su hermano Ares.
+			</p>
+			<p class="parrafo">
+				Aunque Atenea era ampliamente venerada en todo el mundo griego, su culto era especialmente fuerte en Atenas, el centro intelectual de los griegos. Allí se conmemoraba a la diosa mediante la construcción de varios edificios públicos, entre ellos el famoso Partenón. Su prominencia en Atenas y en otros lugares sugiere que las características de sabiduría, previsión y racionalidad eran muy valoradas por el pueblo griego.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				Los estudiosos han debatido el origen del nombre "Atenea" desde la época de Platón; su diálogo Cratylus contenía una rara y larga discusión sobre la historia del nombre. Hablando a través de la figura de Sócrates, Platón atribuyó el origen del nombre a Homero, que lo había improvisado a partir de las palabras griegas nous ("mente") y dianoia ("inteligencia"). Como dijo Platón: "El hacedor de nombres [Homero] parece haber tenido una noción singular sobre ella, y de hecho la llama por un título aún más alto, 'inteligencia divina' (theou noēsis)".
+			</p>
+			<p class="parrafo">
+				Aunque la discusión de Platón sobre Homero proporciona alguna idea sobre la estimada reputación de Atenea, esta explicación de su nombre es casi ciertamente incorrecta. Según las mejores pruebas disponibles, el nombre "Atenea" está relacionado con Athēnai, el nombre griego de la ciudad de Atenas. 
+			</p>
+			<p class="parrafo">
+				En una especie de dilema del huevo o la gallina, los estudiosos han debatido si la ciudad fue nombrada por la diosa o la diosa por la ciudad; sin embargo, hoy en día se cree generalmente que la diosa Atenea tomó su nombre de la ciudad de Atenas. Probablemente por ello, la diosa no tiene un nombre individual en los primeros textos de la antigua Grecia (inscripciones micénicas de la Edad del Bronce), en los que se la llama simplemente a-ta-na po-ti-ni-ja-"Señora" o "Ama de Atenas".
+			</p>
+			<p class="parrafo">
+				Esta forma de nombrar no era infrecuente entre los antiguos politeístas, que a menudo nombraban a las divinidades según los lugares con los que se las asociaba más comúnmente. Por desgracia, el origen de la palabra Athēnai está rodeado de misterio: la raíz no es ni griega ni indoeuropea. Por tanto, el significado del nombre "Atenea" sigue sin estar claro.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				A Atenea se la llamaba de muchas maneras. Quizás su epíteto más común (que a veces funcionaba como nombre alternativo) era Palas. Los orígenes de este título son antiguos y oscuros y se entremezclaron mucho con el mito de Atenea (véase más adelante). 
+			</p>
+			<p class="parrafo">
+				Otros títulos importantes de Atenea eran Parthenos ("virgen"), Promachos ("la que lucha en el frente") y Erganē ("de los oficios"). En Atenas, la ciudad con la que estaba más íntimamente relacionada, Atenea solía llamarse simplemente "la diosa".
+			</p>
+			<p class="parrafo">
+				En la literatura, uno de los epítetos más comunes de Atenea era Glaukōpis, que suele traducirse como "de ojos brillantes" o "de ojos grises" (Glaukōpis deriva de las palabras griegas para "cara" y "búho", el pájaro de Atenea). A Atenea también se la llamaba con frecuencia Tritogeneia (que probablemente significa "nacida de Tritón"), un nombre que puede indicar que en algunas de las primeras versiones de su mito el dios del mar Tritón era su padre o padre adoptivo.
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				En el arte, Atenea era representada a menudo con una armadura completa. La cabeza de Medusa casi siempre formaba parte de esta armadura, expuesta en el peto de Atenea o en su escudo, la égida. Así, vestida para la guerra, Atenea podía ser vista en compañía de los héroes que amaba y apoyaba.
+			</p>
+			<p class="parrafo">
+				También se la representaba en compañía de olivos y búhos. De hecho, Atenea se asociaba más comúnmente con el búho inteligente y de ojos agudos (esta es probablemente la base del epíteto de Atenea Glaukōpis, explicado anteriormente).
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Según las mitologías más populares que la rodean, Atenea nació (o, quizás más exactamente, surgió) de la unión de Zeus y su primera esposa, Metis. Fue su única hija.
+			</p>
+			<p class="parrafo">
+				Poco después de que Metis se quedara embarazada, Zeus escuchó una profecía que predecía su caída a manos de su propio hijo. Temeroso de su inminente perdición, Zeus se tragó a Metis y a su hijo, al igual que su propio padre, Cronos, se había tragado a los hermanos y hermanas de Zeus: Cementerio, Hades, Hera, Hestia y Poseidón.
+			</p>
+			<p class="parrafo">
+				Sin embargo, el niño dentro de Metis no se negaría. Un día, Atenea surgió de repente de la frente de Zeus. Estaba completamente crecida, armada con una lanza y vestida con su armadura de batalla. Algunos relatos muestran a Hefesto, Prometeo u otra figura mítica haciendo de comadrona, abriendo la cabeza de Zeus con un hacha. Este momento se representaba habitualmente en el arte antiguo y ha sido objeto de obras más recientes.
+			</p>
+			<p class="parrafo">
+				A pesar del duro comienzo de su relación con Zeus, Atenea pronto se convirtió en su hija favorita. A menudo proporcionaba a su padre sabios consejos y asesoramiento que ayudaron al Olimpo a superar muchas dificultades.
+			</p>
+			<p class="parrafo">
+				Como diosa virgen, Atenea nunca se casó, ni tuvo amante, ni hijos.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				La mitología griega, especialmente la que rodea la fundación y la historia de Atenas, es rica en historias de Atenea. Si bien algunas figuras de la época micénica se asemejaban a Atenea en sus atributos esenciales, las concepciones tradicionales de Atenea evolucionaron durante el periodo clásico griego (490-323 a.C.). Posteriormente, los romanos la veneraron como la deidad Minerva. Su longevidad entre los griegos y los pueblos helenizados sugiere que admiraban mucho las cualidades de sabiduría, perspicacia y previsión con las que se asociaba a Atenea.
+			</p>
+			<p class="parrafo">
+				La historia de cómo Atenea adquirió el nombre adicional de Palas ya se perdió en la antigüedad; sin embargo, los griegos idearon mitos para explicar el doble nombre de Atenea. Hubo varias versiones de este mito etiológico (es decir, explicativo).
+			</p>
+			<p class="parrafo">
+				En una versión, Palas era una amiga íntima de la infancia de Atenea. Un día, mientras jugaban, Atenea mató a Palas por accidente. A ella se le rompió el corazón. Para honrar a su amiga muerta, tomó el nombre de Palas para sí misma. También talló una imagen de madera de Palas, llamada Paladio, que se decía que garantizaba la invencibilidad de la ciudad que la poseía (en varias tradiciones, se decía que el Paladio estaba en Troya o incluso en Roma).
+			</p>
+			<p class="parrafo">
+				En otra versión, Palas era uno de los gigantes contra los que luchaban los olímpicos en la Gigantomaquia. Tras matar a Pallas en el combate, Atenea lo desolló y usó su piel invulnerable como armadura.
+			</p>
+			<p class="parrafo">
+				En otra versión (aún más oscura) de la historia, el Palas en cuestión no era un gigante, sino el propio padre de Atenea (en esta tradición, aparentemente, Atenea no era hija de Zeus). Cuando Pallas intentó violar a Atenea, ésta lo mató y desolló.
+			</p>
+			<h2 class="subtitulo">ATENEA Y LA FUNDACION DE ATENAS</h2>
+			<p class="parrafo">
+				Un hilo conductor de los mitos de Atenea era cómo llegó a ser la patrona de la ciudad de Atenas. Un mito afirma que ella y Poseidón compitieron por el honor en los primeros días de la polis. Las dos deidades decidieron conceder un regalo a los atenienses y acordaron que un juez seleccionara el mejor (las fuentes no coinciden en la identidad del juez o jueces: algunos dicen que fue el rey de Atenas, otros que fueron los dioses olímpicos). 
+			</p>
+			<p class="parrafo">
+				En la mayoría de las versiones, Poseidón clavó su tridente en el suelo, desatando un torrente de agua salada como regalo. En las versiones romanas, trajo los primeros caballos a los atenienses. Atenea, por su parte, ofreció el primer olivo. Las aceitunas se convirtieron rápidamente en un alimento básico de la dieta ateniense, y el propio árbol se convirtió en la base del éxito económico de la ciudad en forma de lucrativas exportaciones de aceite. Atenea fue elegida como ganadora, inaugurando así una relación duradera entre la deidad y la ciudad. Poseidón, enfadado por haber perdido, inundó gran parte de la región circundante del Ática.
+			</p>
+			<p class="parrafo">
+				Conocida como Atenea Parthenos ("virgen"), evitó los enredos eróticos y las controversias sexuales que atrapaban a los demás dioses y diosas. Sin embargo, había una importante excepción a esta regla, que se basaba en la reputación de Atenea como fundadora y protectora de Atenas.
+			</p>
+			<p class="parrafo">
+				Había dos grandes versiones de este mito. En una de ellas, Hefesto intentó violar a Atenea, pero ella se apartó de su agresor, haciendo que éste eyaculara en su muslo. Atenea limpió su semilla con un mechón de lana y lo arrojó al suelo. Esta acción impregnó a Gea, la diosa de la tierra, que dio vida a Eritonio, uno de los primeros y legendarios gobernantes de Atenas. Erichthonius también se convertiría en una de las figuras centrales de los festivales atenienses que celebran los orígenes de la ciudad.
+			</p>
+			<p class="parrafo">
+				En otra versión de esta historia, Hefesto, reclamando su privilegio como comadrón con hacha de Atenea, persuadió a Zeus para que consintiera un matrimonio entre Atenea y él. Aunque se casaron, Atenea se alejó del lecho matrimonial y dejó que Hefesto eyaculara en el suelo. Al igual que en la otra versión de este mito, su semilla impregnó a Gea y dio lugar a la concepción de Erichthonius.
+			</p>
+			<p class="parrafo">
+				A partir de aquí, la historia serpentea en direcciones inesperadas. Una vez nacido Erictonio, Atenea lo colocó en un cofre y se lo confió a las tres hijas de Cecrops -Herse, Pandrosus y Aglaurus- diciéndoles que no miraran dentro. Cuando la curiosidad se apoderó de ellas, las hermanas abrieron el recipiente y encontraron una serpiente enroscada.
+			</p>
+			<p class="parrafo">
+				Otras historias afirmaban que había un niño custodiado por una serpiente en el cofre, o que las piernas del niño se habían transformado en la cola de una serpiente. Posteriormente, las hermanas fueron atacadas y asesinadas por la serpiente o, en otras versiones, se volvieron locas por la horrible visión y se arrojaron desde la Acrópolis, la fortaleza de la colina de Atenas.
+			</p>
+			<p class="parrafo">
+				En las representaciones artísticas, Atenea aparecía a veces junto a la serpiente. La leyenda pronto estableció a esta serpiente como protectora de Atenas.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A ATENEA</h2>
+			<p class="parrafo">
+				El nombre de Atenea se translitera a veces como Atenea [uh-THEE-nee] en lugar de Atenea. Los antiguos griegos también llamaban a la diosa Palas Atenea o simplemente Palas.
+			</p>
+			<p class="parrafo">
+				Su homóloga romana era  <a href="/dioses-romanos/minerva">Minerva</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>

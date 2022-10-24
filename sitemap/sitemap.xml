@@ -1,47 +1,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://wikidioses.com/</loc>
-    <lastmod>2022-10-17T18:34:38+00:00</lastmod>
+    <lastmod>2022-10-24T17:58:55+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/panteon-griego</loc>
-    <lastmod>2022-10-17T18:34:40+00:00</lastmod>
+    <lastmod>2022-10-24T17:59:01+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/panteon-romano</loc>
-    <lastmod>2022-10-17T18:34:43+00:00</lastmod>
+    <lastmod>2022-10-24T17:59:05+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/dioses-griegos/zeus</loc>
-    <lastmod>2022-10-17T18:34:47+00:00</lastmod>
+    <lastmod>2022-10-24T17:59:22+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/dioses-griegos/poseidon</loc>
-    <lastmod>2022-10-17T18:34:47+00:00</lastmod>
+    <lastmod>2022-10-24T17:59:22+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/dioses-griegos/afrodita</loc>
-    <lastmod>2022-10-18T22:34:38+00:00</lastmod>
+    <lastmod>2022-10-24T17:59:21+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/dioses-griegos/demeter</loc>
-    <lastmod>2022-10-20T18:50:11+00:00</lastmod>
+    <lastmod>2022-10-24T17:59:22+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/dioses-griegos/ares</loc>
-    <lastmod>2022-10-17T22:33:55+00:00</lastmod>
+    <lastmod>2022-10-24T17:59:21+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://wikidioses.com/dioses-griegos/hera</loc>
-    <lastmod>2022-10-20T18:13:34+00:00</lastmod>
+    <lastmod>2022-10-24T17:59:22+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://wikidioses.com/dioses-griegos/atenea</loc>
+    <lastmod>2022-10-24T18:32:34+00:00</lastmod>
     <priority>0.64</priority>
   </url>
 </urlset>
