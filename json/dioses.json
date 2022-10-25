@@ -20,6 +20,11 @@
         "url": "/dioses-griegos/ares"
     },
     {
+        "nombre": "Artemisa",
+        "panteon": "grecia",
+        "url": "/dioses-griegos/artemisa"
+    },
+    {
         "nombre": "Atenea",
         "panteon": "grecia",
         "url": "/dioses-griegos/atenea"

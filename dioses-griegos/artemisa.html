@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Artemisa, diosa de la caza - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Artemisa, diosa de la caza - Wiki Dioses">
+		<meta name="description" content="Artemisa era la diosa griega virginal de la caza y los lugares salvajes. Olímpica y hermana gemela de Apolo, rehuía la compañía de otras deidades griegas y defendía ferozmente su castidad.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">ARTEMISA, DIOSA DE LA CAZA</h1>
+			<div class="imagen">
+				<img src="../img/artemisa.jpg" alt="Artemisa" title="Artemisa">
+			</div>
+			<p class="parrafo">
+				La encantadora Artemisa del bosque era una diosa virgen del panteón olímpico: protectora de la caza, guardiana de los bosques vírgenes y campeona de las madres y las doncellas. A diferencia de su hermano gemelo Apolo, que representaba la razón y el orden, Artemisa significaba los aspectos salvajes e indómitos de la vida humana.
+			</p>
+			<p class="parrafo">
+				Mientras que el gregario Apolo se deleitaba en la conversación y trataba de dominar las artes civilizadas, Artemisa merodeaba por los bosques y las colinas, se relacionaba con los animales y, en general, evitaba la compañía de las demás deidades griegas. Al mismo tiempo, Artemisa -al igual que Apolo- tenía una combinación única de características que la hicieron muy popular entre los griegos. Sus templos estaban repartidos por todo el mundo griego.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				Las especulaciones sobre la etimología del nombre "Artemisa" comenzaron en la antigüedad. En el Cratylus, Platón atribuyó el origen del nombre a la palabra griega artemēs, que significa "pura" o "sin mancha". Aunque se trata de una teoría tentadora -las palabras son similares y la cualidad de la pureza capta muy bien la naturaleza de Artemisa-, lo más probable es que sea demasiado simple para ser cierta. La mayoría de los estudiosos y lingüistas consideran hoy que la interpretación de Platón es una etimología popular.
+			</p>
+			<p class="parrafo">
+				La búsqueda de los orígenes del nombre de Artemisa se hace aún más difícil por el hecho de que no hay un consenso claro sobre su antigüedad. Algunos estudiosos han sugerido que el nombre "Artemisa" aparece en los primeros textos griegos, equiparando a la diosa de la caza con a-te-mi-to o a-te-mi-te en la escritura lineal B (el sistema de escritura en uso ca. 1600-1100 a.C., antes del desarrollo del alfabeto griego). Si esto es correcto, significaría que Artemisa era conocida y venerada en Grecia desde los primeros tiempos. Sin embargo, todavía se discute si Artemisa y a-te-mi-to/a-te-mi-te se refieren a la misma entidad.
+			</p>
+			<p class="parrafo">
+				Aunque no existe una etimología ampliamente consensuada para "Artemisa", varias hipótesis han ganado popularidad. Según algunos, el nombre de Artemisa está relacionado con la palabra griega arktos, que significa "oso" (del protoindoeuropeo *h₂ŕ̥tḱos). De hecho, Artemisa estaba estrechamente relacionada con el culto a los osos en el Ática y a menudo se la representaba junto a ellos (así como a otros animales, como ciervos, jabalíes y perros de caza).
+			</p>
+			<p class="parrafo">
+				Otros han sugerido que el nombre es de origen asiático, citando similitudes entre Artemisa y diosas asiáticas como Artimus (en Lidia) y Ertemi (en Licia).
+			</p>
+			<p class="parrafo">
+				Robert S. P. Beekes, por su parte, ha llegado a la conclusión de que el nombre de Artemisa tiene un origen casi seguro pregriego.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Entre los epítetos más importantes de Artemisa estaban agrotera ("la de la caza"), keladeinē ("de voz fuerte") y parthenos ("virgen"). Al igual que su hermano Apolo, Artemisa también ostentaba muchos epítetos relacionados con la arquería. Entre ellos, hekatēbolos y hekatē ("tirador lejano"), hekaergē ("trabajador lejano") y iocheaira ("la de las flechas que llueven"). Artemisa también tenía muchos epítetos relacionados con sus funciones rituales o lugares de culto, como Delia ("Deliana", en referencia a la isla donde nacieron ella y Apolo), sōteira ("salvadora"), phōsphoros ("portadora de luz") y eileithyia (en su calidad de diosa del parto).
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Los dominios principales de Artemisa eran la caza y todos los aspectos de la iniciación (especialmente la femenina). 
+			</p>
+			<p class="parrafo">
+				Artemisa ofrecía algo para casi todo el mundo. Entre los cazadores y los rústicos, era la fuente del crecimiento cíclico. Era ella quien controlaba los ritmos de la naturaleza y los caprichos de las criaturas que la habitaban. Para las doncellas y los jóvenes, era un faro de inocencia y castidad. Para las madres, era un símbolo de fecundidad y salud, así como una partera para sus bebés (al igual que Eileithyia, con la que a veces se la confundía). 
+			</p>
+			<p class="parrafo">
+				Artemisa también presidía los ritos de iniciación y el paso de las mujeres (pero también de los hombres) de una etapa de la vida a otra (de la infancia a la edad adulta, de la virginidad al matrimonio, del matrimonio a la paternidad, etc.).
+			</p>
+			<p class="parrafo">
+				La propia Artemisa era una diosa virgen, en muchos sentidos más varonil que afeminada. Era conocida por recorrer las montañas y los bosques en busca de caza. En el arte, Artemisa se mostraba a menudo con una túnica corta de cazadora y portando un arco o una lanza. Su séquito estaba formado por ninfas y animales salvajes.
+			</p>
+			<p class="parrafo">
+				Los símbolos de Artemisa incluían sus armas y equipos de caza (el arco y la flecha o la lanza); sus animales sagrados, como el ciervo, el jabalí y el oso; y sus plantas sagradas, como el ciprés y la palmera. En el arte y la literatura posteriores, Artemisa pasó a asociarse con la luna (complementando a su hermano Apolo, asociado con el sol).
+			</p>
+			<p class="parrafo">
+				La representación común de Artemisa es la de una joven y bella virgen, vestida para la caza. Sin embargo, existe una importante variación local. En Éfeso (una ciudad griega en la costa de la actual Turquía), Artemisa se identificaba con una diosa de la fertilidad llamada "Dama de Éfeso" o "Artemisa de Éfeso". Las estatuas de culto de esta Artemisa eran muy diferentes de las de la Artemisa más conocida, y mostraban a la diosa ataviada con elaboradas joyas, tocados y -lo más llamativo de todo- con pequeños óvalos que cubrían la parte superior de su cuerpo. Estos óvalos parecen simbolizar la fertilidad; se han interpretado como pechos, huevos o bolsas escrotales.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Artemisa era hija de Zeus y del titán Leto. A través de Zeus, tuvo docenas de medio hermanos, aunque su único hermano completo fue su hermano gemelo, <a href="/dioses-griegos/apolo">Apolo</a>. Como una de las diosas vírgenes, Artemisa no tuvo hijos.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				El nacimiento de Artemisa y Apolo estuvo lleno del drama que tanto caracteriza a la mitología griega. La madre de Artemisa, Leto -hija a su vez de los titanes Coeus y Febe- fue una de las muchas amantes de Zeus. Cuando se quedó embarazada de Zeus, éste ya estaba casado con su hermana Hera, que era notoriamente propensa a los celos.
+			</p>
+			<p class="parrafo">
+				Como era de esperar, el estado de Leto despertó la furia de Hera, que amenazó a cualquier persona o tierra que albergara a Leto. Según algunas tradiciones, Hera incluso envió a su hijo Ares a perseguir a Leto mientras ésta vagaba por el mundo buscando un lugar para dar a luz. En otras tradiciones, fue el monstruo Pitón a quien Hera envió a perseguir a Leto.
+			</p>
+			<p class="parrafo">
+				Abandonada por los dioses, Leto siguió vagando hasta que encontró refugio en una pequeña y olvidada isla llamada Delos. Allí Leto se preparó para tener a sus gemelos, pero Hera aún no había terminado con ella. Cuando Leto se puso de parto, Hera impidió que Eileithyia, su hija y diosa de la partería, atendiera a Leto. Tras un largo y doloroso parto (que duró hasta nueve días, según algunas fuentes), Leto consiguió dar a luz a los brillantes gemelos Artemisa y Apolo.
+			</p>
+			<p class="parrafo">
+				Según algunas tradiciones, Artemisa fue la primera de los gemelos en nacer y de hecho ayudó a su madre a dar a luz a Apolo. Esto habría representado la primera incursión de Artemisa en su función de diosa del parto.
+			</p>
+			<p class="parrafo">
+				Aunque la mayoría de las fuentes antiguas coinciden en que Apolo y Artemisa nacieron en Delos, en la antigüedad circularon otras versiones. Algunos afirmaban que el verdadero lugar de nacimiento de Artemisa era la arboleda de Ortigia, cerca de Éfeso, una región de Asia Menor; otros decían que era Creta.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A ARTEMISA</h2>
+			<p class="parrafo">
+				La homóloga romana de Artemisa se llamaba <a href="/dioses-romanos/diana">Diana</a>. Los griegos y los romanos se referían a veces a Artemisa como Febe, aunque no se convirtió en un nombre o epíteto alternativo común hasta un periodo histórico relativamente tardío.
+			</p>
+			<p class="parrafo">
+				A veces se identificaba a Artemisa con otras deidades, especialmente con Hécate (una diosa de los límites y la brujería) y Eileithyia (la diosa del parto). "Hécate" y "Eileithyia" figuraban también entre los epítetos de Artemisa. Más tarde -es decir, durante el periodo helenístico (323 a.C.-31 a.C.) y el periodo imperial (después del 31 a.C.)-, Artemisa se identificó cada vez más con la luna y con la diosa lunar Selene.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
