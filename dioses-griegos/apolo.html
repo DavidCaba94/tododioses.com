@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Apolo, dios de la música - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Apolo, dios de la música - Wiki Dioses">
+		<meta name="description" content="Apolo era un poderoso dios griego y uno de los doce olímpicos. A menudo representado con una lira en la mano, era el patrón de la música, la poesía, la medicina y la profecía, así como el ideal de la belleza masculina.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">APOLO, DIOS DE LA MÚSICA</h1>
+			<div class="imagen">
+				<img src="../img/apolo.jpg" alt="Apolo" title="Apolo">
+			</div>
+			<p class="parrafo">
+				Hijo de Zeus y de la titana Leto, Apolo formó parte de la segunda generación de olímpicos. Su hermana gemela era Artemisa, diosa de la naturaleza y la caza. Uno de los principales dioses del panteón griego -y posiblemente el más querido-, Apolo era el patrón de la música, la poesía y la inspiración artística. También se le celebraba como patrón de los oráculos, dador de dones proféticos, portador del orden y la razón, y fuente de curación y artes médicas. Pero Apolo también tenía características más oscuras. Era conocido por propagar la peste con sus flechas. También imponía duros castigos a quienes se cruzaban con él.
+			</p>
+			<p class="parrafo">
+				Apolo era el arquetipo de la juventud griega. Se le suele representar con un kouros, una estatua de un joven imberbe que suele llevar una lira o un arco y una flecha. Adorado en el mundo griego y fuera de él, Apolo hizo construir decenas de templos y santuarios en su honor, incluido el famoso santuario oracular de Delfos. Según el mito, fue en Delfos donde Apolo luchó y mató a la monstruosa serpiente Pitón. Apolo fue conmemorado no sólo en una rica mitología, sino también en estatuas y canciones conocidas como paeans; mientras que algunas han sobrevivido, otras viven sólo en la reputación.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				Como la mayoría de las deidades griegas, la etimología del nombre "Apolo" tiene un origen misterioso. No aparece en las tablillas lineales B, los textos más antiguos que se conservan de la civilización griega, escritos en escritura silábica durante la Edad de Bronce griega (ca. 1600-1100 a.C.). Sin embargo, esto no significa necesariamente que Apolo fuera una adición tardía al panteón griego: el nombre Paean, uno de los nombres alternativos más comunes de Apolo, sí aparece en el Lineal B.
+			</p>
+			<p class="parrafo">
+				Algunos estudiosos han postulado que el nombre "Apolo" es una derivación de apella, una palabra del dialecto dórico del griego antiguo que significa "asamblea pública". De hecho, la forma dórica del nombre del dios es "Apellon". En esta interpretación, "Apolo" se traduce como "el que reúne" o "el de la asamblea", posiblemente refiriéndose a su reputación como portador del orden civilizado y fuente de las constituciones civiles.
+			</p>
+			<p class="parrafo">
+				Por otro lado, Gregory Nagy ha argumentado que "Apolo" deriva de las palabras apeilē, un sustantivo que significa "promesa, jactancia o amenaza", y apeilein, un verbo que significa "hacer una promesa, jactancia o amenaza". Esta etimología convertiría a Apolo en "el dios de la palabra autorizada, el que preside todo tipo de actos de habla, incluidos los ámbitos de la creación de canciones en general y de la poesía en particular".
+			</p>
+			<p class="parrafo">
+				Otras etimologías populares del nombre lo relacionan con el verbo apollynai ("destruir"), pero también con palabras como apolysis ("redención"), apolousis ("purificación"), haploun ("simple", "sencillo") y aei ballōn ("siempre disparando").
+			</p>
+			<p class="parrafo">
+				También se han propuesto varias etimologías indoeuropeas. Algunos estudiosos, por ejemplo, han señalado la similitud entre el Apolo griego y el Apaliunas hitita, otro nombre de Aplu (el dios de la peste). En la lengua luwiana, hablada en la antigua Anatolia (la actual Turquía), el nombre Apaliunas parece haber significado "el de la trampa" o "cazador". Si el Apolo griego se originó como el Apaliunas hitita, entonces el nombre de Apolo puede haber derivado de su papel como cazador.
+			</p>
+			<p class="parrafo">
+				Sin embargo, Robert S. P. Beekes ha rechazado todas estas etimologías, insistiendo en un origen pregriego del nombre.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Las diversas funciones de Apolo se reflejaban en sus numerosos epítetos. Además de títulos como Paean, Phoebus, Loxias y Lyceus, que a veces servían como nombres alternativos para el dios (véase más arriba), Apolo también era llamado hekēbolos ("tirador lejano"), hekaergos ("trabajador lejano"), epikourios ("asistente"), oulious ("sanador"), loimios ("pestilente") y alexikakos ("disuasor de enfermedades"). 
+			</p>
+			<p class="parrafo">
+				Otros epítetos, como Dēlios ("délico"), Pythios ("pitón") y Smintheus ("esmíntico") se refieren a lugares de culto considerados sagrados para Apolo.
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Como dios, Apolo se asociaba principalmente con la profecía, la música y todo lo bello. Pero también se le consideraba el dios de la medicina y la peste, la ganadería, la colonización y la virtud. 
+			</p>
+			<p class="parrafo">
+				Apolo era visto como el símbolo del orden universal y estético, la civilización y la razón. Como tal, castigaba a los malvados y a los prepotentes. 
+			</p>
+			<p class="parrafo">
+				En las artes, Apolo representaba la armonía y el orden, mientras que Dionisio, el otro patrón divino de las artes, se deleitaba con el éxtasis y el caos. Esto llevó a emparejar lo "apolíneo" y lo "dionisíaco" como los dos polos opuestos de la creación artística (una oposición que hizo especialmente famosa el filósofo y filólogo alemán del siglo XIX Friedrich Nietzsche).
+			</p>
+			<p class="parrafo">
+				Desde la más remota antigüedad, Apolo fue representado tanto en el arte como en la literatura como eternamente joven y apuesto, con mechones de pelo radiante, la cara bien afeitada y un físico atlético pero no excesivamente musculoso. El dios se identificaba normalmente con un arco o un instrumento musical (normalmente una lira, pero a veces un instrumento de cuerda más especializado llamado cítara).
+			</p>
+			<p class="parrafo">
+				Los símbolos de Apolo eran muchos. Además del arco, la lira y la cítara, Apolo también estaba representado por el trípode, una estructura alta de tres patas (a veces elaboradamente decorada) utilizada para los sacrificios y los rituales religiosos. Este objeto representaba a Apolo en su función de dios de la profecía. El "trípode de Delfos" era el famoso trípode en el que las sacerdotisas de Apolo en Delfos se sentaban y pronunciaban las profecías del dios.
+			</p>
+			<p class="parrafo">
+				Los símbolos de Apolo también incluían plantas sagradas, como la palmera (el árbol bajo el que se suele decir que nació), el laurel (cuyas hojas coronaban a los honrados por Apolo) y el ciprés.
+			</p>
+			<p class="parrafo">
+				Por último, los símbolos de Apolo incluían una serie de animales sagrados. Entre los más importantes estaban los cisnes y las cigarras (que simbolizaban la música y el canto); los cuervos, los halcones y las cornejas (sus mensajeros); las serpientes (relacionadas con la profecía); y los lobos, los delfines, los ciervos, los ratones y los grifos.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Apolo era hijo de Zeus y de la titán Leto, que les dio a luz a él y a su hermana gemela Artemisa en circunstancias difíciles. Apolo también tuvo innumerables hermanastros (producto de los matrimonios y aventuras de Zeus con diversos mortales e inmortales). Entre ellos estaban los dioses Atenea, Ares, Artemisa, Hermes y Dionisio, así como los héroes mortales Heracles, Minos y Perseo.
+			</p>
+			<p class="parrafo">
+				Apolo tuvo muchas amantes, tanto femeninas como masculinas, pero nunca se casó. Entre las amantes femeninas de Apolo se encontraban una serie de princesas mortales, ninfas e incluso las nueve Musas. El más famoso de los amantes masculinos de Apolo fue Jacinto, que murió trágicamente. Sin embargo, no todos los amores de Apolo fueron correspondidos: la ninfa Dafne y la princesa troyana Casandra, por ejemplo, se resistieron a los avances de Apolo y acabaron sufriendo por ello.
+			</p>
+			<p class="parrafo">
+				Con tantas amantes, es natural que Apolo tuviera muchos hijos. Entre ellos, Asclepio, que llegó a ser un médico con habilidades que superaban las del propio Apolo; Ion, el antepasado y homónimo de los griegos jónicos; y Aristeo, un dios de la agricultura. Apolo también engendró a varias figuras que dieron nombre a ciudades de todo el mundo griego (Delfos, Mileto, Tenes, Epidauro, etc.), así como a varios oráculos (Apis, Idmón, Tenerus, etc.).
+			</p>
+			<p class="parrafo">
+				En las tradiciones menos extendidas, Apolo también se llamaba a veces el padre de Anfiaro, uno de los Siete contra Tebas; Troilo, un príncipe troyano; el gran músico Orfeo; y el monstruo Escila.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				La mitología de Apolo comenzó con su notable nacimiento de la unión de Zeus y Leto (la hija de los titanes Coeus y Phoebe). Leto quedó embarazada de Zeus con gemelos mientras él estaba casado con Hera. Cuando Hera lo descubrió, hizo todo lo posible para tratar de impedir que Leto diera a luz. Según el poeta del siglo III a.C. Calímaco, Hera incluso envió a su hijo Ares para que amenazara a cualquier persona o ciudad que recibiera a Leto con la destrucción total.
+			</p>
+			<p class="parrafo">
+				Al final, Leto llegó a Delos, una pequeña y estéril isla del mar Egeo. Según algunas fuentes, fue el propio Apolo, susurrando a su madre desde el interior del vientre, quien le dijo a Leto que buscara refugio en esta isla. Desesperada por encontrar alivio a sus dolores de parto, Leto se dirigió a la isla, rogándole que la dejara dar a luz allí y prometiéndole que, si se le concedía esta bondad, Apolo construiría algún día un gran templo en la aparentemente poco impresionante isla.
+			</p>
+			<p class="parrafo">
+				Delos, sabiendo que no tenía dones naturales que ofrecer, aceptó con alegría las condiciones de Leto. Así, Leto dio a luz a los gemelos Apolo y Artemisa en la isla, y a cambio Delos se convirtió en uno de los lugares sagrados de Apolo.
+			</p>
+			<p class="parrafo">
+				Tras un largo y doloroso parto (que Hera alargó impidiendo que su hija Eileithyia, la diosa del parto, asistiera a Leto), finalmente nacieron Apolo y Artemisa. El joven Apolo fue entonces envuelto en resplandecientes ropas y alimentado con néctar y ambrosía por Temis, la diosa de la ley y el orden. Apolo creció rápidamente; según el tercer himno homérico, apenas nació y se alimentó, anunció para que todos lo oyeran "La lira y el arco curvo me serán siempre queridos, y declararé a los hombres la infalible voluntad de Zeus".
+			</p>
+			<p class="parrafo">
+				Según muchas fuentes, Delos era una isla errante antes de que Apolo y Artemisa nacieran en ella; como Leto, vagaba por el mundo sin un lugar al que llamar propio. Pero tras el nacimiento de los dioses gemelos, Delos se arraigó a su lugar. Quedaría fijada para siempre como la isla sagrada de Apolo.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A APOLO</h2>
+			<p class="parrafo">
+				Apolo se llamaba a menudo "Paean", un nombre que enfatizaba su función ritual como dios de la curación y la protección. Se trataba de un nombre muy antiguo, quizá incluso más que el nombre de Apolo.
+			</p>
+			<p class="parrafo">
+				Otro nombre alternativo para Apolo era Phoebus, uno de los epítetos más populares del dios. Muchas fuentes antiguas llaman al dios "Phoebus Apollo" o incluso sólo "Phoebus". Los romanos, por ejemplo, se referían al dios como "Phoebus" al menos tan a menudo como se referían a él como "Apolo".
+			</p>
+			<p class="parrafo">
+				Otros nombres utilizados habitualmente para identificar a Apolo son "Loxias" (en referencia a los ambiguos oráculos del dios, llamados loxia) y "Lyceus" (una palabra que evoca simultáneamente la luz, los lobos y la región de Licia). 
+			</p>
+			<p class="parrafo">
+				Su homólogo romano era también <a href="/dioses-romanos/apolo">Apolo</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
