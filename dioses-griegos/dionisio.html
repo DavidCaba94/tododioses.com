@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Dionisio, dios del vino y la fiesta - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Dionisio, dios del vino y la fiesta - Wiki Dioses">
+		<meta name="description" content="Dionisio era el dios griego del vino y la fiesta, la pasión y la fertilidad. Es una de las deidades más veneradas del panteón y sus fiestas se caracterizan por la embriaguez y el éxtasis religioso.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">DIONISIO, DIOS DEL VINO Y LA FIESTA</h1>
+			<div class="imagen">
+				<img src="../img/dionisio.jpg" alt="Dionisio" title="Dionisio">
+			</div>
+			<p class="parrafo">
+				Dionisio, dios del vino y la vinificación, la pasión y la fertilidad, la música y la danza, representaba los aspectos espontáneos y desenfrenados de la experiencia humana. Conocido como Eleuterio (el "liberador"), Dionisio producía estados de euforia que liberaban a sus seguidores tanto de las limitaciones de la sociedad como de sus propias inhibiciones. Dondequiera que la música inspirara la danza, donde el vino llevara a la juerga, donde la religión provocara el éxtasis, se pensaba que Dionisio estaba actuando.
+			</p>
+			<p class="parrafo">
+				Dioniso se adaptó a las tradiciones religiosas de los pueblos no griegos del gran mundo mediterráneo. Aunque se le reconocía como extranjero, Dioniso seguía siendo ampliamente venerado dentro de la sociedad griega. Tal vez más que cualquier otra deidad del panteón olímpico, Dioniso reflejó la amplia mezcla de diferentes tradiciones religiosas en la antigua Grecia. En el mundo romano siguió viviendo bajo el nombre de <a href="/dioses-romanos/baco">Baco</a>, y algunos aspectos de él han sobrevivido también en otras religiones de Oriente Próximo, incluido el cristianismo.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				El nombre de Dionisio aparece por primera vez en tablillas micénicas del siglo XII o XIII antes de Cristo. Escrito originalmente en una escritura llamada Lineal B, anterior al alfabeto griego, el nombre aparece en estas tablillas como di-wo-nu-so. No hay consenso en cuanto al significado exacto, pero la mayoría de los filólogos creen que la palabra tiene su origen en Dios, la forma posesiva (genitivo) del nombre "Zeus". 
+			</p>
+			<p class="parrafo">
+				La última parte de su nombre puede derivar del monte Nysa, donde se cree que el niño Dionisio fue criado por las ninfas, conocidas como las Nísidas. En conjunto, "Dioniso" probablemente significaba algo así como "el Zeus de Nysa" o "de Zeus y Nysa".
+			</p>
+			<p  class="parrafo">
+				Sin embargo, también se han sugerido otras etimologías para el nombre de Dionisio, y los estudiosos no se ponen de acuerdo sobre cuál es la más precisa. Robert Beekes, argumentando que todos los intentos de rastrear el nombre hasta las lenguas indoeuropeas han resultado dudosos, ha sugerido un origen pregriego.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Además de sus nombres alternativos, Dionisio también tenía una serie de epítetos. Los más importantes eran Eleutherios ("liberador"), Bromios ("rugiente") y Baccheios ("juerguista").  A veces se llamaba a Dioniso Dimētōr ("nacido dos veces"), en alusión al mito de su doble nacimiento (primero de Sémele y luego de Zeus).
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Como dios, Dioniso se asociaba principalmente con el vino y la embriaguez, pero también con el éxtasis y la inspiración, el teatro y las artes, y el más allá. En estos cuatro ámbitos -el vino, el éxtasis, el arte y el más allá- era donde más se sentía la presencia de Dioniso.
+			</p>
+			<p class="parrafo">
+				Quizá más que cualquier otra figura de la mitología griega, Dioniso difuminó los límites naturales, sociales y culturales de su mundo. En el arte, la literatura y el culto, Dioniso era imaginado como humano y animal, masculino y afeminado, joven y maduro. 
+			</p>
+			<p class="parrafo">
+				Dioniso aparecía en el arte antiguo más que cualquier otra deidad griega. Suele aparecer en compañía de animales o criaturas semianimales, como sátiros y silenos, así como de mujeres salvajes o intoxicadas, como ménades o ninfas. El propio Dionisio se mostraba muy a menudo montado sobre felinos salvajes, como leopardos, leones y panteras.
+			</p>
+			<p class="parrafo">
+				Dioniso y los asociados a él solían llevar el thyrsus, un bastón rematado con una piña. Otros símbolos de Dionisio eran las uvas o el vino, las serpientes y el falo.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Según la tradición más conocida, Dioniso era hijo de Zeus y Sémele, una princesa tebana. Otras fuentes, sin embargo, le asignan diferentes madres, como Arge, Deméter, Dione o Perséfone.
+			</p>
+			<p class="parrafo">
+				Dioniso tuvo hijos con muchas mujeres, tanto mortales como divinas. Su relación más productiva y famosa fue con Ariadna, princesa de Creta e hija del legendario rey Minos. Dioniso y Ariadna tuvieron muchos hijos, algunos de los cuales se convirtieron en héroes menores o en reyes.
+			</p>
+			<p class="parrafo">
+				Dioniso tuvo varios hijos más, aunque ninguno de ellos alcanzó la misma fama cultural que los hijos de Zeus o Poseidón. Entre estos hijos se encontraban Príapo, un dios vegetal caracterizado por su llamativo falo; Iacco y Sabazio, misteriosos dioses asiáticos considerados a veces como una sola persona o incluso equiparados al propio Dioniso; Methe, la personificación de la embriaguez; y Telete, la personificación de la iniciación. En algunos relatos, Dioniso era también el padre de las Gracias.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Aunque en la antigüedad circularon muchas versiones diferentes sobre el nacimiento y la paternidad de Dioniso -tantas que algunas autoridades afirmaban que había habido más de un Dioniso-, el relato más extendido y conocido lo hacía hijo de Zeus y de la mujer mortal Sémele. 
+			</p>
+			<p class="parrafo">
+				Sémele era una hermosa hija de Cadmo, el rey y fundador de Tebas. Fue una de las muchas amantes mortales de Zeus. Cuando Semele ya estaba embarazada de Dionisio, Hera, la celosa esposa de Zeus, la visitó disfrazada de una de sus amigas (o de una anciana). Entonces convenció a Sémele para que exigiera a su amante, Zeus -si es que realmente era Zeus-, que se presentara ante ella con la misma gloria con la que se acercaba a su divina esposa Hera.
+			</p>
+			<p class="parrafo">
+				Cuando Semele hizo esta demanda, Zeus no tuvo más remedio que ceder. Se reveló a Semele en toda su gloria divina: como un trueno y un relámpago ardientes.
+			</p>
+			<p class="parrafo">
+				Semele se sintió abrumada por la visión y estalló en llamas. Pero Zeus (en algunas versiones con la ayuda de Hermes) consiguió salvar a su bebé, que nació prematuramente mientras Semele agonizaba. Zeus cosió entonces al niño en su muslo hasta que alcanzó la madurez, y así fue como Dionisio nació dos veces: una de su madre Sémele y otra del muslo de su padre Zeus.
+			</p>
+			<p class="parrafo">
+				En la antigüedad, las fuentes debatían ferozmente su lugar de nacimiento. Se suele decir que nació en Tebas, la tierra natal de su madre Sémele, pero otros lugares de nacimiento incluyen Naxos, Dracanum (una ciudad en la isla de Icaria), Creta y Nysa (en algún lugar de Oriente). Esta controversia ya estaba en marcha en el siglo VI o V a.C., como se ve en la única porción que se conserva del primer Himno Homérico (que fue escrito durante esta época).
+			</p>
+			<p class="parrafo">
+				Sea cual sea su lugar de nacimiento, Dionisio no estaba destinado a llevar una vida despreocupada. Tras su nacimiento (por segunda vez), Hera siguió persiguiendo a Dioniso y a sus allegados: no podía perdonarle que fuera hijo ilegítimo de su marido. En la mayoría de las versiones (aunque no en todas), Dioniso fue criado por su tía Ino (hermana de Sémele) y su marido Athamas. 
+			</p>
+			<p class="parrafo">
+				La infatigable Hera se ensañó con ellos, llevándolos a un estado de locura homicida. La tradición mítica no es del todo clara ni coherente sobre lo que ocurrió después, pero parece que en la mayoría de los relatos Hermes ayudó a su hermanastro Dionisio a escapar de la ira de Hera (en algunas versiones, convirtiéndolo en una cabra). Dionisio fue llevado a un lugar remoto (normalmente el Monte Nysa, geográficamente impreciso), donde creció hasta la edad adulta.
+			</p>
+			<p class="parrafo">
+				En la mayoría de las tradiciones, la crianza de Dionisio se asocia a un lugar llamado Monte Nysa. La ubicación de este monte se identificó en varias ocasiones como Tracia, Libia o cualquier otro lugar de África o Asia. Se cree que fue en algún lugar de Oriente donde Dionisio, de joven, descubrió o inventó el vino.
+			</p>
+			<p class="parrafo">
+				La Dionysiaca de Nonnus, una epopeya del siglo V d.C. que describe la vida y los viajes de Dionisio con gran detalle, cuenta una extraña historia sobre cómo Dionisio descubrió el vino. El adolescente Dionisio amaba a un sátiro llamado Ampelus, aunque sabía que estaba destinado a morir. Ampelus murió pronto en un accidente con un toro; su cuerpo se transformó entonces en una vid (en griego, la palabra "vid" es ampelos), y el desconsolado Dionisio hizo vino por primera vez.
+			</p>
+			<p class="parrafo">
+				En una versión alternativa, también recogida por Nonnus, la vid ya existía mucho antes de Ampelus. Sin embargo, sus secretos permanecieron sin descubrir hasta que un día Dionisio observó que una serpiente chupaba el jugo de las uvas. Dioniso inventó entonces el vino y, junto con sus sátiros, celebró la primera cosecha, muerto de sed.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A DIONISIO</h2>
+			<p class="parrafo">
+				Dionisio tenía una colorida gama de nombres alternativos que correspondían a sus diferentes cultos en el mundo antiguo. El más conocido es el de <a href="/dioses-romanos/baco">Baco</a>, nombre con el que los romanos lo adoptaron en su panteón (pero que también utilizaban los griegos). Los romanos también solían llamar a Dioniso con el nombre de Liber, una traducción del epíteto griego Eleutherios ("liberador").
+			</p>
+			<p class="parrafo">
+				Dioniso era el centro del orfismo, un culto griego que creía que se podía alcanzar una vida feliz después de la muerte mediante una combinación de rituales estrictos y un estilo de vida ascético. En el orfismo, Dioniso se llamaba Zagreus y se le solía considerar hijo de Zeus y Perséfone (y no de Sémele). 
+			</p>
+			<p class="parrafo">
+				En los Misterios de Eleusis, otro culto que destacaba la importancia de los rituales para lograr una vida feliz después de la muerte, Dionisio se llamaba Iacchus y se le identificaba como hijo o marido de la diosa agrícola Deméter.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
