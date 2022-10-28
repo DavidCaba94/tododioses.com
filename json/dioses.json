@@ -50,6 +50,11 @@
         "url": "/dioses-griegos/hera"
     },
     {
+        "nombre": "Hermes",
+        "panteon": "grecia",
+        "url": "/dioses-griegos/hermes"
+    },
+    {
         "nombre": "Odín",
         "panteon": "nordico",
         "url": "/dioses-nordicos/odin"

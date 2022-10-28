@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Hermes, mensajero de los dioses - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Hermes, mensajero de los dioses - Wiki Dioses">
+		<meta name="description" content="Hermes era la deidad embaucadora de los dioses griegos, que utilizaba el ingenio y la astucia para lograr sus objetivos. Olímpico y mensajero divino, desempeñó un papel en muchos mitos y poemas, incluidas las epopeyas de Homero.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">HERMES, MENSAJERO DE LOS DIOSES</h1>
+			<div class="imagen">
+				<img src="../img/hermes.jpg" alt="Hermes" title="Hermes">
+			</div>
+			<p class="parrafo">
+				Dios del comercio y la suerte, patrón de los viajeros, ladrones y mercaderes, y campeón de los atletas y las competiciones deportivas, Hermes era un astuto embaucador que a menudo anteponía su propia diversión a los intereses de los dioses.
+			</p>
+			<p class="parrafo">
+				Como heraldo y mensajero de los dioses, Hermes daba noticias, consejos y órdenes que mantenían el orden y sostenían las frágiles y tumultuosas relaciones de los dioses. Sin embargo, Hermes también podía ser imprevisible. Impulsado por sus pícaros designios y su afición por el deporte, engañaba a los dioses y, en varios casos conocidos, los robaba.
+			</p>
+			<p class="parrafo">
+				Al igual que otros dioses embaucadores, Hermes ponía a prueba las normas, desafiaba las convenciones y traspasaba los límites. No era ni bueno ni malo, aunque era capaz de ambas cosas; en cambio, optaba por operar en la periferia de las cosas, inclinándose caóticamente en una u otra dirección según sus caprichos (de ahí su papel como patrón tanto de ladrones como de mercaderes). Además de oscilar entre el bien y el mal, Hermes también se movía libremente entre el Olimpo, el mundo de los mortales y el Inframundo. Para los antiguos griegos que lo veneraban, Hermes representaba a menudo el desorden y el relativismo moral que veían en el mundo.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				El nombre "Hermes" parece tener su origen en el periodo micénico, el más antiguo de la historia griega (ca. 1600-1100 a.C.). Se escribió por primera vez como e-ma-ha en la escritura lineal B silábica utilizada antes de la invención del alfabeto griego.
+			</p>
+			<p class="parrafo">
+				El nombre de Hermes puede estar relacionado con la antigua herma griega, un mojón o montón de piedras utilizado para indicar los límites de algo. De hecho, muchas de estas "hermas" estaban dedicadas a Hermes. Pero no está claro de dónde procede la palabra herma ni qué relación lingüística tiene con el nombre "Hermes". En la actualidad, los estudiosos coinciden en que el nombre de Hermes es de origen pregriego.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				El epíteto literario más común de Hermes era Argeiphontēs, que significa "asesino de Argos". Esto se relacionaba con el famoso mito en el que Hermes burló y mató al guardián de los cien ojos Argus. Otros epítetos importantes relacionados con la mitología de Hermes eran Atlantiadēs, que significa "descendiente de Atlas" (la madre de Hermes, Maia, era hija del titán Atlas), y Cyllēnios, que significa "cileno" o "del monte Cyllene" (el monte Cyllene era un importante centro de culto de Hermes, y a veces se dice que fue su lugar de nacimiento).
+			</p>
+			<p class="parrafo">
+				Otros epítetos describían importantes atributos de Hermes. Entre ellos se encuentran dolios ("astuto"), angelos y diactoros ("mensajero"), eriounios ("veloz" o "benéfico", cuyo significado es incierto) y chrysorrhapis ("el de la vara de oro"). 
+			</p>
+			<p class="parrafo">
+				Por último, Hermes ostentaba numerosos epítetos religiosos y de culto que describían sus múltiples funciones como dios. Entre ellos estaban hodios ("el del camino"), oneiropompos ("conductor de sueños"), poimandrēs ("pastor de hombres"), agoraios ("el del mercado") y psychopompos ("conductor de almas").
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Como dios, Hermes estaba asociado principalmente a cuatro ámbitos: (1) los mensajeros y heraldos; (2) las fronteras, los viajes y el comercio; (3) los pastores; y (4) los misterios. En estas funciones, Hermes presidía muchos ámbitos de la vida humana. 
+			</p>
+			<p class="parrafo">
+				Como mensajero de los dioses, Hermes representaba ampliamente la comunicación y era invocado como patrón y protector de los heraldos y diplomáticos. 
+			</p>
+			<p class="parrafo">
+				La asociación de Hermes con los límites era también muy amplia: era el dios no sólo de los viajeros, sino también de los mercaderes, de los ladrones e incluso del paso de la vida a la muerte (era Hermes quien conducía las almas de los muertos al inframundo).
+			</p>
+			<p class="parrafo">
+				Hermes era también un dios pastor, considerado como protector de los pastores y del ganado. De hecho, en su iconografía, Hermes era representado a veces con un carnero colgado al hombro para representar su papel de dios de los pastores.
+			</p>
+			<p class="parrafo">
+				Por último, Hermes estaba asociado a los enigmáticos cultos de misterio del mundo antiguo, que solían prometer una vida posterior privilegiada que se alcanzaba mediante la iniciación y el ritual. A menudo se consideraba a Hermes como el dios que presidía estos misterios.
+			</p>
+			<p class="parrafo">
+				La representación de Hermes en el arte y la literatura era muy característica. Suele llevar un chitón (túnica corta), una chlamys (túnica corta) y un petasos (sombrero de ala ancha). También se le podía identificar fácilmente por sus sandalias aladas y el kērykeion (más conocido por su nombre en latín, caduceo), un bastón de heraldo o varita envuelta por dos serpientes entrelazadas.
+			</p>
+			<p class="parrafo">
+				En el arte griego primitivo, Hermes aparecía con barba o sin ella. Sin embargo, a partir del siglo V a.C., casi siempre era un niño y estaba bien afeitado.
+			</p>
+			<p class="parrafo">
+				Posiblemente, el objeto más característico de la iconografía de Hermes era la herma, un pilar de piedra semiantropomorfo utilizado como marcador de límites en toda la Grecia antigua. Los herms solían estar rematados por un busto identificado como Hermes; en el centro del pilar había un falo, que quizá representaba la asociación de Hermes con la fertilidad.
+			</p>
+			<p class="parrafo">
+				Hermes era conocido como un solitario y no tenía un gran séquito como muchos de los otros olímpicos. Sin embargo, a veces se le veía en compañía de los animales que se consideraban sagrados para él, como el gallo, el perro, la cabra y el carnero.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Hermes era hijo de Zeus y Maia y nieto de Atlas, el Titán que sostenía los cielos sobre sus hombros. Tenía innumerables hermanastros, fruto de los matrimonios y relaciones de Zeus con diversos mortales e inmortales. Entre ellos estaban los dioses Apolo, Atenea, Ares, Artemisa y Dionisio, así como los héroes mortales Heracles, Minos y Perseo.
+			</p>
+			<p class="parrafo">
+				Como era habitual en los dioses griegos, Hermes tuvo una gran cantidad de amantes e hijos. En consonancia con su compromiso con los placeres fugaces, rara vez prolongaba sus relaciones y rara vez tenía más de un hijo con alguna de sus parejas. 
+			</p>
+			<p class="parrafo">
+				Hermes tuvo varios hijos importantes, entre ellos Pan (las fuentes no coinciden en la identidad de la madre). Símbolo de lo salvaje y de las montañas, Pan era conocido por su sexualidad cruda y voraz, su improvisación musical desestructurada con la flauta de pastor y por tener los cuernos, las patas y la grupa de una cabra. Aparte de su peculiar anatomía, Pan se parecía mucho a su padre.
+			</p>
+			<p class="parrafo">
+				En otras historias, Hermes cortejó con éxito a Afrodita y engendró a Hermafrodito con ella. Este Hermafrodito, que se parecía a sus dos padres en su impactante belleza física, fusionaría más tarde su cuerpo con el de su amante femenina, convirtiéndose así en una sola persona con genitales masculinos y femeninos.
+			</p>
+			<p class="parrafo">
+				Hermes fue también el padre de Autólico, un astuto y famoso ladrón (una vez más, la identidad de la madre varía en las distintas fuentes). Autólico fue el abuelo de Odiseo, cuyas andanzas fueron el tema de la epopeya de Homero, la Odisea. Esto convierte a Hermes en el antepasado del gran Odiseo.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Se suele decir que Hermes nació en secreto, en una oscura cueva en las laderas del monte Cyllene, en el Peloponeso (alrededor de la región de Arcadia). Su madre, Maia, una de las hijas del titán Atlas, se había retirado allí en un intento de evitar el contacto con los dioses. Zeus la encontró a pesar de sus esfuerzos e inició una relación sexual que culminó con la concepción de Hermes.
+			</p>
+			<p class="parrafo">
+				Creciendo más rápido de lo que su madre podía prever, el joven niño dios se escabulló del abrazo de su madre y se alejó arrastrándose en la primera noche después de su nacimiento. Cuando se aventuró en la oscuridad, Hermes encontró una tortuga, raspó la carne de su caparazón y le puso cañas y tendones de animal. Así creó la primera lira, un instrumento asociado para siempre a la antigua cultura griega.
+			</p>
+			<p class="parrafo">
+				La siguiente parada de Hermes fueron los pastos de Tesalia, donde su hermanastro Apolo guardaba sus rebaños. En una de las primeras muestras del comportamiento travieso que llegaría a definirle, Hermes se llevó el ganado. Cuando Apolo descubrió el robo y persiguió a Hermes, el dios recién nacido trató de jugar el papel de un bebé inocente. Pero Apolo no se dejó engañar.
+			</p>
+			<p class="parrafo">
+				Cuando Hermes siguió negando su crimen, Apolo recurrió a Zeus, que solía arbitrar las disputas entre los dioses. Declarando a Hermes culpable, Zeus ordenó al joven dios que devolviera el ganado. Acorralado, Hermes ofreció a Apolo su lira, oferta que su hermanastro aceptó con entusiasmo. Así fue como Apolo tomó por primera vez la lira, el instrumento con el que se convertiría en el más grande de todos los músicos.
+			</p>
+			<p class="parrafo">
+				Hermes siempre llevó a cabo sus actos heroicos con ingenio y astucia, nunca con fuerza bruta. Uno de los mitos más famosos es el de Hermes rescatando a la amante de Zeus, Io, de los vengativos designios de Hera y de la atenta mirada de Argus. Zeus se había enamorado de Io, una joven sacerdotisa mortal de Hera, y en su lujuria bajó del Olimpo para violarla. Cuando Hera se enteró de la aventura, se propuso encontrar y castigar a Io. Para ocultar cualquier evidencia de su infidelidad, Zeus transformó a su joven amante en una novilla y la escondió entre un rebaño de ganado. Hera descubrió la estratagema y ordenó a Argus, un gigante con muchos ojos, que vigilara el rebaño hasta que Io se revelara.
+			</p>
+			<p class="parrafo">
+				A punto de ser derrotado, Zeus pidió ayuda a Hermes. Hermes entró en acción y distrajo a Argus, en la mayoría de las versiones, adormeciéndolo. Cuando el gigante que todo lo ve cerró finalmente todos sus ojos en el sueño, Hermes lo mató con una piedra o una espada (hay diferentes versiones). La aventura hizo que Hermes se ganara el título de "Argeifonte", que significa "asesino de Argos", un epíteto que se asociaría estrechamente con el dios.
+			</p>
+			<p class="parrafo">
+				Hermes, el más pícaro de todos los dioses y diosas, era un maestro de los susurros y un contador de mentiras. Su estatus entre los demás dioses olímpicos era complejo: aunque era uno de los Doce Olímpicos, Hermes era también el mensajero de los dioses, representando la comunicación entre los poderosos y remotos dioses y los mortales cuyas vidas estaban a menudo a su merced.
+			</p>
+			<p class="parrafo">
+				Hermes no tenía esposa; más que casi cualquier otro dios, destacaba como un solitario, a menudo más a gusto en el rudo mundo de los mortales que en la inmutable felicidad del Olimpo. En comparación, incluso Hefesto, el rudo tullido, estaba casado (aunque con la infiel Afrodita).
+			</p>
+			<p class="parrafo">
+				Sin embargo, Hermes sí que tenía peso entre los dioses y los mortales. Cuando los gigantes atacaron el Olimpo, Hermes luchó junto a los demás dioses y diosas, matando a un gigante llamado Hipólito. Algunas historias también atribuyen a Hermes la invención del fuego: fue Hermes quien descubrió cómo encender una llama mediante la fricción de palos. En otras historias, Hermes echó una mano a varios héroes, como Perseo y Heracles.
+			</p>
+			<p class="parrafo">
+				Sin embargo, no todas las acciones de Hermes fueron benévolas. Según Hesíodo, cuando todos los dioses imbuyeron a Pandora con sus "dones" especiales, Hermes contribuyó con el habla y el engaño. Esto aseguró que Pandora abriera la "caja de Pandora" y desatara todos los males conocidos sobre el mundo de los humanos.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A HERMES</h2>
+			<p class="parrafo">
+				El homólogo romano de Hermes se llamaba <a href="/dioses-romanos/mercurio">Mercurio</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
