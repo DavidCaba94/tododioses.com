@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Hefesto, artesano de los dioses - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Hefesto, artesano de los dioses - Wiki Dioses">
+		<meta name="description" content="Hefesto era el maestro artesano de los dioses griegos y un olímpico, fabricante de talismanes y armas divinas. Lamed desde la infancia, prefería manejar a sus enemigos con trucos y trampas antes que con un conflicto abierto.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">HEFESTO, ARTESANO DE LOS DIOSES</h1>
+			<div class="imagen">
+				<img src="../img/hefesto.webp" alt="Hefesto" title="Hefesto">
+			</div>
+			<p class="parrafo">
+				Dios del horno, maestro de la metalurgia y patrón de todos los artesanos, Hefesto era el hábil artesano del Olimpo. Era adorado como uno de los doce olímpicos en todo el mundo griego y tenía importantes centros de culto en Atenas y en la isla de Lemnos.
+			</p>
+			<p class="parrafo">
+				Aunque Hefesto residía entre los dioses como artesano y colocador de trampas, a menudo no era querido por los demás dioses. En su mitología, Hefesto fue maltratado y rechazado por muchos de los dioses, incluida su madre, Hera, su esposa, Afrodita, y el supremamente poderoso Zeus. Pero Hefesto también podía mantenerse entre los olímpicos y solía encontrar formas creativas de vengarse de sus maltratadores.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				Como ocurre con muchas deidades griegas, no existe una etimología fiable para el nombre de "Hefesto". El primer registro conocido del nombre (o una forma del mismo) se encuentra en una inscripción del palacio de Cnosos en Creta, donde aparece como a-pa-i-ti-jo en la escritura silábica Lineal B utilizada en la Grecia de la Edad de Bronce (ca. 1600-1100 a.C.).
+			</p>
+			<p class="parrafo">
+				El palacio de Cnosos era una reliquia del pueblo minoico que vivió más de mil años antes del periodo clásico griego (490-323 a.C.), lo que indica que la palabra estaba presente en la sociedad griega primitiva. Sin embargo, los estudiosos han interpretado generalmente el nombre que aparece en esta inscripción como teofórico, es decir, como un nombre que contiene el nombre del dios, más que el nombre del dios en sí (similar a nombres griegos posteriores como Hefestión).
+			</p>
+			<p class="parrafo">
+				En la actualidad, se suele pensar que la etimología del nombre de Hefesto es pregriega.
+			</p>
+			<h2 class="subtitulo">EPÍTETOS</h2>
+			<p class="parrafo">
+				Muchos de los epítetos de Hefesto hacían referencia a su aspecto físico o a su cojera, como amphigyeis ("el cojo") y kyllopodiōn ("arrastrado de pies"). Otros epítetos eran más positivos y destacaban las habilidades de Hefesto como artesano y herrero. Estos epítetos incluían klytotechnēs ("famoso artífice"), polymētis ("astuto") y chalkeus ("trabajador del bronce").
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Hefesto era el dios de la artesanía de todo tipo, especialmente de la metalurgia. También era el dios del fuego, y se decía que su taller estaba situado (apropiadamente) bajo un volcán.
+			</p>
+			<p class="parrafo">
+				Hefesto solía ser representado como un hombre corpulento, con o sin barba. Debido a su cojera, carecía de la perfección física de los otros olímpicos, y hay representaciones artísticas que llaman la atención sobre sus piernas lisiadas. En el arte, Hefesto solía ir vestido de forma sencilla, con una túnica y un gorro llamado pilos. Se distinguía por sus atributos, las herramientas de su oficio: un hacha, un doble martillo, unas tenazas, un fuelle y unas varillas de fuego.
+			</p>
+			<p class="parrafo">
+				Aunque algo alejado de los demás dioses, Hefesto tenía un séquito propio, formado por los gigantescos cíclopes tuertos, que le servían de ayudantes en su taller. A veces, el dios también aparecía montado en un asno.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Aunque se sabe que Hefesto era hijo de Hera, el resto de su origen sigue siendo confuso debido a las diferencias en los relatos de su concepción y nacimiento. Según las epopeyas homéricas, los primeros textos literarios griegos, el padre de Hefesto era Zeus. Pero según Hesíodo, el segundo de los grandes poetas épicos griegos, Hefesto no tuvo padre: Hera, dice Hesíodo, se enfadó con Zeus cuando dio a luz a Atenea sin ella y decidió tener un hijo propio sin Zeus.
+			</p>
+			<p class="parrafo">
+				Según la tradición más conocida, Hefesto se casó con Afrodita, la diosa del amor y del sexo. Pero en la Ilíada, Homero llama a la esposa de Hefesto Charis, y en la Teogonía, Hesíodo la llama Aglaea.
+			</p>
+			<p class="parrafo">
+				Aunque Hefesto no era tan deseable como sus hermanos dioses, se reproducía. Su hijo más importante, con diferencia, fue Eritonio, que nació cuando Hefesto intentó violar a Atenea, pero acabó derramando su semilla sobre la tierra. Eritonio crecería hasta convertirse en el héroe fundador de la gran ciudad de Atenas.
+			</p>
+			<p class="parrafo">
+				Otro hijo de Hefesto fue Periphetes, conocido como el "Dador de Garrote", un hombre bestial con un ojo y una pierna coja como su padre. Acechaba en los caminos cercanos a Atenas, robando a los viajeros, hasta que el héroe mortal Teseo lo mató.
+			</p>
+			<p class="parrafo">
+				Según algunas tradiciones, Hefesto también fue el padre de Palaemón, uno de los argonautas que navegó con Jasón para buscar el vellocino de oro.
+			</p>
+			<p class="parrafo">
+				Hefesto tuvo un puñado de hijos más con otras diosas y mujeres mortales, pero ninguno con Afrodita.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Un aspecto central del mito de Hefesto -que se representa a menudo en el arte antiguo y moderno- fue su expulsión del Olimpo, así como su eventual regreso. Esta historia tuvo dos variantes principales:
+			</p>
+			<p class="parrafo">
+				En la primera, después de que Hefesto naciera, su madre, Hera, se disgustó cuando descubrió que el niño tenía un pie malformado. Considerando a Hefesto indigno de la divinidad, Hera lo arrojó a la tierra. Sin embargo, después de su caída, Hefesto fue descubierto por la nereida Tetis y algunas de sus hermanas, que amablemente le devolvieron la salud.
+			</p>
+			<p class="parrafo">
+				En otra historia, fue Zeus quien expulsó a Hefesto del cielo porque el dios cojo había intentado acudir en ayuda de su madre después de que ésta enfadara a Zeus. Hefesto cayó durante un día entero antes de aterrizar en la isla de Lemnos (este lugar, la "tierra lemniana", se convirtió en un sitio sagrado para los peregrinos de Hefesto, que afirmaban que poseía poderes curativos). Esta vez, fueron los sintianos quienes ayudaron a Hefesto.
+			</p>
+			<p class="parrafo">
+				Puede que se trate o no de múltiples variantes de un mismo mito. Curiosamente, ambas aparecen en la Ilíada de Homero: allí se dice que la primera caída tuvo lugar justo después de que Hefesto naciera, mientras que la segunda tuvo lugar cuando ya había crecido.
+			</p>
+			<p class="parrafo">
+				Sin embargo, algunas fuentes combinan las versiones o las convierten en alternativas incompatibles entre sí: el mitógrafo Apolodoro, por ejemplo, escribe que Hefesto fue expulsado del cielo por Zeus por intentar ayudar a su madre, Hera (como en el segundo relato) y que fue salvado por Tetis (como en el primer relato). Luego dice que Hefesto sólo quedó lisiado como resultado de su caída; esto implicaría que la primera caída de Hefesto -cuando fue arrojado del cielo por sus pies cojos y malformados- no pudo haber ocurrido.
+			</p>
+			<p class="parrafo">
+				En cualquier caso, Hefesto estaba comprensiblemente preocupado por el incidente y se negó a regresar al Olimpo. Para vengarse (según el primer relato), Hefesto construyó una trampa para Hera: una silla con un mecanismo secreto. Una vez que Hera se sentaba en la silla, ésta la encerraba en su sitio.
+			</p>
+			<p class="parrafo">
+				Durante algún tiempo, Hefesto vagó por la tierra y se negó a liberar a Hera de la silla. Finalmente, regresó a su lugar en el Olimpo, aunque no por su propia voluntad. Según la mayoría de las historias, Hefesto fue agasajado por Dionisio, que le dio suficiente cantidad de lo mejor de su viñedo para que durmiera profundamente; una vez que Hefesto descansó plácidamente, el dios del vino lo colocó en un burro que lo llevó a la cima del Olimpo. Una vez allí, consintió finalmente en liberar a su madre y perdonarla.
+			</p>
+			<p class="parrafo">
+				Sin embargo, según otras tradiciones, Hefesto atrapó a Hera en la silla porque, al haber sido expulsado del Olimpo cuando era un niño, no sabía quiénes eran sus padres. En cuanto Hera le reveló que era su madre, Hefesto la soltó.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A HEFESTO</h2>
+			<p class="parrafo">
+				El homólogo romano de Hefesto se llamaba <a href="/dioses-romanos/vulcano">Vulcano</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>

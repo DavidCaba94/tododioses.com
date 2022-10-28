@@ -40,6 +40,11 @@
         "url": "/dioses-romanos/cupido"
     },
     {
+        "nombre": "Hefesto",
+        "panteon": "grecia",
+        "url": "/dioses-griegos/hefesto"
+    },
+    {
         "nombre": "Hera",
         "panteon": "grecia",
         "url": "/dioses-griegos/hera"
