@@ -35,6 +35,11 @@
         "url": "/dioses-griegos/atenea"
     },
     {
+        "nombre": "Baco",
+        "panteon": "roma",
+        "url": "/dioses-romanos/baco"
+    },
+    {
         "nombre": "Cupido",
         "panteon": "roma",
         "url": "/dioses-romanos/cupido"

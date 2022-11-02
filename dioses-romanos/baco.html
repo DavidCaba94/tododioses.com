@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Baco, dios del vino y el jolgorio - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Baco, dios del vino y el jolgorio - Wiki Dioses">
+		<meta name="description" content="Baco era el dios romano del vino y el jolgorio, el éxtasis religioso y la creatividad frenética. Los romanos creían que Baco inspiraba a sus adoradores en su estado de embriaguez, liberándolos para pensar y actuar de nuevas maneras.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">BACO, DIOS DEL VINO Y EL JOLGORIO</h1>
+			<div class="imagen">
+				<img src="../img/baco.jpg" alt="Baco" title="Baco">
+			</div>
+			<p class="parrafo">
+				Dios romano del vino y la viticultura, Baco era el portador de éxtasis e inductor de estados frenéticos como la creatividad y la devoción religiosa. También conocido como Eleutherios ("liberador", en griego), Baco representaba los aspectos espontáneos y desenfrenados de la vida. Los romanos creían que Baco actuaba induciendo un estado de embriaguez en sus recipientes; este estado liberaba a los embriagados de las convenciones sociales y permitía nuevas formas de pensar y actuar.
+			</p>
+			<p class="parrafo">
+				La figura de Baco surgió de la mezcla de dos deidades distintas: Dioniso, una deidad griega que prestó su mitología a Baco en el siglo II a.C., y Liber ("El Libre"), un dios italiano del vino que más tarde aparecería como parte de la tríada "plebeya" del Aventino.
+			</p>
+			<p class="parrafo">
+				En definitiva, la versión romana de Baco era un amante del jolgorio que regalaba vino y concedía la embriaguez a todo aquel que lo deseara.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				El nombre latino "Baco" desciende de la palabra griega Bakkhos, un epíteto del dios Dionisio. Esa palabra Bakkhos derivaba a su vez del término bakkheia, una palabra griega utilizada para describir el estado frenético y extático que el dios producía en la gente. Al apropiarse del nombre "Baco", los latinos reclamaban un aspecto de Dionisio para su propio dios.
+			</p>
+			<p class="parrafo">
+				"Baco" también podría estar relacionado con la palabra latina bacca, que significa "una baya" o "el fruto de un árbol o arbusto". En este contexto, dicha palabra podría referirse a las uvas, el ingrediente clave del vino.
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Dios del vino, gran juerguista y parangón de la embriaguez (entre otros títulos), Baco era la deidad que concedía a la humanidad los dones de la embriaguez y los estados alterados. Controlaba el crecimiento de las vides y guiaba a los viticultores en el proceso de elaboración del vino.
+			</p>
+			<p class="parrafo">
+				A Baco se le representaba siempre como un hombre joven, normalmente imberbe y a menudo borracho. A veces portaba un "thyrsus", un bastón herido de hiedra y cubierto de miel.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				En las tradiciones mitológicas que le rodean, Baco nació dos veces. Su primer padre fue Júpiter, y su primera madre fue Proserpina, la hija de Ceres que, como es sabido, fue raptada por Plutón. Más tarde, Baco renació con la ayuda de Júpiter y Sémele, una mujer que a menudo se describe como su segunda madre.
+			</p>
+			<p class="parrafo">
+				Como hijo de Júpiter, Baco estaba directamente relacionado con muchas deidades romanas. Entre sus tíos y tías estaban Ceres, Juno, Vesta, Plutón y Neptuno, mientras que entre sus hermanos estaban Mercurio, Vulcano, Minerva e incluso su madre Proserpina.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				En la mitología romana, las historias de Baco no eran tan comunes ni tan ricas como las de Dionisio en las tradiciones griegas.
+			</p>
+			<p class="parrafo">
+				La mitología de Baco se centra en su nacimiento, muerte e improbable renacimiento a través de la figura de la mortal Sémele. El primer nacimiento se produjo de forma convencional para los dioses. Júpiter quedó prendado de Proserpina, que solía presentarse como la hija del gran rey de los dioses. Adoptando la forma de una serpiente, Júpiter se deslizó hasta el inframundo e hizo el amor con Proserpina. Durante este encuentro, concibieron un hijo: Baco. En la tradición romana, esta primera encarnación del dios se llamaba Liber. Este detalle era un reconocimiento al dios italiano del vino que los romanos adoraban antes de adoptar el culto a Dionisio.
+			</p>
+			<p class="parrafo">
+				Baco (o Liber) fue uno de los primeros dioses romanos que lucharon en la lucha cataclísmica conocida como la Titanomaquia. Esta lucha enfrentó a los parientes de Júpiter con los defensores de este padre, Saturno. En una de las épicas batallas del conflicto, Baco fue asesinado y su cuerpo despedazado. Con el corazón encogido, Júpiter recogió los restos de su hijo y colocó el corazón destrozado de Baco en una poción. Júpiter le dio la mezcla a Sémele, la esposa mortal del rey de Tebas, que la bebió y quedó embarazada.
+			</p>
+			<p class="parrafo">
+				Sin embargo, antes de que pudiera dar a luz, Semele fue asesinada por la traición de Juno. La esposa de Júpiter, siempre celosa, consiguió atraer a Semele para que deseara sexualmente a Júpiter.
+			</p>
+			<p class="parrafo">
+				Una variante de este mito se encuentra en las Metamorfosis de Ovidio. En esta versión, Juno también engañó a Semele para que deseara a Júpiter. Sin embargo, cuando Júpiter vino a satisfacer a Semele, la mortal no pudo soportar los abrazos del dios.
+			</p>
+			<p class="parrafo">
+				Cuando Semele murió, Júpiter sacó al creciente Baco de su vientre y cosió al niño en su muslo, donde se alimentó durante el resto de su desarrollo. El bebé emergió algún tiempo después y fue criado en compañía de ninfas cerca del monte Nysa.
+			</p>
+			<p class="parrafo">
+				Baco se incorporó a la religión estatal romana con la adopción del culto mistérico a Dionisio (o el griego Bakkhos) a finales del siglo III a.C. La iteración romana de Baco fue una consecuencia y reencarnación de Liber, un antiguo dios del vino romano. Liber era un miembro de la Tríada Aventina, un trío de culto popular entre los romanos de baja posición social. La muerte y el renacimiento de Dionisio resultaron convenientes, ya que permitieron a los romanos explicar la expulsión de Liber y la importación de Baco de una manera que se ajustaba a la mitología establecida.
+			</p>
+			<p class="parrafo">
+				El principal festival celebrado en honor de Baco era la infame Bacchanalia. Aunque los detalles específicos que rodean a las Bacanales son escasos -en parte debido a la falta de fuentes, y en parte debido a las distorsiones de autores antiguos como Livio, que escandalizaban los cultos báquicos-, se sabe que los festivales incluían la bebida, la juerga y el jolgorio, entre otras actividades. Los festivales de las bacanales solían celebrarse en el campo, lejos de la antinatural y rígida vida de la ciudad. Se celebraban versiones del festival varias veces al año en el sur de Italia y, tras su conquista, en las regiones de Oriente Próximo y Grecia del Imperio Romano.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A BACO</h2>
+			<p class="parrafo">
+				El equivalente griego al dios Baco era <a href="/dioses-griegos/dionisio">Dionisio</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
