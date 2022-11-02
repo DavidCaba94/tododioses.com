@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Apolo, dios romano de la música - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Apolo, dios romano de la música - Wiki Dioses">
+		<meta name="description" content="Apolo era el dios romano que inspiraba la profecía, la poesía, la música y la medicina. Incorporado directamente de los griegos después de que una plaga devastara Roma, era a la vez el portador y el guardián de la peste.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">APOLO, DIOS ROMANO DE LA MÚSICA</h1>
+			<div class="imagen">
+				<img src="../img/apolo.jpg" alt="Apolo" title="Apolo">
+			</div>
+			<p class="parrafo">
+				Tomado directamente de la mitología griega, Apolo era un dios romano que inspiraba la música, la poesía y la creatividad artística. Legislador y sanador, Apolo ponía orden en la humanidad y era la fuente de todos los conocimientos médicos. Además, Apolo era el principal patrón de los profetas, fuente del don de la profecía. Se creía que residía en Delfos, el centro del pensamiento oracular en el Mediterráneo antiguo.
+			</p>
+			<p class="parrafo">
+				Aunque los romanos casi siempre adoptaban sus deidades de sus homólogos griegos y etruscos, normalmente se esforzaban por romanizarlas. Sin embargo, Apolo no siguió esta tendencia y mantuvo su condición de extranjero y forastero, por lo que su mitología original permaneció prácticamente inalterada. La incorporación de Apolo a la mitología romana subrayó la concepción de los romanos como legítimos herederos de la cultura griega.
+			</p>
+			<p class="parrafo">
+				A pesar de su condición de extranjero, Apolo era muy querido por los romanos, que lo consideraban una fuente de estabilidad política y conocimiento médico, así como un guardián contra las enfermedades infecciosas.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				Como ocurre con muchas deidades griegas, la etimología de "Apolo" ha permanecido oscura. Es posible que derive del sustantivo griego arcaico apéllai, que significa "una asamblea", como las que se celebran en las poleis griegas. Esta etimología haría que el nombre "Apolo" se tradujera como "el que reúne" o "el de la asamblea", probablemente en referencia a su reputación como portador del orden civilizado.
+			</p>
+			<p class="parrafo">
+				Otra posibilidad es que el nombre "Apolo" provenga de las palabras apeilḗ, un sustantivo que significa "promesa, jactancia o amenaza", y apeiléō, la forma verbal que significa "hacer una promesa, jactancia o amenaza". Tal etimología haría que "Apolo", en palabras de un erudito, fuera "el dios del discurso autoritario, el que preside todo tipo de actos de habla, incluyendo los reinos de la creación de canciones [sic] en general y de la poesía en particular".
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Considerado como el máximo portador de la ley, la razón y la paz, Apolo supervisaba la creación de las constituciones civiles y mantenía el orden social. También era el patrón de muchas ciudades importantes, como Delfos y Roma.
+			</p>
+			<p class="parrafo">
+				El papel de Apolo como preservador del cuerpo político se reflejaba en su papel como sanador de los cuerpos. A través de su hijo Asclepio, Apolo otorgó a la humanidad el don de la medicina. También fue el patrón de los médicos, entre ellos el gran Hipócrates de Cos (ca. 460-370 a.C.). Las teorías médicas de Hipócrates influirían posteriormente en los médicos romanos, como Galeno (129-210 a.C.). Las ideas hipocráticas y galénicas constituirían la base de la teoría y la práctica médica hasta el siglo XVIII.
+			</p>
+			<p class="parrafo">
+				Al igual que Apolo curaba la enfermedad, también la provocaba. Empuñando un arco de plata, disparaba flechas de peste a todos los que se cruzaban con él, incluidos los aqueos durante la batalla de Troya. Los romanos consideraban la peste como la ira de Apolo.
+			</p>
+			<p class="parrafo">
+				Apolo solía llevar una lira, su instrumento musical favorito, y a menudo se le representaba como un joven imberbe. Descrito como "brillante" y "el sol", a veces se le representaba con rayos de luz que emanaban de su cuerpo. Esta luz, literal y metafórica, simbolizaba la iluminación que Apolo otorgaba a sus seguidores.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Apolo era hijo de Júpiter, el rey de todos los dioses, y de Leto, una titán griega. Su hermana gemela era Diana, la homóloga romana de la griega Artemisa. Entre otros, sus hermanastros eran Marte, Vulcano y Juventus.
+			</p>
+			<p class="parrafo">
+				Joven y lujurioso, Apolo tenía amantes tanto femeninas como masculinas. Entre sus amantes femeninas se encontraban Hécuba (esposa del rey Príamo), Ourea (hija de Poseidón) y las nueve musas. Sus amantes masculinos, por su parte, fueron Adonis (el hombre más bello del mundo), Jacinto (un príncipe espartano) y el rey Admetus de Ferae.
+			</p>
+			<p class="parrafo">
+				Aunque Apolo tuvo muchos hijos, los más conocidos fueron Asclepio, un famoso médico al que Apolo dio a luz con una cesárea, y Orfeo, un legendario músico y profeta. Otros hijos de Apolo fueron Delfos, Miletos, Tenes, Epidauro, Ceos, Licoras, Syrus, Pisus, Marathus y Chaeron. Todos estos hijos fundarían ciudades homónimas. También fue el padre de los famosos oráculos Apis, Idmón y Tenerus.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				El mito de Apolo comenzó con su notable nacimiento de la unión de Júpiter y Leto. Aunque los dos estaban casados cuando Júpiter dejó embarazada a Leto, su matrimonio terminó antes de que nacieran sus hijos. La nueva esposa de Júpiter, su celosa hermana Juno, guardaba rencor a todas las amantes de Júpiter. Cuando Juno descubrió que Leto estaba embarazada de Júpiter, desterró al Titán de la Grecia continental y engendró una terrible serpiente marina llamada Pitón para que la persiguiera.
+			</p>
+			<p class="parrafo">
+				Una aterrorizada Leto vagó de isla en isla, buscando refugio y una comunidad que la apoyara. Mientras seguía huyendo, oyó la voz de un Apolo nonato que le susurraba desde el vientre, aconsejándole que buscara la pequeña y deshabitada isla de Delos. Al establecerse en la isla, Leto pronto se encontró en pleno parto. Cuando Juno descubrió el estado de Leto, encarceló a Lucina, la diosa del parto y la partería, impidiéndole atender a Leto.
+			</p>
+			<p class="parrafo">
+				Tras sufrir las prolongadas agonías del parto, Leto finalmente trajo al mundo a Diana. Totalmente formada, la precoz Diana se movilizó inmediatamente para ayudar a su madre a dar a luz a su hermano gemelo. Apolo vino al mundo empuñando una espada de bronce, y fue envuelto en una tela blanca sujeta con una banda de oro. La diosa de la ley lo alimentó con néctar y ambrosía, y en pocos días se convirtió en un hombre adulto.
+			</p>
+			<p class="parrafo">
+				La primera tarea de Apolo fue cazar y matar a la Pitón, la bestia que Juno había engendrado para asesinar a Leto y a sus hijos no nacidos. Tomó sus armas de Vulcano, la deidad artesana, que hizo a Apolo su característico arco de plata. Tras recibir un arco de plata de Vulcano, Apolo siguió la pista de la bestia hasta Delfos y la mató con un disparo experto. Esta historia se convirtió rápidamente en una de las favoritas de los romanos, que celebraban sus victorias entonando himnos que conmemoraban la propia victoria de Apolo.
+			</p>
+			<p class="parrafo">
+				En su juventud, Apolo también descubrió su amor y habilidad por la música. Poco después del nacimiento de Apolo, el astuto dios mensajero Mercurio robó el ganado de Apolo y lo escondió en una cueva. Mientras estaba escondido, Mercurio mató a una tortuga y utilizó sus entrañas y su caparazón para fabricar una lira, el primer instrumento de este tipo. Apolo recurrió a Júpiter, que solía resolver las disputas entre los dioses, y el rey de los dioses ordenó a Mercurio que devolviera el ganado robado. Cuando Mercurio acudió a devolver el ganado, Apolo se fijó en que tocaba la lira y se sintió tan atraído por el instrumento que accedió a aceptarlo en lugar de su rebaño. Apolo no tardó en dominar el instrumento y pronto fue celebrado como el más grande de todos los músicos.
+			</p>
+			<p class="parrafo">
+				Tiempo después, el dios rústico Pan comparó su música con la de Apolo. El dios brillante se indignó ante la comparación y desafió a Pan a un concurso. Los jueces declararon ganador a Apolo, pero el rey Midas de Frigia no estuvo de acuerdo. Como castigo por su insolencia, Apolo maldijo a Midas con orejas de burro.
+			</p>
+			<p class="parrafo">
+				Las Metamorfosis de Ovidio describen un episodio similar en el que interviene Marsyas, un sátiro que se jactaba de su superioridad musical sobre Apolo. Marsyas también tocaba la flauta, y Apolo no tardó en retarle a un concurso. Cuando el concurso se resolvió y Apolo resultó vencedor, castigó la arrogancia de Marsyas de forma cruel. Después de colgar a Marsias de un árbol, Apolo desolló su piel del cuerpo. Luego ató la piel del sátiro a un árbol y dejó que la sangre fluyera por él.
+			</p>
+			<p class="parrafo">
+				La primera evidencia de la adopción de Apolo en el panteón romano apareció después de que una plaga afectara a Roma en el año 433 a.C.. En busca de intercesión y misericordia, los romanos construyeron y dedicaron un templo a Apolo Medicus, o "Apolo el Médico". Aunque las obras iniciales se completaron en el 431 a.C., el templo pronto cayó en la ruina. Fue reconstruido varias veces a lo largo de los siglos, sobre todo por Cayo Sosio en el siglo I a.C.
+			</p>
+			<p class="parrafo">
+				Tras la peste, Apolo se convirtió en un elemento fijo del culto romano. Los reyes y los funcionarios religiosos consultaban a menudo el oráculo de Delfos, donde Apolo daba inspiración profética. Los romanos también celebraban al dios en festivales, y en el año 212 a.C., durante la Segunda Guerra Púnica con Cartago, instituyeron los Ludi Apollinares, o "Juegos Apolíneos", que incluían combates de gladiadores entre otros pasatiempos espantosos.
+			</p>
+			<p class="parrafo">
+				Durante el reinado de Augusto (31 a.C.-14 d.C.), el primer emperador de Roma, el culto a Apolo experimentó un aumento de popularidad e importancia. Gran parte de esto podría atribuirse al propio emperador, que creía que Apolo favorecía su causa en la larga guerra civil contra los republicanos y Marco Antonio. La batalla final de la guerra civil romana, la batalla naval de Actium en el 31 a.C., tuvo lugar junto a uno de los templos de Apolo en la Grecia continental. Para pagar la deuda que creía tener, Augusto dedicó un botín a Apolo y construyó un nuevo templo en su honor en el monte Palatino.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A APOLO</h2>
+			<p class="parrafo">
+				Su homólogo griego era también <a href="/dioses-griegos/apolo">Apolo</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>

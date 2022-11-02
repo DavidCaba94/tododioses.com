@@ -15,6 +15,11 @@
         "url": "/dioses-griegos/apolo"
     },
     {
+        "nombre": "Apolo",
+        "panteon": "roma",
+        "url": "/dioses-romanos/apolo"
+    },
+    {
         "nombre": "Ares",
         "panteon": "grecia",
         "url": "/dioses-griegos/ares"
