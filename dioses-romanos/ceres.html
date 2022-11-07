@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Ceres, diosa de la fertilidad y la agricultura - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Ceres, diosa de la fertilidad y la agricultura - Wiki Dioses">
+		<meta name="description" content="Ceres era la diosa romana de la fertilidad y la agricultura, patrona de los agricultores y protectora de los plebeyos. En las fiestas en honor a la diosa se pedía su bendición para los cultivos con el fin de asegurar una cosecha abundante.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">CERES, DIOSA DE LA FERTILIDAD Y LA AGRICULTURA</h1>
+			<div class="imagen">
+				<img src="../img/ceres.jpg" alt="Ceres" title="Ceres">
+			</div>
+			<p class="parrafo">
+				Diosa romana de la fertilidad y la agricultura, Ceres era la patrona de los agricultores y protectora de la plebe. Adaptada de la deidad griega Deméter, Ceres era venerada como madre de Proserpina, cuyo rapto por Plutón fue un episodio central en las mitologías griega y romana. En los primeros tiempos de Roma, Ceres era el miembro principal de la Tríada Aventina "plebeya", un culto de tres deidades adoradas por la gente común. Las humildes instalaciones de la Tríada en el monte Aventino contrastaban con la grandeza palaciega de la cercana colina Capitolina.
+			</p>
+			<p class="parrafo">
+				Ceres era la patrona y protectora de los campesinos, pastores y plebeyos; también era la supervisora de los funcionarios elegidos, conocidos como tribunos. Ceres ofrecía su orientación personal al "Tribuno de los Plebeyos", un poderoso magistrado que tenía el poder de vetar las decisiones del cónsul. El tribuno también gozaba de sacrosantidad, un estatus impartido por la ley sagrada romana que hacía ilegal y herético perjudicar a su portador. Era, pues, la deidad por excelencia del pueblo llano de Roma, cuya generosidad se consideraba que alimentaba incluso al más humilde de los romanos. El pueblo llano se deshacía en elogios hacia la diosa dorada y la celebraba en una serie de festivales a lo largo del año. Estas fiestas solían tener lugar durante las épocas de siembra y cosecha.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				El nombre "Ceres" se remonta a la raíz protoindoeuropea ḱerh-, que significa "nutrir, saciar o alimentar". El análogo latino más cercano, crescere, tenía un significado similar: "crecer, surgir o llegar a ser".
+			</p>
+			<p class="parrafo">
+				El nombre de Ceres ha llegado a formar la palabra inglesa "cereal" y la francesa "céréale", ambas utilizadas para describir las variedades de hierba que producen granos comestibles, así como los propios granos comestibles.
+			</p>
+			<p class="parrafo">
+				Además de su nombre de pila, Ceres era conocida como Ceres Augusta, que significa "Ceres la Grande" o "Ceres la Impresionante". El poeta Virgilio se refería a ella como Ceres Legifera, o "Ceres la Portadora de la Ley", una referencia a su papel como portadora de la paz. Hay indicios de que Ceres estaba asociada al culto de la llamada Magna Mater, o "Gran Madre"; este título podría ser otro nombre para la diosa romana.
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Ceres tenía poder sobre toda la agricultura y aseguraba la abundancia de las cosechas anuales. Aunque se pensaba que era una mujer joven, Ceres solía ser presentada como una adulta en edad fértil. A menudo llevaba un bastón como símbolo de su autoridad, pero a veces también llevaba una antorcha. Este último elemento servía tanto para aludir a la búsqueda de su hija Proserpina como para simbolizar la iluminación. También se la suele representar sosteniendo granos de trigo (o algún otro cereal) y tirando de un arado.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Ceres era hija de Saturno, el dios del cosmos que gobernaba antes de la llegada de Júpiter, y de Ops, una personificación de la tierra. Sus hermanos eran Júpiter, así como Neptuno y Plutón, dioses del mar y del inframundo, respectivamente. Sus hermanas eran Vesta, diosa del hogar, y Juno, la reina materna de los dioses romanos.
+			</p>
+			<p class="parrafo">
+				Aunque Ceres no era conocida como una diosa especialmente amorosa, tuvo al menos una aventura; de este escarceo nació su única hija, llamada Proserpina (o Prosperina). Proserpina, el equivalente romano de Perséfone, era conocida por su belleza y pureza. El padre de Proserpina era el hermano de Ceres, Júpiter, que era famoso por sus numerosas infidelidades.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Los orígenes de Ceres se remontan al principio de los tiempos, cuando los primeros dioses y titanes luchaban por imponer el orden en un mundo caótico. En el principio de los tiempos, el cosmos estaba gobernado por un dios (o Titán) conocido como Caelus. Con el tiempo, el hijo de Caelus, Saturno, lo derrocó y tomó el control del universo para sí mismo.
+			</p>
+			<p class="parrafo">
+				Con el tiempo, Saturno se emparejó con Ops, diosa de la tierra elemental, y tuvo seis hijos. Mientras los niños crecían en el vientre de Ops, Saturno se enteró de una profecía que predecía que uno de sus hijos lo derrocaría como él había derrocado a Caelus. Sin estar seguro de la identidad del usurpador, Saturno se comió a sus cinco primeros hijos (Ceres incluida) en cuanto salieron del vientre. En un esfuerzo por preservar su progenie, Ops engañó a Saturno para que se comiera una roca envuelta en pañales en lugar de su último hijo, Júpiter. Incapaz de digerir la roca, Saturno vomitó todo el contenido de su estómago de vuelta al mundo. Ceres, junto con sus hermanos Plutón, Neptuno, Juno y Vesta, eran ahora libres. Junto con su hermano Júpiter, las deidades hermanas pusieron orden en el universo.
+			</p>
+			<p class="parrafo">
+				La mitología de Ceres se centraba en el rapto de su hija, Proserpina, por la poderosa deidad ctónica Plutón. Era uno de los relatos mitológicos más famosos del mundo antiguo, contado por los griegos, cuyo culto al misterio de Eleusis se centraba en la historia, y apreciado también por los romanos. En sus obras del primer siglo, las Metamorfosis y los Fasti, el gran poeta Ovidio retomó la historia al estilo romano; de ellas se extrae el siguiente resumen.
+			</p>
+			<p class="parrafo">
+				Como señor del inframundo, Plutón pasaba sus días en soledad y se sentía solo. Venus, la diosa del amor y la sexualidad, se apiadó de Plutón (al que se refiere aquí por su nombre tradicional, Dis) y envió a su hijo Cupido a visitarlo. Cupido disparó sus flechas a Plutón, permitiéndole sentir el amor y la lujuria que tanto tiempo le habían negado. En su siguiente viaje al mundo de la superficie, divisó a Proserpina, que retozaba con un grupo de ninfas en la isla de Sicilia. Inmediatamente, Plutón se apoderó de la joven belleza y se la llevó en su carro con destino al inframundo.
+			</p>
+			<p class="parrafo">
+				Devastada por la pérdida de su hija, y sin saber lo que realmente había sucedido, Ceres partió en busca de la joven desaparecida. Aunque viajó por todas partes y llevó una antorcha para poder ver con claridad, su búsqueda fue infructuosa. Finalmente, Ceres llegó a Sicilia, donde encontró el cinturón de Prosperina hecho con delicadas lágrimas de ninfas. En su dolorosa cólera, lanzó una maldición sobre Sicilia que arruinó las cosechas de la ciudad y dejó sus tierras estériles.
+			</p>
+			<p class="parrafo">
+				Observando desde lo alto, los otros dioses y diosas se dieron cuenta de que el dolor de Ceres debía ser remediado. Aprovechando el momento, Júpiter envió a Mercurio a entregar un mensaje a Plutón: el señor del inframundo debía liberar a Proserpina inmediatamente y devolverla sana y salva a su madre. Aunque Plutón accedió a las exigencias de Júpiter, declaró que sólo devolvería a Proserpina si ésta no había consumido el alimento del inframundo. Como Proserpina había comido siete granos de granada de la fruta del jardín subterráneo de Plutón, éste se negó a liberar a la niña.
+			</p>
+			<p class="parrafo">
+				Tras un largo debate, se llegó a un acuerdo por el que Proserpina dividiría su tiempo entre su madre y su secuestrador. La cantidad exacta de tiempo que pasaba con cada uno se presentaba de forma diferente en las distintas tradiciones, pero la época del año que Proserpina pasaba con Plutón correspondía al invierno, cuando Ceres estaba demasiado enfadada y angustiada para permitir que florecieran las cosas en crecimiento. La primavera marcaba el regreso de Proserpina (y de la vida misma) al mundo.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A CERES</h2>
+			<p class="parrafo">
+				El equivalente griego a la diosa Ceres era <a href="/dioses-griegos/demeter">Deméter</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>

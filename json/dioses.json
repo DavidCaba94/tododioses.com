@@ -40,6 +40,11 @@
         "url": "/dioses-romanos/baco"
     },
     {
+        "nombre": "Ceres",
+        "panteon": "roma",
+        "url": "/dioses-romanos/ceres"
+    },
+    {
         "nombre": "Cupido",
         "panteon": "roma",
         "url": "/dioses-romanos/cupido"
