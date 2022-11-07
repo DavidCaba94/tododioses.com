@@ -55,6 +55,11 @@
         "url": "/dioses-griegos/demeter"
     },
     {
+        "nombre": "Diana",
+        "panteon": "roma",
+        "url": "/dioses-romanos/diana"
+    },
+    {
         "nombre": "Dionisio",
         "panteon": "grecia",
         "url": "/dioses-griegos/dionisio"

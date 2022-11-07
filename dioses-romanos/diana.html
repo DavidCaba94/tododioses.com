@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Diana, diosa de la caza - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Diana, diosa de la caza - Wiki Dioses">
+		<meta name="description" content="Diana era la diosa romana de la caza, de la naturaleza virgen y de los límites que separan lo salvaje de lo civilizado, lo vivo de lo muerto. Dueña del arco, recorría las tierras salvajes en busca de aventuras y caza.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">DIANA, DIOSA DE LA CAZA</h1>
+			<div class="imagen">
+				<img src="../img/diana.jpg" alt="Diana" title="Diana">
+			</div>
+			<p class="parrafo">
+				Diana era la diosa romana de la caza, la naturaleza virgen y los animales que la habitaban. Rehuyendo la compañía de mortales y dioses, Diana prefería la soledad de los bosques y mantenía la compañía de ninfas y criaturas del bosque. Maestra del arco, Diana era la mejor de las cazadoras. Doncella durante todos sus días, conservó su virginidad a pesar de las insinuaciones de posibles amantes y pretendientes. Diana también estaba asociada al inframundo y a las zonas liminares, los límites que separan a los vivos de los muertos y a lo salvaje de lo civilizado. Aunque era una diosa romana, gran parte de la mitología y la personalidad de Diana se originó en otros lugares. Diana se basaba en gran medida en Artemisa, la diosa griega de la caza y la naturaleza.
+			</p>
+			<p class="parrafo">
+				Aunque originalmente era venerada por los pueblos prerromanos de Italia, Diana acabó adoptando una forma más helenizada. Se incorporó al panteón romano en algún momento del siglo VI a.C. En la religión romana, Diana era conocida como Diana Triformis, o diosa de tres aspectos: la caza, la luna y el inframundo. También formaba parte de un triunvirato divino junto a Egeris, la ninfa del agua, y Virbius, el dios del bosque. Adorada por hombres y mujeres, Diana era considerada patrona de los cazadores y protectora de las vírgenes.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				El nombre "Diana" (conocido en latín antiguo como Jana, y en latín tardío como Diana) tiene su origen en el protoindoeuropeo dyeu-, que significa "brillar" o "emitir luz". Derivados de la misma raíz eran la palabra griega theos, la latina deus, la persa daiva y la sánscrita deva, todas ellas traducidas como "dios". Otros derivados eran la palabra latina dies, que significa "día", y diurnal, que significa "luz del día". La asociación elemental de Diana con la divinidad y la luz del día sugería su larga historia como diosa italiana, que se remonta al menos al primer milenio antes de Cristo, si no más allá.
+			</p>
+			<p class="parrafo">
+				A lo largo de los siglos, Diana fue conocida con varios epítetos. Por su personalidad tripartita, se la conocía como Diana Triformis y Diana Trivia. También se la llamaba Diana Caelus, o "Diana Celestial", un epíteto común entre los miembros del panteón romano. Por último, era Diana Nemorensis, o "Diana del Bosque". Esta encarnación particular de la deidad representaba la versión itálica de Diana, la figura helenizada por los romanos e influenciada por Artemisa.
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Con un arco y flechas de oro, Diana recorría las tierras salvajes en busca de aventuras y caza. Normalmente llevaba un chitón, una túnica corta que suelen llevar los hombres, porque le permitía moverse libremente por los bosques. También llevaba un manto, botas y un cinturón con un broche de joyas. En algunas tradiciones, se dice que llevaba vestimenta púrpura.
+			</p>
+			<p class="parrafo">
+				Aunque solía preferir la soledad, Diana buscaba ocasionalmente la compañía de ninfas del bosque y del agua, como su compañera Egeris.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Diana era hija de Júpiter, rey de los dioses, y de Leto (o Latona, en las fuentes romanas), una antigua titán. Su hermano gemelo era Apolo, una deidad asociada a la sabiduría, la racionalidad y el orden de la ley. Diana tenía un gran número de hermanastros; entre ellos, Marte, el dios de la guerra, Vulcano, el dios de la forja, y Juventus, un dios de la juventud y la adolescencia.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				El corpus mítico de Diana fue tomado en gran parte de las historias de Artemisa contadas por los griegos. A diferencia de otras deidades romanas, que desaparecieron en gran medida tras el auge del cristianismo, Diana persistió en la cultura popular de la Europa medieval y moderna.
+			</p>
+			<p class="parrafo">
+				Diana fue concebida a partir de la unión de Júpiter y Leto. La pareja se había enamorado y casado, pero como solía ocurrir con Júpiter, pronto se desenamoró y encontró a otra. Su nueva esposa era su hermana, Juno, la diosa de la familia, el matrimonio y los niños. Juno era una compañera celosa que albergaba rencores contra las amantes de su marido y sus hijos. Cuando descubrió el embarazo de Leto, resolvió impedir el nacimiento de la mejor manera posible, llegando incluso a convocar a una monstruosa criatura marina llamada Pitón para que la persiguiera.
+			</p>
+			<p class="parrafo">
+				Leto se vio obligada a huir de isla en isla, buscando refugio y una comunidad que la protegiera. Apolo aconsejó a su madre desde el vientre materno, diciéndole que buscara la pequeña y misteriosa isla de Delos. Poco después de establecerse en la isla, Leto se encontró en pleno parto. Al darse cuenta de que Leto estaba a punto de dar a luz, Juno le infligió una última crueldad: encarceló a Lucina, la diosa del parto y la partería, obligando a Leto a dar a luz sola.
+			</p>
+			<p class="parrafo">
+				Durante días, Leto sufrió las agonías del parto. Algunas ninfas escucharon su sufrimiento y acudieron en su ayuda, permitiéndole finalmente dar a luz a los niños. Leto dio a luz primero a Diana. Nada más salir del vientre, la precoz Diana asumió el papel de comadrona y ayudó a Leto a dar a luz a su hermano. Apolo vino al mundo envuelto en blanco y empuñando una espada de bronce. Los gemelos eran arqueros por naturaleza y protegían ferozmente a su madre. Juntos, Apolo y Diana cazaron a la terrible criatura conocida como Pitón que tanto había perseguido a su madre. Finalmente, consiguieron atraer a la criatura a Delfos y a su perdición. Acribillaron a la bestia con flechas hasta que dejó de existir. Al final, los gemelos tomaron caminos diferentes: Apolo, por el bullicio de la vida civil, y Diana, por la soledad del bosque.
+			</p>
+			<p class="parrafo">
+				Uno de los mitos más populares (y completos) relacionados con Diana fue narrado por el poeta romano Ovidio en su obra maestra del siglo I, las Metamorfosis. La historia se centraba en el destino del joven Acteón, un talentoso cazador que dirigía una jauría en el bosque en busca de ciervos. La caza había ido bien y el día había sido caluroso, por lo que Acteón llevó a los sabuesos a una fuente fresca en un claro del denso bosque. Sin darse cuenta de los intrusos que había entre ellos, Diana se bañó en las frescas aguas del manantial.
+			</p>
+			<p class="parrafo">
+				Cuando Acteón se topó con la escena, vio por casualidad la forma desnuda de Diana en las aguas. Enfadada, sorprendida y avergonzada a la vez, Diana cogió su arco antes de pensárselo mejor y salpicar a Acteón con agua del estanque.
+			</p>
+			<p class="parrafo">
+				El chapoteo no fue un gesto inocente o coqueto. Al contrario, el agua estaba encantada para transformar a Acteón en un ciervo. La metamorfosis se produjo en un instante. Aunque Acteón perdió sus funciones humanas y le salieron pelo y cuernos, siguió conservando su identidad. Trágicamente, los sabuesos de Acteón captaron su nuevo olor y lo atacaron. Acteón huyó tan rápido como pudo, pero los sabuesos fueron demasiado rápidos para él; no tardaron en abatir a su amo.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A DIANA</h2>
+			<p class="parrafo">
+				La diosa griega equivalente a Diana es <a href="/dioses-griegos/artemisa">Artemisa</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
