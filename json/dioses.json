@@ -80,6 +80,11 @@
         "url": "/dioses-griegos/hermes"
     },
     {
+        "nombre": "Juno",
+        "panteon": "roma",
+        "url": "/dioses-romanos/juno"
+    },
+    {
         "nombre": "Odín",
         "panteon": "nordico",
         "url": "/dioses-nordicos/odin"

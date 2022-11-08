@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Juno, reina de los dioses romanos - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Juno, reina de los dioses romanos - Wiki Dioses">
+		<meta name="description" content="Juno era la reina de los dioses romanos, la campeona de las mujeres en sus funciones domésticas de matrimonio y maternidad. Esposa celosa, siempre buscaba castigar las conquistas de su marido Júpiter.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">JUNO, REINA DE LOS DIOSES ROMANOS</h1>
+			<div class="imagen">
+				<img src="../img/juno.webp" alt="Juno" title="Juno">
+			</div>
+			<p class="parrafo">
+				La diosa romana del matrimonio, el hogar y la familia, Juno era una defensora de las mujeres y protectora del estado romano. Estaba casada con Júpiter, rey de todos los dioses, y formaba parte del triunvirato divino gobernante conocido como la Tríada Capitolina. Juno fue una adaptación de la diosa griega Hera, y sus características esenciales y su mitología eran casi idénticas a las de su predecesora griega.
+			</p>
+			<p class="parrafo">
+				Juno fue uno de los primeros dioses y diosas romanos y, al igual que sus homólogos, se consideraba que supervisaba tanto los asuntos privados de sus adoradores como los del Estado romano. Según la época y el lugar de su culto, encarnaba varios personajes distintos. Era "madre", "partera", "reina" y "portadora de luz". También se la consideraba una diosa de la luna, probablemente por su asociación con el aumento y la disminución del cuerpo celeste, que a su vez simbolizaba los ciclos de crecimiento y decadencia que definían toda la existencia.
+			</p>
+			<p class="parrafo">
+				La fluidez de su identidad la convirtió en una de las deidades romanas más veneradas, como demuestra el gran número de templos construidos en su honor y los festivales celebrados en su nombre. Aunque siguió siendo una figura muy querida durante siglos, la importancia de Juno empezó a decaer con la llegada del Imperio Romano en el siglo I a.C.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				Se cree que el nombre "Juno" surgió de una serie de palabras que significan juventud y rejuvenecimiento. Se cree que el nombre deriva del latín iuvenis, que significa "juventud". La raíz de iuvenis se veía a menudo en palabras latinas como iunex, que significa "novilla", o vaca que no ha tenido cría. También aparecía en el verbo iuvare, que significa "dar ayuda" o "socorrer", así como en iuvenescere, que significa "rejuvenecer" o, literalmente, "hacer joven de nuevo". Ambos verbos se relacionan con la figura de Juno como madre y rejuvenecedora, esta última en su gestión de los ciclos lunares y menstruales.
+			</p>
+			<p class="parrafo">
+				En el mundo antiguo y entre los romanos, Juno se consideraba una contrapartida de la diosa etrusca Uni, que era el dios principal del pueblo etrusco. Los etruscos fueron un pueblo italiano prerromano que construyó un sofisticado reino, cuya cultura influyó enormemente en los romanos. La conexión etrusco-romana, así como la sorprendente similitud entre los nombres de las diosas, sugirió otro origen para Juno como diosa y como nombre.
+			</p>
+			<p class="parrafo">
+				Juno era conocida por varios epítetos, cada uno de los cuales mostraba una personalidad distinta de la diosa. Por su función de socorrer a los necesitados, se la llamaba Juno Sospita, o "Juno la Salvadora". También se la llamaba Juno Moneta, o "Juno la Guerrera", por traer noticias de peligro y preparar a los amenazados. Se la llamaba Juno Regina o "Reina Juno", por su papel de jefa de Estado y miembro de la Tríada Capitolina (con Júpiter y Minerva), pero también se la llamaba Juno Opigena, o "Juno la Partera", por supervisar los partos. Por último, era conocida como Juno Lucina, o "Juno la que trae la luz", por aportar luz, vida e iluminación a quienes la adoraban.
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Como diosa matrona del panteón romano, Juno supervisaba todos los asuntos relacionados con la salud y el crecimiento del estado romano y del pueblo que lo componía. Estaba especialmente asociada a los ciclos y procesos relacionados con las mujeres. Bendecía los matrimonios, supervisaba la reproducción sexual y garantizaba la llegada segura de los niños. Su control sobre el ciclo menstrual femenino -una manifestación de su espíritu rejuvenecedor- se reflejaba en los cielos a través de su control sobre la fase creciente y menguante de la luna. Así, más que encarnar o ser la luna, Juno era la fuente de las transformaciones cíclicas.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Juno era hija de Saturno, el dios del cielo que gobernaba antes que Júpiter, y de Ops (u Opis), la diosa de la tierra y del crecimiento. Sus hermanos eran Júpiter, Neptuno, dios del mar, y Plutón, dios del inframundo y de la riqueza. Sus hermanas eran Ceres, una diosa de la agricultura que supervisaba el crecimiento de los cereales (la palabra "cereal", de hecho, proviene de Ceres), y Vesta, la diosa protectora del hogar y la casa, y defensora de la pureza, la virginidad y las doncellas.
+			</p>
+			<p class="parrafo">
+				Juno se casó con su hermano Júpiter, el rey de los dioses, con quien gobernaba el cosmos y, más humildemente, el estado romano. Tuvieron varios hijos juntos, entre ellos Marte, dios de la guerra y patrón de las armas y los ejércitos romanos, Bellona, diosa de la guerra, y Vulcano, dios del fuego, la metalurgia y la forja. Otro de sus hijos fue Juventus, una diosa que compartía la asociación de Juno con la juventud y el rejuvenecimiento y que supervisaba la transición de la infancia a la edad adulta.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				En lugar de crear una tradición de narraciones mitológicas propias, los romanos a menudo tomaron prestada y se apropiaron de la mitología de los griegos, sustituyendo las deidades griegas utilizadas anteriormente por figuras romanas. En la versión romanizada de esta mitología, Juno tomó el papel de Hera, la reina madre de las deidades griegas. Como resultado, las mitologías de las dos diosas son en gran medida idénticas.
+			</p>
+			<p class="parrafo">
+				La historia de la creación de Juno, por ejemplo, fue muy similar a la de Hera. En el principio de los tiempos, el cosmos estaba gobernado por un dios o Titán conocido como Caelus. Con el tiempo, el hijo de Caelus, Saturno, lo derrocó y tomó el control del universo para sí mismo. Saturno se unió a Ops, la diosa de la tierra elemental, y engendró hijos con ella.
+			</p>
+			<p class="parrafo">
+				Mientras los niños crecían en el vientre de Ops, Saturno se enteró de una profecía que predecía su caída a manos de uno de sus hijos. Sin saber quién iba a asumir el papel de usurpador, Saturno se comió a sus cinco primeros hijos, uno de los cuales era Juno. Ops salvó al último hijo, Júpiter, y lo sustituyó por una roca. Cuando Saturno se comió la roca, le sobrevino una indigestión que acabó por provocarle el vómito de sus hijos; Juno, Plutón, Neptuno, Ceres y Vesta pronto se vieron libres. Tras combinar su fuerza con la de su hermano menor, Júpiter, los hermanos divinos se apoderaron del mundo y se repartieron las responsabilidades.
+			</p>
+			<p class="parrafo">
+				Finalmente, Juno se casó con su hermano Júpiter. Aunque tuvieron hijos juntos, su matrimonio no fue feliz. Júpiter era un notorio mujeriego y tuvo muchas aventuras. Un mito romano incluso explicaba que la niebla se creó como resultado de que Júpiter intentara ocultar sus aventuras de la mirada vigilante de Juno. Juno, una diosa celosa, intentaba constantemente encontrar y castigar a aquellos con los que su marido le había engañado.
+			</p>
+			<p class="parrafo">
+				En un episodio tomado de la mitología griega, Juno persiguió tenazmente a Io, una de las muchas amantes de Júpiter. Io era una sacerdotisa de Júpiter de la que el dios se había enamorado. Tras rechazar inicialmente sus avances, Io sucumbió a los encantos del dios y ambos mantuvieron relaciones sexuales. Cuando Juno se enteró, prometió vengarse, así que Júpiter disfrazó a su amante de su celosa esposa transformando a Io en una novilla (que, probablemente no por casualidad, era un símbolo de Juno).
+			</p>
+			<p class="parrafo">
+				Tras descubrir la treta, Juno envió a Argus, un monstruo con cien ojos, para que vigilara a Io. Júpiter respondió enviando a Mercurio para que detuviera a Argus; éste lo hizo adormeciendo al monstruo y luego asesinándolo. Como en el cuento griego, Juno puso los cien ojos de Argos en la cola del pavo real para que siempre recordara a su leal criatura.
+			</p>
+			<p class="parrafo">
+				Aunque Io escapó de Argus, Juno persistió en su persecución. Se transformó en un monstruoso tábano y mordió sin piedad a la vaquilla. La vaca viajó por todas partes para eludir a Juno -en algunas versiones, incluso encontró a Prometeo encadenado a una roca-. Finalmente, su lucha se vio recompensada cuando Júpiter la transformó en su forma humana. Tras estas aventuras, Io vivió felizmente y tuvo muchos hijos.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A JUNO</h2>
+			<p class="parrafo">
+				La diosa griega equivalente a Juno es <a href="/dioses-griegos/hera">Hera</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
