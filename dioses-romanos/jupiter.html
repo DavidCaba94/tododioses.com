@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Júpiter, rey de los dioses romanos - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Júpiter, rey de los dioses romanos - Wiki Dioses">
+		<meta name="description" content="Júpiter, el 'Padre del Cielo', era el rey de los dioses romanos y el defensor de Roma y su imperio. Gobernante de los cielos y supervisor de las batallas, los adoradores buscaban su favor haciendo sacrificios en su honor.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">JÚPITER, REY DE LOS DIOSES ROMANOS</h1>
+			<div class="imagen">
+				<img src="../img/jupiter.jpg" alt="Júpiter" title="Júpiter">
+			</div>
+			<p class="parrafo">
+				La deidad suprema del panteón romano, el poderoso Júpiter era un dios del cielo y del trueno cuyos símbolos eran el roble y el águila. Gobernaba como miembro dominante de un triunvirato llamado la Tríada Capitolina, que incluía a su consorte Juno y a su hija Minerva. Júpiter tenía muchas similitudes con Zeus, el rey de las deidades griegas del que fue adaptado.
+			</p>
+			<p class="parrafo">
+				Sin embargo, a diferencia de Zeus, Júpiter estaba explícitamente vinculado a una entidad política concreta: Roma. Desde el gran templo erigido en su honor en la Colina Capitolina de Roma, Júpiter presidía el estado y su imperio en constante expansión. En consecuencia, los romanos destacaban el culto a Júpiter por encima de todos los demás dioses. Se pensaba que las bendiciones de Júpiter aseguraban sus victorias y mantenían la hegemonía sobre sus rivales. El culto a Júpiter fue formalizado por el Estado romano a lo largo de su existencia.
+			</p>
+			<p class="parrafo">
+				Lo que se sabe del mito de Júpiter no procede de las narraciones en las que desempeña un papel, sino de las formas en que su culto era observado por los romanos. Al igual que otras figuras de la mitología romana, se creía que Júpiter era un actor fundamental en la historia romana. Por ello, su naturaleza y sus atributos se transformaron para adaptarse a los cambios históricos más amplios del Estado romano. A finales del siglo I a.C., la centralidad de Júpiter en el Estado se vio eclipsada por los cultos dedicados a la adoración de emperadores divinizados.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				En latín, el nombre "Júpiter" se suele traducir como Iūpiter o Iuppiter (el carácter "j" no formaba parte del antiguo alfabeto latino y se añadió en la Edad Media). El nombre procede de dos raíces. Una era la palabra protoindoeuropea dyeu- (¡la misma raíz del nombre "Zeus"!), que significaba "cosa brillante", "cielo" o "día" (como en el latín "day dies"); la otra era pater, una palabra compartida por el griego y el latín que significa "padre". Siguiendo estas convenciones de nomenclatura, Júpiter se llamaba a veces Diespiter o Dispiter. Además, Zeus se llamaba Zeu Pater en griego, y los hablantes de sánscrito utilizaban el término Dyaus pitar (padre de los cielos) para referirse al dios del cielo. Todo ello apunta a un arquetipo de "padre del cielo" en lo más profundo de la historia de los pueblos de habla indoeuropea, cuya identidad fue localizada por las culturas que se escindieron con el tiempo.
+			</p>
+			<p class="parrafo">
+				Júpiter era conocido por varios epítetos. Por traer la victoria, era Iuppiter Elicius, o "Júpiter que saca adelante", y por convocar el rayo, era Iuppiter Fulgur, o "Júpiter del rayo". Por traer luz e iluminación a todas las cosas, era Iuppiter Lucetius, o "Júpiter de la luz", así como Iuppiter Caelestis, o "Júpiter de los cielos". Por encima de todo, era Iuppiter Optimus Maximus: "Júpiter, el mejor y más grande".
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Como dios del cielo, Júpiter dominaba los rayos, los truenos y las tormentas. Al igual que Zeus, blandía rayos como armas. En consonancia con su papel de rey de los dioses, Júpiter solía ser representado sentado en un trono y sosteniendo un cetro real y un bastón.
+			</p>
+			<p class="parrafo">
+				Sin embargo, en lugar de tomar parte activa en las batallas, Júpiter se imaginaba supervisando y controlando las mismas. Más que cualquier otra deidad, Júpiter ponía en juego el destino del Estado romano. Para apaciguarlo, los romanos ofrecían sacrificios y hacían juramentos sagrados en su honor. La fidelidad con la que realizaban las ofrendas de sacrificio y cumplían sus juramentos informaba del porte de Júpiter. Los romanos llegaron a creer que el éxito de su imperio mediterráneo podía atribuirse a su singular devoción por Júpiter.
+			</p>
+			<p class="parrafo">
+				A través del águila, Júpiter también guiaba la toma de los auspicios, la práctica de la adivinación por la que los augures intentaban descifrar los presagios y predecir el futuro observando el vuelo de las aves (palabras como "auspicioso" e "inauspicioso" proceden de esta práctica). Como el águila era el animal sagrado de Júpiter, los romanos creían que el comportamiento del ave comunicaba su voluntad. Los presagios adivinados a través del comportamiento de las águilas se consideraban los más reveladores.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Júpiter era hijo de Saturno -el dios del cielo que precedió a Júpiter- y de Ops (u Opis), diosa de la tierra y del crecimiento. Sus hermanos eran Neptuno, dios del mar, y Plutón, dios del inframundo y de la riqueza (los metales, base de la moneda y la riqueza romana, se encontraban bajo tierra). Sus hermanas eran Ceres, una diosa de la fertilidad que controlaba el crecimiento de los cereales, Vesta, diosa del hogar y la casa, y Juno, una diosa maternal asociada al matrimonio, la familia, la tranquilidad doméstica y la luna.
+			</p>
+			<p class="parrafo">
+				Júpiter estaba casado con su hermana Juno, que era la homóloga romana de Hera. Entre sus hijos estaban Marte, el dios de la guerra que desempeñó un papel importante en la fundación de Roma, y Bellona, una diosa de la guerra. Otros hijos eran Vulcano, dios del fuego, de la metalurgia y de la forja, y Juventus, una diosa de la juventud que supervisaba la transición de la infancia a la edad adulta y que se asociaba con la vigorización y el rejuvenecimiento.
+			</p>
+			<p class="parrafo">
+				Aunque el corpus mítico romano carecía de las historias de luchas matrimoniales que tan a menudo definían la relación de Zeus y Hera, estaba claro que Júpiter era infiel a Juno. Los relatos anecdóticos hablaban de las numerosas infidelidades de Júpiter y de los hijos que se derivaban de ellas. Con Maia, la diosa de la tierra y la fertilidad (que puede haber dado nombre al mes romano Maius, o mayo), Júpiter tuvo a Mercurio, el dios mensajero del comercio, los mercaderes, la navegación y los viajes. Con Dione, engendró a Venus, diosa del amor y del deseo sexual (aunque otras historias la hacían surgir de la espuma del mar, como la Afrodita griega). Con su hermana Ceres, Júpiter tuvo a Proserpina, una importante figura de culto asociada a los ciclos de decadencia y renacimiento, al igual que Perséfone para los griegos. Por último, con Metis, a la que violó, Júpiter tuvo a Minerva.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				En general, la mitología romana carecía de una rica tradición narrativa. Por ello, apenas existen relatos épicos que expliquen el orden del universo y los orígenes de la humanidad. Lo mismo ocurre con Júpiter, cuyo mito no se construyó en torno a relatos que lo tuvieran como protagonista, sino en torno a las formas en que los romanos observaban a su deidad principal y explicaban su lugar en su historia.
+			</p>
+			<p class="parrafo">
+				Los orígenes de Júpiter fueron en gran medida idénticos a los relatos de la creación de Zeus. Antes de Júpiter, Saturno reinaba como dios del cielo y del universo. Por supuesto, no siempre había sido así. Antes de Saturno, gobernaba su padre Caelus (que significa "cielos"), pero Saturno derrocó a su padre y tomó el control de los cielos para sí mismo. Después de que Saturno se casara con Ops y la dejara embarazada, se enteró de una profecía que predecía su caída a manos de uno de sus hijos. Para evitar que el usurpador viera la vida, se tragó a los cinco primeros hijos que surgieron del vientre de Ops. Cuando por fin surgió el último hijo, Ops lo escondió y le dio a Saturno una roca vestida con pañales en su lugar. Un Saturno desprevenido devoró la roca entera.
+			</p>
+			<p class="parrafo">
+				Lo que siguió fue el peor caso de indigestión en la historia de la mitología. Incapaz de digerir la roca, Saturno la regurgitó, junto con los cinco hijos que se había tragado: Ceres, Juno, Neptuno, Plutón y Vesta. Júpiter, mientras tanto, había estado tramando la inminente desaparición de su padre. Con la ayuda de sus hermanos y hermanas, derrotó a Saturno y tomó el control del cosmos.
+			</p>
+			<p class="parrafo">
+				Más tarde, Júpiter se encontraría en la misma situación que su padre, Saturno. Después de violar y embarazar a Metis, Júpiter tuvo miedo de que su propio hijo no nacido lo derrocara. Para evitar tal destino, Júpiter se tragó a Metis junto con su hijo no nacido. Para sorpresa de Júpiter, el niño no murió, sino que siguió creciendo hasta que salió de su frente y vino al mundo. Ese niño era Minerva, la diosa de la sabiduría, la previsión y la guerra estratégica; con el tiempo pasó a formar parte de la Tríada Capitolina gobernante.
+			</p>
+			<p class="parrafo">
+				Según la historia mitificada de la fundación de Roma, Numa Pompilio, el segundo rey de Roma, presentó a Júpiter a los romanos y estableció los parámetros de su culto. En los primeros tiempos de Roma, Júpiter gobernaba como parte de la Tríada Arcaica, que también incluía a Marte y a Quirino, una versión deificada del fundador de la ciudad: Rómulo.
+			</p>
+			<p class="parrafo">
+				Según las historias de Livio y Plutarco, Numa se enfrentaba a dificultades y obligó a dos deidades menores, Pico y Faunas, a convocar a Júpiter a la colina del Aventino. Allí, Numa consultó con el poderoso dios, que planteó sus exigencias en cuanto a la oferta de sacrificios, conocidos como hostiae.
+			</p>
+			<p class="parrafo">
+				A cambio de asegurar la adoración del pueblo romano, Júpiter enseñó a Numa a evitar los rayos, según las exigencias de Numa. La lección de Júpiter sobre los rayos probablemente sirvió como metáfora que simbolizaba su oferta más amplia de protección y apoyo al pueblo romano. De hecho, Júpiter selló el pacto con Numa y los romanos enviando desde los cielos un escudo perfectamente redondo, llamado ancile, símbolo de protección donde los haya. A su vez, Numa mandó hacer once copias casi idénticas del ancile. Estos doce escudos -conocidos colectivamente como ancilia- se convirtieron en un símbolo sagrado de la ciudad y en un recuerdo perdurable del pacto entre Júpiter y Roma.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A JÚPITER</h2>
+			<p class="parrafo">
+				El dios griego equivalente a Júpiter es <a href="/dioses-griegos/zeus">Zeus</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
