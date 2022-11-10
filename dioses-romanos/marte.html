@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Marte, dios de la guerra - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Marte, dios de la guerra - Wiki Dioses">
+		<meta name="description" content="Marte era el dios romano de la guerra cuya furia inspiraba el salvajismo en la batalla. Padre de los fundadores de la ciudad, Rómulo y Remo, Marte era venerado no sólo como un dios de la guerra, sino como uno cuyos conflictos traían consigo una paz duradera.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">MARTE, DIOS DE LA GUERRA</h1>
+			<div class="imagen">
+				<img src="../img/marte.webp" alt="Marte" title="Marte">
+			</div>
+			<p class="parrafo">
+				Marte Furioso era el dios romano de la ira, la pasión, la destrucción y la guerra. Como deidad fundacional, Marte tenía una mitología que estaba íntimamente entrelazada con la ciudad-estado romana. Marte gobernaba la Roma primitiva como parte de la Tríada Arcaica, un triunvirato gobernante masculino que también incluía a Júpiter y Quirino (el Rómulo divinizado). Los primeros romanos veneraban a Marte como un gran dios enfurecido, cuya furia inspiraba el salvajismo de la guerra y producía los impresionantes logros de las armas romanas. Cuando Roma pasó de ciudad-estado a imperio y adoptó abiertamente los valores culturales griegos, Marte perdió su posición preeminente en el panteón romano en favor de Minerva, la diosa de la guerra táctica y estratégica.
+			</p>
+			<p class="parrafo">
+				La importancia de Marte para el pueblo romano se inscribe en la historia mítica de Roma y en los orígenes del Estado romano. Según la mitología romana, Marte violó a la inocente Rea Silvia y engendró a Rómulo y Remo, los gemelos que fundarían la ciudad legendaria.
+			</p>
+			<p class="parrafo">
+				Marte se basó en gran medida en el dios griego Ares, el dios de la guerra, y compartió gran parte de su mitología. Sin embargo, las dos deidades diferían al menos en un aspecto: mientras que Ares era una fuente de conflictos destructivos que desgarraban a las comunidades, Marte era un manantial de conflictos productivos que traían una paz duradera.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				Aunque el significado del nombre "Marte" sigue siendo un tanto esquivo, el nombre en sí fue claramente adaptado de los nombres de un par de deidades italianas. Una de ellas era una deidad proto-itálica llamada Mavors, de la que se sabe poco. La otra influencia, más inmediata, fue la deidad etrusca Meris, un dios que a menudo se representaba como un niño y que podría haber sido un homólogo etrusco del Heracles griego (o del Hércules romano).
+			</p>
+			<p class="parrafo">
+				Marte era conocido por muchos epítetos, cada uno de los cuales representaba uno de sus muchos personajes. Como Mars Gradivus, o "Marte en Marcha", la deidad era venerada por su presencia en el campo de batalla. Tanto los generales como los soldados juraban a Marte Gradivus, prometiendo luchar furiosamente en su nombre. Como Marte Quirino, o "Marte de los Quiritas", era celebrado como portador de la paz a través de la guerra y defensor del hombre común. También era Marte Pater y Marte Pater Victor, o "Marte el Padre" y "Marte el Padre Victorioso", títulos que denotaban su alta posición en la religión romana y entre el pueblo romano.
+			</p>
+			<p class="parrafo">
+				Los romanos también le llamaban Mars Ultor, que significa "Marte el Vengador". Este título se hizo más popular tras las victorias de Octavio sobre los asesinos de César en la batalla de Filipos en el 42 a.C. Esta fue una de las formas de utilizar a los dioses con fines políticos. Por último, Marte era Marte Augusto, que significa algo así como "Marte que es imponente". Este calificativo fue utilizado posteriormente por los emperadores romanos para describir su propia omnipotencia asombrosa.
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Marte controlaba la guerra y las pasiones que la alimentaban. Se le representaba tanto como un hombre completamente maduro, con barba y pelo rizado, como un joven de mejillas suaves. A menudo se le mostraba desnudo, quizás como signo de las fuerzas crudas y sin adornos que se creía que inspiraba. Cuando estaba vestido, llevaba una capa militar, un casco con plumas y una coraza. Esta última prenda se adornaba a menudo con el gorgoneion, una cabeza de medusa que se creía que alejaba el mal. Su arma era la lanza, que se envolvía en un laurel para simbolizar la paz. Este simbolismo aludía a la condición de Marte como dios que traía la paz a través de la guerra.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Marte era hijo de Júpiter y Juno, el rey y la reina de las deidades romanas. Los hermanos mayores de Marte eran Bellona, diosa de la guerra, Vulcano, dios de la metalurgia y la forja, y Juventus, diosa de la juventud. Marte también tenía muchos medio hermanos gracias a las indiscreciones de su padre. Entre estos hermanastros se encontraban Mercurio, dios mensajero del comercio y la comunicación, Proserpina, la famosa hija de Ceres secuestrada por Plutón, y Minerva, diosa de la sabiduría y defensora del estado romano.
+			</p>
+			<p class="parrafo">
+				Figura de la masculinidad primigenia, Marte era deseado por muchos. Entre sus consortes se encontraban Bellona y Nerio, ambas diosas de la guerra asociadas a importantes cultos en la Roma primitiva. Es famosa su larga e ilegítima relación con Venus, la diosa del amor y el deseo sexual. En otra tradición, Marte se casó con Anna Perenna, la diosa del tiempo y del cambio de los años. Resultaron ser una pareja fogosa. La pasión de Marte también podía ser violenta, como cuando violó a la Virgen Vestal, Rea Silvia, una figura de increíble importancia en la fundación de Roma.
+			</p>
+			<p class="parrafo">
+				Los hijos de Marte a través de estas aventuras fueron muchos. Con la encantadora Venus, Marte tuvo hijos asociados a una serie de estados emocionales y psicológicos. Tuvo a Timor y a Metus, dioses del miedo y del terror abyecto. También tuvo a Concordia, la hermana gemela de Timor, que encarnaba las características de la armonía, la paz y el compañerismo. Marte también tenía un grupo de hijos conocidos como los Cupidos, criaturas aladas que simbolizaban y controlaban varios aspectos del amor y el deseo erótico.
+			</p>
+			<p class="parrafo">
+				Marte también fue el padre de Rómulo y Remo, que fueron concebidos mediante la violación de Rea Silvia. Su paternidad de los gemelos fundadores de Roma convirtió a Marte en el progenitor del pueblo romano.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Aunque generalmente se consideraba que Marte era hijo tanto de Júpiter como de Juno, otra versión de su mitología le atribuye sólo a Juno. Según la historia (relatada por Ovidio en los Fasti), Juno estaba resentida porque Júpiter había dado a luz a Minerva sin necesidad de una madre. Minerva había sido concebida por Júpiter y el titán Metis, pero cuando Júpiter se tragó a la embarazada Metis, de su frente brotó una Minerva completamente desarrollada. Buscando venganza contra Júpiter, Juno viajó al reino de Flora, diosa de las flores, la primavera y la fertilidad. Allí, Juno expuso sus quejas e imploró la ayuda de la diosa.
+			</p>
+			<p class="parrafo">
+				Flora accedió y le dio una flor especial que dejaba embarazadas a las criaturas femeninas sin necesidad de un macho. Juno la probó en una novilla estéril, que inmediatamente parió un ternero. Convencida de su poder, utilizó la flor en sí misma y concibió a Marte.
+			</p>
+			<p class="parrafo">
+				Un tema recurrente en la mitología de Marte fue el romance que mantuvo con Venus. Aunque Vulcano y Venus tenían un matrimonio infeliz, Vulcano seguía tomando como una gran ofensa cualquier aventura que Venus pudiera tener. Cuando Mercurio vio a Venus haciendo el amor con Marte en el lecho matrimonial de Vulcano, rápidamente informó al dios cornudo. Aunque Vulcano se enfureció, no actuó inmediatamente. Esperó pacientemente y planeó su venganza. En su taller, Vulcano elaboró una red de material tan fino que no podía verse a simple vista. Luego tendió la trampa colocando la red sobre su cama. Cuando Marte y Venus hicieron el amor, quedaron atrapados en la red y no pudieron moverse. Vulcano reunió entonces a los dioses para que presenciaran la escena, y juntos se burlaron de los amantes desnudos.
+			</p>
+			<p class="parrafo">
+				Otra historia muy conocida (y similar) también presentaba a Marte en una aventura amorosa malograda. La historia (procedente de nuevo de los Fasti de Ovidio) comenzaba con Marte enamorándose de Minerva, la diosa de la sabiduría y del estado romano, que mantenía firmemente su virginidad. Marte, que no se dejaba desanimar por los deseos de una virgen, persiguió a la diosa de todos modos, pero sin éxito. Minerva rechazó sus avances y envió a Marte a buscar la ayuda de Anna Perenna, una diosa del tiempo. Aunque aparentemente Anna Perenna aceptó ayudar a Marte a ganarse el afecto de Minerva, en secreto conspiró para hacer suyo al atractivo dios de la guerra. Para poner en marcha su plan, Anna se disfrazó de Minerva y ofreció su mano a Marte, que aceptó encantado. Una vez formalizado el matrimonio, Ana se reveló a Marte, que quedó muy disgustado. No sólo había perdido a Minerva, sino que también había sido engañado en un matrimonio no deseado.
+			</p>
+			<p class="parrafo">
+				Según los relatos mítico-históricos de la fundación de Roma, Marte era el padre de los gemelos Rómulo y Remo. Aunque esta historia tuvo innumerables variaciones, su núcleo siempre fue el mismo. Después de que Eneas y su banda de refugiados llegaran a las costas italianas, estableció una comunidad que llegó a conocerse como el reino de Alba Longa. Uno de los reyes de Alba Longa fue Numitor, un monarca sabio y justo. Sin embargo, su reinado se vio interrumpido cuando fue derrocado por su malvado hermano Amulio. Con la esperanza de cortar el linaje real de Numitor, Amulio obligó a la hija de su hermano, la encantadora y virtuosa Rea Silvia, a convertirse en Virgen Vestal; esta posición conllevaba un voto de abstinencia.
+			</p>
+			<p class="parrafo">
+				Ya sea por pura lujuria o por el deseo de perpetuar el linaje de Numitor, Marte visitó a Rea Silvia mientras dormía y la violó. Mientras dormía, Rea Silvia soñó que plantaba semillas que se convertían en dos árboles. Con el tiempo, estos árboles crecieron lo suficiente como para cubrir el mundo entero. Cuando se despertó, Rea Silvia descubrió que estaba embarazada de gemelos, que serían conocidos como Remo y Rómulo. Temiendo que los gemelos pudieran desafiar su derecho a Alba Longa, Amulio ordenó que fueran ejecutados inmediatamente. Cuando el verdugo se puso manos a la obra, se apiadó de los gemelos y los envió por el río Tíber en una cesta. Los gemelos acabaron descansando en un lugar que se convertiría en Roma y fueron atendidos por una loba.
+			</p>
+			<p class="parrafo">
+				
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A MARTE</h2>
+			<p class="parrafo">
+				El dios griego equivalente a Marte es <a href="/dioses-griegos/ares">Ares</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>

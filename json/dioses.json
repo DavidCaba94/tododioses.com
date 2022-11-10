@@ -90,6 +90,11 @@
         "url": "/dioses-romanos/jupiter"
     },
     {
+        "nombre": "Marte",
+        "panteon": "roma",
+        "url": "/dioses-romanos/marte"
+    },
+    {
         "nombre": "Odín",
         "panteon": "nordico",
         "url": "/dioses-nordicos/odin"
