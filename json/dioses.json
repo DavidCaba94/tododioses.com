@@ -95,6 +95,11 @@
         "url": "/dioses-romanos/marte"
     },
     {
+        "nombre": "Mercurio",
+        "panteon": "roma",
+        "url": "/dioses-romanos/mercurio"
+    },
+    {
         "nombre": "Odín",
         "panteon": "nordico",
         "url": "/dioses-nordicos/odin"

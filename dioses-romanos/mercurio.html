@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Mercurio, dios mensajero romano - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Mercurio, dios mensajero romano - Wiki Dioses">
+		<meta name="description" content="Mercurio era el astuto embaucador del panteón romano, deidad patrona del comercio y los viajes, así como de los mensajeros y los ladrones. Siempre traspasando los límites, era tan rápido para engañar a los demás dioses como para ofrecerles ayuda.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">MERCURIO, DIOS MENSAJERO ROMANO</h1>
+			<div class="imagen">
+				<img src="../img/mercurio.jpg" alt="Mercurio" title="Mercurio">
+			</div>
+			<p class="parrafo">
+				Mercurio, terriblemente embaucador, era el dios romano del comercio, la comunicación y los viajes. Patrón de los ladrones, los mensajeros y los mercaderes, también era responsable de transportar las almas al inframundo. Como principal mensajero de los dioses, Mercurio controlaba el flujo de información, y a menudo utilizaba esta posición en su beneficio.
+			</p>
+			<p class="parrafo">
+				Al igual que Hermes, el dios griego en el que se basó, Mercurio desafiaba los límites morales (y físicos). A menudo iba desnudo y era el único dios del panteón romano que podía cruzar libremente al inframundo. Poseía un yelmo alado que le permitía volar y llevaba el potente caduceo, una varita con serpientes enrolladas; este último símbolo se confundía a menudo con la Vara de Asclepio.
+			</p>
+			<p class="parrafo">
+				Aunque Mercurio no se incorporó al panteón romano hasta el siglo III a.C., se convirtió en una figura importante de la religión romana. Debido a su parecido con las deidades de otros grupos mediterráneos y europeos, Mercurio fue fácilmente asimilado en las culturas que fueron conquistadas por los romanos.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				El nombre "Mercurio" (o Mercurius) probablemente surgió del latín merx, un sustantivo que significa "mercancía". En su forma verbal, la palabra mercari significaba "comerciar". Una raíz más profunda en la lengua protoindoeuropea puede haber sido merk- o merg-, que significan "límite" o "frontera", respectivamente. Mercurio, pues, era "el mercader" o "el guardián de las fronteras".
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Como principal mensajero de los dioses, Mercurio controlaba el movimiento de todas las cosas: bienes, ideas, palabras y personas. Mercurio solía ser representado desnudo y sin barba, aunque en ocasiones llevaba una túnica corta y un manto atado al cuello. Llevaba zapatos alados y volaba con la ayuda de un yelmo alado que Vulcano, el dios de la forja y el fuego, había fabricado para él. Este casco alado pronto se convirtió en sinónimo del dios mensajero. Mercurio también portaba el caduceo, un bastón con serpientes que le había regalado Apolo. Mercurio era rápido e inteligente, y su conocimiento de los principales acontecimientos a menudo rozaba la previsión.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				Mercurio era hijo de Júpiter, rey de los dioses, y de Maia, una ninfa y una de las hijas de Atlas, que eran conocidas como las Pléyades. Aunque Mercurio era el único hijo de esa unión, tenía muchos medio hermanos por vía de Júpiter. Entre ellos estaban Vulcano, el dios de la forja y el fuego, Minerva, la diosa de la sabiduría y la previsión, y Proserpina, la hija de Ceres que fue raptada por Plutón y llevada al inframundo. Proserpina sería recuperada posteriormente, gracias en parte a los esfuerzos de Mercurio.
+			</p>
+			<p class="parrafo">
+				La consorte más conocida de Mercurio fue Larunda, una ninfa náyade a la que Júpiter le cortó la lengua. Según los Fasti de Ovidio, Mercurio y Larunda tuvieron dos hijos, deidades sin nombre conocidas únicamente como los Lares. Al igual que su padre, los Lares eran los guardianes de las encrucijadas.
+			</p>
+			<p class="parrafo">
+				Como versión romana de Hermes, Mercurio también era conocido por sus otros amantes. El romance de Mercurio con la bella Venus produjo un hijo andrógino conocido como Hermafroditos. Más tarde, Hermaphroditos fusionaría su cuerpo con el de su amante femenina, convirtiéndose así en una sola entidad con genitales masculinos y femeninos. En la mitología griega, Mercurio también tuvo amantes masculinos, incluido el héroe Perseo.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Debido a su tardía entrada en el panteón romano, Mercurio carecía de un mito de origen propio. Surgió en la tradición mitológica como una personalidad libre que producía tantos problemas como resolvía.
+			</p>
+			<p class="parrafo">
+				La picardía de Mercurio se manifiesta en un relato de las Metamorfosis de Ovidio. En esta historia cruelmente humorística, un viejo campesino llamado Battus atrapó al dios embaucador en una situación comprometida. Un día, Mercurio robó un rebaño de ganado y lo escondió en un bosque cercano. Battus, mientras tanto, observaba la escena desde el otro lado del campo. Al ver que Battus conocía su secreto, Mercurio le hizo jurar que nunca hablaría del incidente y que diría que lo ignoraba si alguien le preguntaba. Battus aceptó.
+			</p>
+			<p class="parrafo">
+				Aunque Mercurio se despidió, sus artimañas no habían hecho más que empezar. Para poner a prueba al anciano, se transformó en la figura de un zagal del campo. Se dirigió a Battus y preguntó por el rebaño, prometiendo un novillo y una novilla sanos a cambio de recuperar el ganado.
+			</p>
+			<p class="parrafo">
+				Tentado por este premio, Battus descuidó su anterior voto y contó con entusiasmo al disfrazado Mercurio lo que había sucedido. Un Mercurio sonriente se reveló a Battus y transformó al anciano en piedra.
+			</p>
+			<p class="parrafo">
+				Una historia similar presentaba a Mercurio robando ganado a Apolo. Cuando Apolo se enteró del robo, se dirigió a Júpiter y le pidió que resolviera la disputa. Júpiter convocó a Mercurio y Apolo y ordenó a Mercurio que devolviera el ganado robado. En medio de estos procedimientos, Apolo se dio cuenta de que Mercurio llevaba un instrumento musical de cuerda de aspecto curioso. Se trataba de la primera lira, un instrumento que Mercurio había fabricado con un caparazón de tortuga y tendones. Apolo se aficionó al instrumento y permitió a Mercurio quedarse con el rebaño a cambio de la lira, trato que Mercurio aceptó. Apolo acabaría dominando la lira y se convertiría en uno de los mejores músicos del mundo.
+			</p>
+			<p class="parrafo">
+				A pesar de todas sus artimañas, Mercurio también podía ser realmente útil, y acudió en ayuda de Júpiter en más de una ocasión. En una historia popular, Júpiter se enamoró y tuvo un hijo con Io, una joven sacerdotisa mortal de su culto. Sin embargo, Juno, la esposa de Júpiter, se enteró del romance y decidió matar a Io por sus transgresiones. Júpiter disfrazó a Io de vaca en un intento de protegerla de la ira de su esposa, pero el respiro duró poco. Juno descubrió el truco y envió a Argus, un monstruo con cien ojos, a vigilar el rebaño de Io. Al quedarse sin opciones, Júpiter pidió ayuda a Mercurio para despachar a Argus. Mercurio le ayudó, tocando música con sus pipas y contando aburridas historias para adormecer a Argus. Una vez que el monstruo estuvo inconsciente, Mercurio lo asesinó y puso a Io a salvo.
+			</p>
+			<p class="parrafo">
+				Mercurio también prestó su ayuda a Júpiter y Ceres en la búsqueda de Proserpina. La hija de Ceres, Proserpina, fue secuestrada por Plutón, el dios del inframundo, que se había enamorado de ella. Desconsolada, Ceres buscó por todas partes a su hija desaparecida. Utilizando su habilidad para cruzar libremente al inframundo, Mercurio acabó encontrando a Proserpina con Plutón. Informó a Júpiter de la noticia y el rey de los dioses ordenó el regreso de Proserpina.
+			</p>
+			<p class="parrafo">
+				Cuando los dioses se enteraron de que Proserpina había comido granos de granada en el inframundo, Júpiter y Plutón acordaron que tendría que dividir su tiempo entre los reinos de los vivos y de los muertos. Naturalmente, Mercurio fue llamado a escoltar a Proserpina desde y hacia el inframundo; el dios mensajero cumplió fielmente este deber siempre que se le requirió.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A MERCURIO</h2>
+			<p class="parrafo">
+				El dios griego equivalente a Mercurio es <a href="/dioses-griegos/hermes">Hermes</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
