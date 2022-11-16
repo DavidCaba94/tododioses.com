@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Minerva, diosa de la sabiduría - Wiki Dioses</title>
+		<link rel="icon" type="image/png" href="../img/icon.png">
+		<meta charset="UTF-8">
+		<meta name="title" content="Minerva, diosa de la sabiduría - Wiki Dioses">
+		<meta name="description" content="Minerva era la más sabia del panteón romano, la deidad patrona de la filosofía, la artesanía, el arte y la estrategia. Diosa romana por excelencia, formaba parte de la venerada Tríada Capitolina, junto con Júpiter y Juno.">
+
+		<script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content= "width=device-width, user-scalable=no">
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/dioses.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/index.js"></script>
+
+		<!--
+		<script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETBCSGFYTB"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-ETBCSGFYTB');
+		</script>
+	</head>
+  	<body>
+		<div class="header-container">
+			<div class="header-content">
+				<a href="/"><img class="header-icon" src="../img/icon.png" alt="Wiki Dioses"></a>
+				<p class="titulo">WIKI DIOSES</p>
+				<div id="open-search" class="cursor-pointer"><img class="buscar-icon" src="../img/search.png" alt="Buscar" title="Buscar"></div>
+			</div>
+		</div>
+		<div id="buscador-desplegable" class="buscador-desplegable">
+			<input id="input-buscar" type="text" placeholder="Buscar dioses..."/>
+			<div id="cerrar-desplegable" class="cerrar-desplegable">×</div>
+			<div id="contenido-desplegable" class="contenido-desplegable">
+				<!-- Dioses del json -->
+			</div>
+			<div class="panteones-container">
+				<a href="/panteon-griego">
+					<div class="panteon-pill">
+						<img src="../img/grecia.png" alt="Dioses griegos" title="Dioses griegos">
+						<p>Dioses Griegos</p>
+					</div>
+				</a>
+				<a href="/panteon-romano">
+					<div class="panteon-pill">
+						<img src="../img/roma.png" alt="Dioses romanos" title="Dioses romanos">
+						<p>Dioses Romanos</p>
+					</div>
+				</a>
+				<a href="/panteon-egipcio">
+					<div class="panteon-pill">
+						<img src="../img/egipto.png" alt="Dioses egipcios" title="Dioses egipcios">
+						<p>Dioses Egipcios</p>
+					</div>
+				</a>
+				<a href="/panteon-nordico">
+					<div class="panteon-pill">
+						<img src="../img/nordico.png" alt="Dioses nórdicos" title="Dioses nórdicos">
+						<p>Dioses Nórdicos</p>
+					</div>
+				</a>
+				<a href="/panteon-maya">
+					<div class="panteon-pill">
+						<img src="../img/maya.png" alt="Dioses mayas" title="Dioses mayas">
+						<p>Dioses Mayas</p>
+					</div>
+				</a>
+				<a href="/panteon-chino">
+					<div class="panteon-pill">
+						<img src="../img/china.png" alt="Dioses chinos" title="Dioses chinos">
+						<p>Dioses Chinos</p>
+					</div>
+				</a>
+				<a href="/panteon-japones">
+					<div class="panteon-pill">
+						<img src="../img/japon.png" alt="Dioses japoneses" title="Dioses japoneses">
+						<p>Dioses Japoneses</p>
+					</div>
+				</a>
+				<a href="/panteon-hindu">
+					<div class="panteon-pill">
+						<img src="../img/india.png" alt="Dioses hindúes" title="Dioses hindúes">
+						<p>Dioses Hindúes</p>
+					</div>
+				</a>
+				<a href="/panteon-celta">
+					<div class="panteon-pill">
+						<img src="../img/celta.png" alt="Dioses celtas" title="Dioses celtas">
+						<p>Dioses Celtas</p>
+					</div>
+				</a>
+				<a href="/otros-dioses">
+					<div class="panteon-pill">
+						<img src="../img/otros.png" alt="Otros dioses" title="Otros dioses">
+						<p>Otros Dioses</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="dioses-mas-buscados">
+			<p>Dioses más buscados:</p>
+			<div class="listado-dioses">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+				<a href="/dioses-egipcios/ra">
+					<div class="icon-listado ra"></div>
+					<p class="nombre-listado">Ra</p>
+				</a>
+				<a href="/dioses-nordicos/odin">
+					<div class="icon-listado odin"></div>
+					<p class="nombre-listado">Odín</p>
+				</a>
+				<a href="/dioses-griegos/afrodita">
+					<div class="icon-listado afrodita"></div>
+					<p class="nombre-listado">Afrodita</p>
+				</a>
+				<a href="/dioses-romanos/cupido">
+					<div class="icon-listado cupido"></div>
+					<p class="nombre-listado">Cupido</p>
+				</a>
+			</div>
+			<div class="listado-dioses-movil">
+				<a href="/dioses-griegos/zeus">
+					<div class="icon-listado zeus"></div>
+					<p class="nombre-listado">Zeus</p>
+				</a>
+				<a href="/dioses-griegos/poseidon">
+					<div class="icon-listado poseidon"></div>
+					<p class="nombre-listado">Poseidón</p>
+				</a>
+				<a href="/dioses-nordicos/thor">
+					<div class="icon-listado thor"></div>
+					<p class="nombre-listado">Thor</p>
+				</a>
+				<a href="/dioses-egipcios/anubis">
+					<div class="icon-listado anubis"></div>
+					<p class="nombre-listado">Anubis</p>
+				</a>
+			</div>
+		</div>
+		<div class="body-container">
+			<h1 class="titulo-body">MINERVA, DIOSA DE LA SABIDURÍA</h1>
+			<div class="imagen">
+				<img src="../img/minerva.jpg" alt="Minerva" title="Minerva">
+			</div>
+			<p class="parrafo">
+				Minerva, la más sabia de las deidades romanas, era la diosa de la inteligencia, la filosofía, la artesanía, el arte y la inspiración. Desde su posición en el cielo, supervisaba todo lo que requería previsión y cálculo. En encarnaciones posteriores, Minerva también era vista como una figura militar, así como la fuente a través de la cual fluía todo el pensamiento estratégico y táctico. Minerva gobernaba con Júpiter y Juno como parte del triunvirato divino conocido como la Tríada Capitolina.
+			</p>
+			<p class="parrafo">
+				Minerva puede ser la deidad romana por excelencia. A diferencia de Júpiter y Neptuno, que fueron tomados al por mayor de las deidades griegas, Minerva evolucionó a partir de una deidad etrusca conocida como Menrva. Se helenizó gradualmente en los siglos IV y III a.C., y adoptó más características de Atenea cuando los romanos adoptaron más rasgos de la civilización griega. Durante el mismo periodo, Minerva superó la posición de Marte en la Tríada Arcaica (compuesta por Júpiter, Quirino y Marte), formando la nueva Tríada Capitolina. Su desplazamiento del furioso dios de la guerra Marte sugirió un cambio significativo en la autocomprensión romana y subrayó su transición de potencia provincial italiana a superpotencia mediterránea.
+			</p>
+			<p class="parrafo">
+				Venerada por artesanos, comerciantes, estadistas, líderes militares, artistas y filósofos por igual, Minerva era una figura central en el mito romano. En todo el Imperio Romano abundaban los templos dedicados a Minerva y cada año se celebraban varios festivales en su honor. Al igual que otras deidades romanas, el culto a Minerva se vio eclipsado por el auge del cristianismo, que llegó a dominar los corazones y las mentes de los romanos en el siglo IV de nuestra era.
+			</p>
+			<h2 class="subtitulo">ETIMOLOGÍA</h2>
+			<p class="parrafo">
+				El nombre romano "Minerva" se inspiró en la deidad etrusca Menrva, o quizás Menerwā. El nombre etrusco fue a su vez tomado de una deidad itálica más antigua llamada Meneswā o Menes-wo, que significa "la que recuerda", "la que sabe" o "la que mide". El nombre de Minerva compartía su raíz con Manasvini, una deidad hindú asociada a la virtud, la inteligencia y la luna.
+			</p>
+			<h2 class="subtitulo">ATRIBUTOS</h2>
+			<p class="parrafo">
+				Minerva, la más sabia de todos los dioses y diosas, tenía una mente calculadora que utilizaba para conseguir sus objetivos. Minerva, la más castigada de las deidades romanas, rechazaba las insinuaciones de hombres y dioses para conservar su pureza virginal.
+			</p>
+			<p class="parrafo">
+				Como diosa de la paz y de las artes civilizadas, Minerva vestía a veces un chitón -un conjunto de ropas largas que las damas llevaban hasta el suelo y los hombres hasta las rodillas- y una corona de laureles. Como diosa feroz de la guerra, Minerva también blandía una lanza y se ponía la armadura de un general romano, con un casco de soldado y un pequeño escudo. La mayoría de las representaciones de la diosa la muestran con este último atuendo.
+			</p>
+			<h2 class="subtitulo">FAMILIA</h2>
+			<p class="parrafo">
+				En su forma helénica, Minerva era hija de Júpiter, el rey de los dioses, y de Metis, un gigante o Titán. Por vía de Júpiter lujurioso, Minerva tenía muchos medio hermanos, entre ellos Marte, Bellona, Vulcano y Juventus. Otros medio hermanos eran Mercurio, el dios mensajero del comercio, la navegación y los viajes, Venus, la diosa del amor y el deseo sexual, y Proserpina, la diosa doncella raptada por Plutón.
+			</p>
+			<p class="parrafo">
+				Como diosa virginal, Minerva nunca tuvo hijos propios. Tampoco se casó nunca.
+			</p>
+			<h2 class="subtitulo">MITOLOGÍA Y ORÍGENES</h2>
+			<p class="parrafo">
+				Posteriormente, los romanos se apropiaron de los mitos de la diosa griega Atenea y los aplicaron a Minerva; así, la historia romana del nacimiento de Minerva es idéntica a la historia griega del nacimiento de Atenea. La historia comienza -como suelen hacer las historias de Júpiter- con su promiscuidad sexual. En este caso, Júpiter tuvo una aventura con una mujer llamada Metis, que en la tradición griega era descrita como un Titán. Cuando Metis se quedó embarazada, Júpiter, que se había hecho con el control del universo al derrocar a su padre Saturno, se enteró de una profecía que predecía su caída a manos de su propio hijo. Temiendo que el hijo no nacido de Metis cumpliera esta profecía, Júpiter se tragó a Metis y a su hijo, al igual que Saturno se había tragado a los hermanos y hermanas de Júpiter.
+			</p>
+			<p class="parrafo">
+				Esperando el momento oportuno, Minerva, aún no nacida, tramó su salida del vientre materno. Por fin, brotó de la frente de Júpiter, completamente crecida y lista para la batalla. Algunos relatos afirman que Vulcano, el dios de la metalurgia, actuó como una especie de comadrona abriendo la cabeza de Júpiter con un hacha y dando a luz a Minerva; el momento ha sido objeto de representaciones artísticas tanto antiguas como modernas. A pesar de este comienzo poco propicio en la relación con su padre, Minerva acabó convirtiéndose en la hija favorita de Júpiter.
+			</p>
+			<p class="parrafo">
+				Según la Eneida de Virgilio, Minerva se opuso inicialmente a la fundación de Roma y despreció a su héroe fundador, el guerrero troyano Eneas. En la obra maestra de Virgilio del siglo I a.C., Minerva ocupó el lugar de Atenea, la diosa griega despreciada por Paris de Troya. El rencor de Minerva hacia los troyanos era tremendo y su venganza severa. Virgilio indicó que Minerva urdió el plan que finalmente condujo al saqueo de Troya. Utilizando su don de inspiración estratégica, implantó la idea del caballo de Troya en la mente de Ulises (Odiseo en el griego), que luego dirigió la creación del famoso regalo. Virgilio lo llamó "el regalo de la muerte de Minerva". Cuando el disidente troyano Laocoonte dio la voz de alarma, afirmando que el caballo era un truco que auguraba la perdición de Troya, Minerva envió dos serpientes marinas para matar a los hijos de Laocoonte y devorar al padre.
+			</p>
+			<p class="parrafo">
+				Sin embargo, cuando Eneas escapó de la ciudad devastada, se llevó una pequeña estatuilla de la diosa. Minerva seguía persiguiendo a Eneas, pero el héroe troyano eludía la ira de la diosa y llevaba la estatuilla a todas partes. Con el tiempo, la custodia del objeto por parte de Eneas aplacó a Minerva, que lo interpretó como una señal de la devoción de Eneas hacia ella. Eneas llevó la estatuilla a Italia, y acabó residiendo en el templo de Vesta. Según la leyenda, mientras la estatuilla de Minerva residiera en los salones del templo, la ciudad de Roma nunca sería conquistada.
+			</p>
+			<p class="parrafo">
+				Una historia mucho más peculiar contenida en las Metamorfosis de Ovidio, de principios del siglo I de nuestra era, hablaba de Minerva y la creación de las arañas. El cuento era una historia clásica de arrogancia frente a los dioses y sus consecuencias. Comenzó cuando Aracne, una joven y talentosa tejedora, se jactó de que su dominio del oficio superaba incluso al de Minerva. Cuando Minerva se enteró de este alarde, se transformó en una anciana y aconsejó a Aracne que retirara su afirmación. Cuando Aracne repitió desafiantemente su presunción, la anciana la retó a un concurso.
+			</p>
+			<p class="parrafo">
+				Minerva tejió un bello tapiz en el que aparecía triunfante ganando el patrocinio de Atenas ante la mirada de los demás dioses. Aunque hermoso y bien elaborado, el tapiz de Aracne representaba muchos episodios famosos en los que los dioses masculinos se transformaban en humanos y seducían a las mujeres mortales. Tales representaciones eran tabú, ya que era profundamente ofensivo mostrar a los dioses en medio de tal locura.
+			</p>
+			<p class="parrafo">
+				Minerva no estaba dispuesta a dejar que Aracne se burlara de los dioses y golpeó a la muchacha "tres o cuatro veces" en la cabeza. El dolor y la vergüenza de los golpes dejaron a Aracne sin esperanza, y procedió a colgarse una soga al cuello. De repente, compadeciéndose de la muchacha, Minerva salvó a Aracne de la muerte transformándola en una araña.
+			</p>
+			<h2 class="subtitulo">DIOSES EQUIVALENTES A MINERVA</h2>
+			<p class="parrafo">
+				Minerva hereda gran parte de sus atributos de la diosa griega <a href="/dioses-griegos/atenea">Atenea</a>.
+			</p>
+		</div>
+  	</body>
+  	<footer>
+		<a href="/"><img class="header-icon" src="../img/icon-transparent.png" alt="Wiki Dioses"></a>
+	</footer>
+</html>
